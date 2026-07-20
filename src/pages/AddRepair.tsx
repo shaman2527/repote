@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
-import { Select } from '@/components/ui/select'
+import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Separator } from '@/components/ui/separator'
 import { ModelSelect } from '@/components/ModelSelect'
@@ -152,11 +152,33 @@ export default function AddRepair() {
             <CardContent className="space-y-4">
               <div>
                 <Label>Tipo de Servicio</Label>
-                <Select options={SERVICE_OPTIONS} value={serviceType} onChange={e => setServiceType(e.target.value as ServiceType)} />
+                <Select value={serviceType} onValueChange={(v) => setServiceType(v as ServiceType)}>
+                  <SelectTrigger className="w-full bg-secondary/30 border-0">
+                    <SelectValue placeholder="Seleccionar..." />
+                  </SelectTrigger>
+                  <SelectContent className="bg-popover border-border">
+                    <SelectGroup>
+                      {SERVICE_OPTIONS.map((opt) => (
+                        <SelectItem key={opt.value} value={opt.value}>{opt.label}</SelectItem>
+                      ))}
+                    </SelectGroup>
+                  </SelectContent>
+                </Select>
               </div>
               <div>
                 <Label>Método FRP</Label>
-                <Select options={FRP_METHODS} value={frpMethod} onChange={e => setFrpMethod(e.target.value as FrpMethod)} />
+                <Select value={frpMethod} onValueChange={(v) => setFrpMethod(v as FrpMethod)}>
+                  <SelectTrigger className="w-full bg-secondary/30 border-0">
+                    <SelectValue placeholder="N/A" />
+                  </SelectTrigger>
+                  <SelectContent className="bg-popover border-border">
+                    <SelectGroup>
+                      {FRP_METHODS.map((opt) => (
+                        <SelectItem key={opt.value} value={opt.value}>{opt.label}</SelectItem>
+                      ))}
+                    </SelectGroup>
+                  </SelectContent>
+                </Select>
               </div>
               <div className="flex items-center gap-4">
                 <label className="flex items-center gap-2 text-sm cursor-pointer">
@@ -184,7 +206,18 @@ export default function AddRepair() {
             <CardContent className="space-y-4">
               <div>
                 <Label>Estado</Label>
-                <Select options={STATUS_OPTIONS} value={status} onChange={e => setStatus(e.target.value as RepairStatus)} />
+                <Select value={status} onValueChange={(v) => setStatus(v as RepairStatus)}>
+                  <SelectTrigger className="w-full bg-secondary/30 border-0">
+                    <SelectValue placeholder="Seleccionar..." />
+                  </SelectTrigger>
+                  <SelectContent className="bg-popover border-border">
+                    <SelectGroup>
+                      {STATUS_OPTIONS.map((opt) => (
+                        <SelectItem key={opt.value} value={opt.value}>{opt.label}</SelectItem>
+                      ))}
+                    </SelectGroup>
+                  </SelectContent>
+                </Select>
               </div>
               <div>
                 <Label>Precio ($)</Label>

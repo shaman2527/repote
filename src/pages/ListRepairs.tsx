@@ -4,7 +4,7 @@ import { useRepairs } from '@/hooks/useRepairs'
 import { StatusBadge } from '@/components/StatusBadge'
 import { Card, CardContent } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
-import { Select } from '@/components/ui/select'
+import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import {
@@ -79,12 +79,18 @@ export default function ListRepairs() {
               className="pl-9 bg-secondary/30 border-0 rounded-xl h-10"
             />
           </div>
-          <Select
-            options={STATUS_FILTERS}
-            value={statusFilter}
-            onChange={e => setStatusFilter(e.target.value)}
-            className="w-36 bg-secondary/30 border-0 rounded-xl"
-          />
+          <Select value={statusFilter} onValueChange={setStatusFilter}>
+            <SelectTrigger className="w-36 bg-secondary/30 border-0 rounded-xl">
+              <SelectValue placeholder="Todos" />
+            </SelectTrigger>
+            <SelectContent className="bg-popover border-border">
+              <SelectGroup>
+                {STATUS_FILTERS.map((f) => (
+                  <SelectItem key={f.value} value={f.value}>{f.label}</SelectItem>
+                ))}
+              </SelectGroup>
+            </SelectContent>
+          </Select>
         </div>
 
         {/* List */}

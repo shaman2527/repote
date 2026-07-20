@@ -3,7 +3,7 @@ import * as db from '@/lib/db'
 import { Card, CardContent } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
-import { Select } from '@/components/ui/select'
+import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import { Search, Smartphone, Package } from 'lucide-react'
 import type { ScreenPart } from '@/types'
 
@@ -56,12 +56,18 @@ export default function ScreenCatalog() {
               className="pl-9 bg-secondary/30 border-0 rounded-xl h-10"
             />
           </div>
-          <Select
-            options={BRAND_OPTIONS}
-            value={brandFilter}
-            onChange={e => setBrandFilter(e.target.value)}
-            className="w-32 bg-secondary/30 border-0 rounded-xl"
-          />
+          <Select value={brandFilter} onValueChange={setBrandFilter}>
+            <SelectTrigger className="w-32 bg-secondary/30 border-0 rounded-xl">
+              <SelectValue placeholder="Todas" />
+            </SelectTrigger>
+            <SelectContent className="bg-popover border-border">
+              <SelectGroup>
+                {BRAND_OPTIONS.map((b) => (
+                  <SelectItem key={b.value} value={b.value}>{b.label}</SelectItem>
+                ))}
+              </SelectGroup>
+            </SelectContent>
+          </Select>
         </div>
 
         <div className="space-y-2">
