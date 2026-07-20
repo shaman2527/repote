@@ -1,7 +1,11 @@
 import { useState, useEffect } from 'react'
 import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
+import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from '@/components/ui/command'
 import { Input } from '@/components/ui/input'
+import { Button } from '@/components/ui/button'
+import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover'
 import * as db from '@/lib/db'
+import { Check, ChevronDown, Smartphone } from 'lucide-react'
 import type { PhoneModel } from '@/types'
 
 const BRANDS = [
@@ -21,6 +25,7 @@ export function ModelSelect({ onSelect, defaultBrand, defaultModel }: ModelSelec
   const [models, setModels] = useState<PhoneModel[]>([])
   const [search, setSearch] = useState(defaultModel || '')
   const [selectedModel, setSelectedModel] = useState(defaultModel || '')
+  const [modelOpen, setModelOpen] = useState(false)
 
   useEffect(() => {
     if (brand) {
@@ -44,19 +49,20 @@ export function ModelSelect({ onSelect, defaultBrand, defaultModel }: ModelSelec
   const handleModelSelect = (modelName: string) => {
     setSelectedModel(modelName)
     setSearch(modelName)
+    setModelOpen(false)
     onSelect(brand, modelName)
   }
 
   return (
     <div className="space-y-4">
-      {/* Brand Select - shadcn proper */}
+      {/* Brand Select */}
       <div>
-        <label className="text-sm font-medium mb-1.5 block">Marca</label>
+        <label className="text-sm font-medium mb-1.5 block text-foreground">Marca</label>
         <Select value={brand} onValueChange={handleBrandChange}>
           <SelectTrigger className="w-full bg-secondary/30 border-0">
             <SelectValue placeholder="Seleccionar marca..." />
           </SelectTrigger>
-          <SelectContent className="bg-popover border-border">
+          <SelectContent className="bg-popover border-border text-popover-foreground">
             <SelectGroup>
               {BRANDS.map((b) => (
                 <SelectItem key={b} value={b} className="cursor-pointer">
@@ -68,43 +74,62 @@ export function ModelSelect({ onSelect, defaultBrand, defaultModel }: ModelSelec
         </Select>
       </div>
 
-      {/* Model search with results */}
+      {/* Model Search with Popover */}
       {brand && (
         <div>
-          <label className="text-sm font-medium mb-1.5 block">Modelo</label>
-          <Input
-            placeholder="Buscar modelo..."
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            className="bg-secondary/30 border-0"
-          />
-          {filteredModels.length > 0 && (
-            <div className="mt-2 max-h-52 overflow-y-auto rounded-xl border border-border bg-card p-1.5 space-y-0.5 shadow-lg">
-              {filteredModels.slice(0, 40).map((m) => (
-                <button
-                  key={m.id}
-                  type="button"
-                  className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-colors ${
-                    selectedModel === m.model
-                      ? 'bg-primary text-primary-foreground'
-                      : 'hover:bg-accent hover:text-accent-foreground text-foreground'
-                  }`}
-                  onClick={() => handleModelSelect(m.model)}
-                >
-                  <span className="font-medium">{m.model}</span>
-                  {m.frpMethod && (
-                    <span className="ml-2 text-xs opacity-70">({m.frpMethod})</span>
-                  )}
-                  {m.year && (
-                    <span className="ml-2 text-xs text-muted-foreground">{m.year}</span>
-                  )}
-                </button>
-              ))}
-            </div>
-          )}
-          {search && filteredModels.length === 0 && (
-            <p className="text-sm text-muted-foreground mt-2">Sin resultados para "{search}"</p>
-          )}
+          <label className="text-sm font-medium mb-1.5 block text-foreground">Modelo</label>
+          <Popover open={modelOpen} onOpenChange={setModelOpen}>
+            <PopoverTrigger asChild>
+              <Button
+                variant="outline"
+                role="combobox"
+                aria-expanded={modelOpen}
+                className="w-full justify-between bg-secondary/30 border-0 text-foreground hover:bg-secondary/50 h-10"
+              >
+                {selectedModel || 'Buscar modelo...'}
+                <ChevronDown className="ml-2 size-4 shrink-0 opacity-50" />
+              </Button>
+            </PopoverTrigger>
+            <PopoverContent className="w-[var(--radix-popover-trigger-width)] p-0 bg-popover border-border">
+              <Command>
+                <CommandInput
+                  placeholder="Escribe para buscar..."
+                  value={search}
+                  onValueChange={setSearch}
+                  className="text-foreground"
+                />
+                <CommandList>
+                  <CommandEmpty className="text-muted-foreground py-6 text-center text-sm">
+                    Sin resultados para "{search}"
+                  </CommandEmpty>
+                  <CommandGroup>
+                    {filteredModels.slice(0, 60).map((m) => (
+                      <CommandItem
+                        key={m.id}
+                        value={`${m.brand} ${m.model}`}
+                        onSelect={() => handleModelSelect(m.model)}
+                        className="text-foreground data-[selected=true]:bg-accent data-[selected=true]:text-accent-foreground cursor-pointer"
+                      >
+                        <div className="flex items-center gap-2 flex-1">
+                          <Smartphone className="size-4 text-muted-foreground shrink-0" />
+                          <span className="font-medium">{m.model}</span>
+                          {m.frpMethod && (
+                            <span className="text-xs text-muted-foreground ml-auto">({m.frpMethod})</span>
+                          )}
+                          {m.year && (
+                            <span className="text-xs text-muted-foreground">{m.year}</span>
+                          )}
+                        </div>
+                        {selectedModel === m.model && (
+                          <Check className="ml-2 size-4 text-primary shrink-0" />
+                        )}
+                      </CommandItem>
+                    ))}
+                  </CommandGroup>
+                </CommandList>
+              </Command>
+            </PopoverContent>
+          </Popover>
         </div>
       )}
     </div>
