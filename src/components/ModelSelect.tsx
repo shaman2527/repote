@@ -4,7 +4,8 @@ import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
 import * as db from '@/lib/db'
 import { getCompatibleScreens, detectSeries } from '@/lib/screen-compatibility'
-import { Smartphone, Check, Search, MonitorSmartphone, DollarSign, Package } from 'lucide-react'
+import { usePhoneImages } from '@/hooks/usePhoneImages'
+import { Smartphone, Check, Search, MonitorSmartphone, DollarSign, Package, ImageIcon } from 'lucide-react'
 import type { PhoneModel, ScreenPart } from '@/types'
 
 const BRANDS = [
@@ -27,6 +28,7 @@ export function ModelSelect({ onSelect, defaultBrand, defaultModel, showScreens 
   const [selectedModel, setSelectedModel] = useState(defaultModel || '')
   const [showResults, setShowResults] = useState(false)
   const [compatibleScreens, setCompatibleScreens] = useState<ScreenPart[]>([])
+  const { getImage } = usePhoneImages()
   const searchRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -132,15 +134,22 @@ export function ModelSelect({ onSelect, defaultBrand, defaultModel, showScreens 
                   <button
                     key={m.id}
                     type="button"
-                    className={`w-full flex items-center gap-3 px-3 py-2.5 text-sm transition-colors text-left ${
+                    className={`w-full flex items-center gap-3 px-3 py-2 text-sm transition-colors text-left ${
                       selectedModel === m.model
                         ? 'bg-primary/10 text-primary'
                         : 'hover:bg-secondary text-foreground'
                     }`}
                     onClick={() => handleModelSelect(m.model)}
                   >
-                    <Smartphone className="size-4 shrink-0 text-muted-foreground" />
-                    <span className="font-medium flex-1">{m.model}</span>
+                    <div className="size-10 rounded-lg bg-secondary/50 flex items-center justify-center shrink-0 overflow-hidden">
+                      {(() => {
+                        const img = getImage(brand, m.model)
+                        return img
+                          ? <img src={img} alt={m.model} className="size-full object-cover" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
+                          : <Smartphone className="size-5 text-muted-foreground" />
+                      })()}
+                    </div>
+                    <span className="font-medium flex-1 truncate">{m.model}</span>
                     {s && (
                       <Badge className={`text-[9px] px-1.5 py-0 ${s.bgClass} ${s.textClass} border-0`}>
                         {s.name}
@@ -163,14 +172,23 @@ export function ModelSelect({ onSelect, defaultBrand, defaultModel, showScreens 
       {/* Selected model info */}
       {selectedModel && !showResults && (
         <div className="space-y-3">
-          <div className="flex items-center gap-2 px-3 py-2.5 rounded-lg bg-secondary/50 text-sm text-foreground">
-            <Smartphone className="size-4 text-muted-foreground" />
-            <span className="font-medium">{brand} {selectedModel}</span>
-            {series && (
-              <Badge className={`ml-auto text-[10px] px-2 py-0.5 ${series.bgClass} ${series.textClass} border-0`}>
-                {series.name}
-              </Badge>
-            )}
+          <div className="flex items-center gap-3 px-3 py-2.5 rounded-lg bg-secondary/50 text-sm text-foreground">
+            <div className="size-12 rounded-lg bg-secondary/50 flex items-center justify-center shrink-0 overflow-hidden">
+              {(() => {
+                const img = getImage(brand, selectedModel)
+                return img
+                  ? <img src={img} alt={selectedModel} className="size-full object-cover" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
+                  : <Smartphone className="size-6 text-muted-foreground" />
+              })()}
+            </div>
+            <div className="flex-1 min-w-0">
+              <p className="font-medium truncate">{brand} {selectedModel}</p>
+              {series && (
+                <Badge className={`mt-0.5 text-[10px] px-2 py-0.5 ${series.bgClass} ${series.textClass} border-0`}>
+                  {series.name}
+                </Badge>
+              )}
+            </div>
           </div>
 
           {/* Compatible Screens */}

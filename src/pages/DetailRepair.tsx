@@ -9,6 +9,7 @@ import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectVa
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { StatusBadge } from '@/components/StatusBadge'
 import { useRepairs } from '@/hooks/useRepairs'
+import { usePhoneImages } from '@/hooks/usePhoneImages'
 import {
   ArrowLeft,
   ArrowRight,
@@ -72,6 +73,9 @@ export default function DetailRepair() {
       })
     }
   }, [id])
+
+  const { getImage } = usePhoneImages()
+  const modelImage = getImage(repair?.brand || '', repair?.modelName || '')
 
   if (loading) return <div className="p-8 text-center">Cargando...</div>
   if (!repair) return <div className="p-8 text-center">Equipo no encontrado</div>
@@ -138,10 +142,15 @@ export default function DetailRepair() {
         </div>
 
         {/* Photo */}
-        {repair.photo && (
+        {(repair.photo || modelImage) && (
           <Card className="border-0 glass overflow-hidden">
             <div className="relative">
-              <img src={repair.photo} alt="Foto del equipo" className="w-full max-h-64 object-cover" />
+              {repair.photo
+                ? <img src={repair.photo} alt="Foto del equipo" className="w-full max-h-64 object-cover" />
+                : modelImage
+                  ? <img src={modelImage} alt={repair.modelName} className="w-full max-h-64 object-contain bg-secondary/30 p-4" />
+                  : null
+              }
               <div className="absolute top-2 right-2 size-7 rounded-lg bg-black/40 backdrop-blur flex items-center justify-center">
                 <Image className="size-3.5 text-white" />
               </div>

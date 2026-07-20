@@ -15,6 +15,7 @@ export interface PhoneModel {
   chipset?: string
   frpMethod?: FrpMethod
   year?: number
+  img?: string
 }
 
 export type FrpMethod = 'SPD' | 'BROM' | 'Testpoint' | 'UMT' | 'Octoplus' | 'Bypass' | 'EDL' | '';

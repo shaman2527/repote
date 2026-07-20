@@ -4,7 +4,8 @@ import { Card, CardContent } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
 import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
-import { Search, BookOpen, Cpu } from 'lucide-react'
+import { Search, BookOpen, Cpu, Smartphone } from 'lucide-react'
+import { usePhoneImages } from '@/hooks/usePhoneImages'
 import { detectSeries } from '@/lib/screen-compatibility'
 import type { PhoneModel } from '@/types'
 
@@ -36,6 +37,7 @@ const FRP_VARIANTS: Record<string, 'default' | 'warning' | 'success' | 'destruct
 
 export default function ModelCatalog() {
   const [models, setModels] = useState<PhoneModel[]>([])
+  const { getImage } = usePhoneImages()
   const [search, setSearch] = useState('')
   const [brandFilter, setBrandFilter] = useState('')
 
@@ -96,8 +98,13 @@ export default function ModelCatalog() {
               <CardContent className="p-4">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-3 min-w-0 flex-1">
-                    <div className="size-10 rounded-xl bg-secondary/50 flex items-center justify-center shrink-0">
-                      <Cpu className="size-5 text-muted-foreground" />
+                    <div className="size-14 rounded-xl bg-secondary/50 flex items-center justify-center shrink-0 overflow-hidden">
+                      {(() => {
+                        const img = getImage(m.brand, m.model)
+                        return img
+                          ? <img src={img} alt={m.model} className="size-full object-cover" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
+                          : <Cpu className="size-6 text-muted-foreground" />
+                      })()}
                     </div>
                     <div className="min-w-0">
                       <div className="flex items-center gap-2">
