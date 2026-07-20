@@ -5,6 +5,7 @@ import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
 import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import { Search, BookOpen, Cpu } from 'lucide-react'
+import { detectSeries } from '@/lib/screen-compatibility'
 import type { PhoneModel } from '@/types'
 
 const BRAND_OPTIONS = [
@@ -99,7 +100,13 @@ export default function ModelCatalog() {
                       <Cpu className="size-5 text-muted-foreground" />
                     </div>
                     <div className="min-w-0">
-                      <p className="font-medium truncate">{m.brand} {m.model}</p>
+                      <div className="flex items-center gap-2">
+                        <p className="font-medium truncate">{m.brand} {m.model}</p>
+                        {(() => {
+                          const s = detectSeries(m.brand, m.model)
+                          return s ? <Badge className={`text-[9px] px-1.5 py-0 ${s.bgClass} ${s.textClass} border-0 shrink-0`}>{s.name}</Badge> : null
+                        })()}
+                      </div>
                       {m.chipset && (
                         <p className="text-xs text-muted-foreground mt-0.5">{m.chipset}</p>
                       )}
