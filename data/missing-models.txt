@@ -1,0 +1,579 @@
+Alcatel	1S 2W019	Unisoc	SPD
+Alcatel	1Se	Unisoc	SPD
+Alcatel	3X Alcatel	Unisoc	SPD
+Alcatel	5044R	Unisoc	SPD
+Alcatel	9013A Tactil Tablet Amazon Fire Hd Dtactil Tablet Amazon Fire Hd Tactil Tablet Amazon Fire Hd Rtactil Tablet Amazon Fire Hd	Unisoc	SPD
+BLU	C6 Tactil Hyundai E553 Tactil Hyundai L553	MediaTek	BROM
+BLU	G50	MediaTek	BROM
+BLU	G50 Plus	MediaTek	BROM
+BLU	G51 Plus	MediaTek	BROM
+BLU	G53	MediaTek	BROM
+BLU	G61	MediaTek	BROM
+BLU	G61 Plus	MediaTek	BROM
+BLU	G70	MediaTek	BROM
+BLU	G71 Plus	MediaTek	BROM
+BLU	G73 G73L Honwor X7	MediaTek	BROM
+BLU	G80 V90	MediaTek	BROM
+BLU	G90	MediaTek	BROM
+BLU	G91	MediaTek	BROM
+BLU	G91 Pro	MediaTek	BROM
+BLU	G91S	MediaTek	BROM
+BLU	M8L Tactil Tablet Ms2198 Tactil Tablet Olax K8 Pines Tactil Tablet Olax K8 Pro Pines Tactil Tablet Q8 Tactil Tablet Skdy Pad Pro Tactil Tablet Sky Pad Pro Con Huella Tactil Tablet Sky Pad Max Pines Tactil Tablet Sky Pad Max Pines Tactil Tablet Vortex T10 Pro Tactil Tablet Vortex T10M Pro Plus T10M Tactil Tablet Xld1030 Tactil Tablet Yezz Epic Tactil Tablet Yezz Epic Max	MediaTek	BROM
+Blackview	A100 Krip K68	MediaTek	BROM
+Blackview	A70	MediaTek	BROM
+Blackview	A80	MediaTek	BROM
+Blackview	A80 Plus	MediaTek	BROM
+Blackview	A90	MediaTek	BROM
+Blackview	Bv5100	MediaTek	BROM
+Blackview	Bv6600	MediaTek	BROM
+Google	Google Pixel Pro R3/4 Google Pixel 6A Google Pixel	Tensor	Bypass
+Google	Pro	Tensor	Bypass
+Huawei	4G Honor Magic Lite 5G	Kirin	BROM
+Huawei	Chonor X8A Honor Lite Huawei Honor X8B	Kirin	BROM
+Huawei	Gr3 Enjoy 5S	Kirin	BROM
+Huawei	Gr5	Kirin	BROM
+Huawei	Hondor X5B Plus	Kirin	BROM
+Huawei	Honor 5G	Kirin	BROM
+Huawei	Honor 8C	Kirin	BROM
+Huawei	Honor 8X Honor 9X Lite	Kirin	BROM
+Huawei	Honor Lite 20I Lite	Kirin	BROM
+Huawei	Honor Lite 5G	Kirin	BROM
+Huawei	Honor Lite 5Wg	Kirin	BROM
+Huawei	Honor Lite Nova 8I	Kirin	BROM
+Huawei	Honor Play	Kirin	BROM
+Huawei	Honor Play 9A	Kirin	BROM
+Huawei	Honor Pro 4G	Kirin	BROM
+Huawei	Honor Pro 5G	Kirin	BROM
+Huawei	Honor X5B	Kirin	BROM
+Huawei	Honor X5C	Kirin	BROM
+Huawei	Honor X5C Plus	Kirin	BROM
+Huawei	Honor X6	Kirin	BROM
+Huawei	Honor X6A	Kirin	BROM
+Huawei	Honor X6A Plus	Kirin	BROM
+Huawei	Honor X6B	Kirin	BROM
+Huawei	Honor X6B Plus	Kirin	BROM
+Huawei	Honor X6C	Kirin	BROM
+Huawei	Honor X6S	Kirin	BROM
+Huawei	Honor X7 Blu G73L Blu G73	Kirin	BROM
+Huawei	Honor X7B	Kirin	BROM
+Huawei	Honor X7C	Kirin	BROM
+Huawei	Honor X7D	Kirin	BROM
+Huawei	Honor X8C D3/4 Huawei Honor X8D Huawei Honor X9 Magic Lite R3/4 Huawei Mate Lite P Smart Plus Nova Huawei Mate Pro	Kirin	BROM
+Huawei	Honor Xw7A	Kirin	BROM
+Huawei	Magic Lite 5G	Kirin	BROM
+Huawei	Magic Lite 5G X9A X40 D3/4 Honor Magic Lite 5G Honor Magic Lite 5G X9B R3/4 Honor Magic Lite 5G Honor Magic Lite 5G X9C	Kirin	BROM
+Huawei	Mate	Kirin	BROM
+Huawei	Mate Lite Honor 6X Honor 5A	Kirin	BROM
+Huawei	Mate Pro	Kirin	BROM
+Huawei	Mate Sde Honor 7X	Kirin	BROM
+Huawei	Nova	Kirin	BROM
+Huawei	Nova 5T Honor 20S	Kirin	BROM
+Huawei	Nova Se	Kirin	BROM
+Huawei	Nova Y60	Kirin	BROM
+Huawei	Nova Y70	Kirin	BROM
+Huawei	P Smart Y7A	Kirin	BROM
+Huawei	P10 Plus	Kirin	BROM
+Huawei	P20	Kirin	BROM
+Huawei	P20 Litwe	Kirin	BROM
+Huawei	P20 Pro	Kirin	BROM
+Huawei	P30 Huawei P30 Pro	Kirin	BROM
+Huawei	P40 Lite 4G D3/4 Huawei P40 Lite 5G Nova Se Huawei P8 Lite R3/4 Huawei P8 Lite 2017/P9 Lite 2017/Honor Lite Huawei P9	Kirin	BROM
+Huawei	P9 Lite	Kirin	BROM
+Huawei	P9 Lite Mini	Kirin	BROM
+Huawei	P9 Lite Smart	Kirin	BROM
+Huawei	Y5 201D8 Honor 7S	Kirin	BROM
+Huawei	Y5 Honor 8S	Kirin	BROM
+Huawei	Y5 Ii	Kirin	BROM
+Huawei	Y5 Lite	Kirin	BROM
+Huawei	Y6 8A	Kirin	BROM
+Huawei	Y6 Honor 7A	Kirin	BROM
+Huawei	Y6 Ii	Kirin	BROM
+Huawei	Y6 Pro	Kirin	BROM
+Huawei	Y6P	Kirin	BROM
+Huawei	Y7 Honor 7C	Kirin	BROM
+Huawei	Y7 Prime	Kirin	BROM
+Huawei	Y7 Y7 Prwime	Kirin	BROM
+Huawei	Y7A P Smart	Kirin	BROM
+Huawei	Y7P	Kirin	BROM
+Huawei	Y8P 3/C4 Huawei Y9 Huawei Y9 Y9 Plus Y8S	Kirin	BROM
+Huawei	Y9 Prime Y9S P Smart Z 9X Huawei Y9A Hyundai E504 Hyundai E553 Hyundai L553	Kirin	BROM
+Infinix	Gt Pro	Unisoc/MediaTek	SPD
+Infinix	Gt Pro Note	Unisoc/MediaTek	SPD
+Infinix	Hodt Lite	Unisoc/MediaTek	SPD
+Infinix	Hot	Unisoc/MediaTek	SPD
+Infinix	Hot 10I	Unisoc/MediaTek	SPD
+Infinix	Hot 10S	Unisoc/MediaTek	SPD
+Infinix	Hot 11S Nfc Spark Pro	Unisoc/MediaTek	SPD
+Infinix	Hot 12I	Unisoc/MediaTek	SPD
+Infinix	Hot 20Wi	Unisoc/MediaTek	SPD
+Infinix	Hot 4G D3/4 Infinix Hot 50I 4G Infinix Hot Pro Infinix Hot Pro Infinix Hot Pro Plus 4G	Unisoc/MediaTek	SPD
+Infinix	Hot 60I	Unisoc/MediaTek	SPD
+Infinix	Hot Lite Spark	Unisoc/MediaTek	SPD
+Infinix	Hot Play	Unisoc/MediaTek	SPD
+Infinix	Hot Play Hot Play	Unisoc/MediaTek	SPD
+Infinix	Hot Prdo Plus	Unisoc/MediaTek	SPD
+Infinix	Hot Pro	Unisoc/MediaTek	SPD
+Infinix	Hot Pro Infinix Hot 40I	Unisoc/MediaTek	SPD
+Infinix	Hot Pro Plus 4G	Unisoc/MediaTek	SPD
+Infinix	Note	Unisoc/MediaTek	SPD
+Infinix	Note Gt Pro Infinix Note Gt Pro	Unisoc/MediaTek	SPD
+Infinix	Note Lite	Unisoc/MediaTek	SPD
+Infinix	Note Note Pro Pova 5G	Unisoc/MediaTek	SPD
+Infinix	Note Pro	Unisoc/MediaTek	SPD
+Infinix	Note Pro D3/4 Infinix Note Pro Infinix Note Pro Infinix Note Infinix Note Pro	Unisoc/MediaTek	SPD
+Infinix	Note Prow	Unisoc/MediaTek	SPD
+Infinix	Smart	Unisoc/MediaTek	SPD
+Infinix	Smart Hd	Unisoc/MediaTek	SPD
+Infinix	Smart Lifephone Idol Star	Unisoc/MediaTek	SPD
+Infinix	Smart Plus	Unisoc/MediaTek	SPD
+Infinix	Smart Pro	Unisoc/MediaTek	SPD
+Infinix	Smart Smart Hd	Unisoc/MediaTek	SPD
+Infinix	Smdart Pro	Unisoc/MediaTek	SPD
+Infinix	Zero 4G	Unisoc/MediaTek	SPD
+Infinix	Zero Oriwginal	Unisoc/MediaTek	SPD
+Infinix	Zero X Neo	Unisoc/MediaTek	SPD
+Krip	K55	MediaTek	BROM
+Krip	K57	MediaTek	BROM
+Krip	K5M K5D Tactil Krdip K6	MediaTek	BROM
+Krip	K6B	MediaTek	BROM
+LG	K11	MediaTek	BROM
+LG	K20 K8 Plus	MediaTek	BROM
+LG	K20 V K20 Plus Mp260 K10 Ms250	MediaTek	BROM
+LG	K22 K22 Plus K32	MediaTek	BROM
+LG	K30	MediaTek	BROM
+LG	K4 X230	MediaTek	BROM
+LG	K40 X420	MediaTek	BROM
+LG	K40S	MediaTek	BROM
+LG	K41S	MediaTek	BROM
+LG	K42 K62 K52	MediaTek	BROM
+LG	K50 Q60 K12 Prime	MediaTek	BROM
+LG	K50S 3E/4 Lg K51 C3/4 Lg K51S Lg K61	MediaTek	BROM
+LG	K62 Lg K7 Ms330 Lg K8 X240 Lg K8 Ms350 K8 Ms371 Lg M150 M153 M154	MediaTek	BROM
+LG	Ms210	MediaTek	BROM
+LG	Q60 X525	MediaTek	BROM
+LG	Q7 Q610	MediaTek	BROM
+LG	Stylu Q710	MediaTek	BROM
+LG	Stylud Q730	MediaTek	BROM
+LG	X Power K220	MediaTek	BROM
+Motorola	E22I E22	Snapdragon	Testpoint
+Motorola	E30 E40	Snapdragon	Testpoint
+Motorola	E4 Plus Americano	Snapdragon	Testpoint
+Motorola	E40 E30	Snapdragon	Testpoint
+Motorola	E5 Play	Snapdragon	Testpoint
+Motorola	E5 Play Go	Snapdragon	Testpoint
+Motorola	E5 Plus	Snapdragon	Testpoint
+Motorola	E6 Play	Snapdragon	Testpoint
+Motorola	E6 Plus	Snapdragon	Testpoint
+Motorola	E6I	Snapdragon	Testpoint
+Motorola	E6S E6S	Snapdragon	Testpoint
+Motorola	E7 E7 Power	Snapdragon	Testpoint
+Motorola	E7 Plus G9 Play	Snapdragon	Testpoint
+Motorola	E7 Power E7I Power	Snapdragon	Testpoint
+Motorola	Ecdge Fusion 5G G85 Motorola Edge Neo	Snapdragon	Testpoint
+Motorola	Edge 4G	Snapdragon	Testpoint
+Motorola	Edge G200	Snapdragon	Testpoint
+Motorola	Edge Lite	Snapdragon	Testpoint
+Motorola	Edge Neo 4G	Snapdragon	Testpoint
+Motorola	Edge Pro 4G	Snapdragon	Testpoint
+Motorola	Edge Pro 5G D3/4 Motorola E13 Motorola E14 G04 G24 G24 Power Motorola E15 Motorola E20	Snapdragon	Testpoint
+Motorola	Edge Prow 4G	Snapdragon	Testpoint
+Motorola	Edge Ultra 5G	Snapdragon	Testpoint
+Motorola	Eedge Neo 4G	Snapdragon	Testpoint
+Motorola	G 5G	Snapdragon	Testpoint
+Motorola	G 5G 2W022	Snapdragon	Testpoint
+Motorola	G Play	Snapdragon	Testpoint
+Motorola	G Power	Snapdragon	Testpoint
+Motorola	G Stylus 4G D3/4 Motorola G Stylus 5G Motorola G Stylus 5G Motorola G Stylus 5G Motorola G04 G24 G24 Power E14	Snapdragon	Testpoint
+Motorola	G05	Snapdragon	Testpoint
+Motorola	G06	Snapdragon	Testpoint
+Motorola	G10 G10 Power	Snapdragon	Testpoint
+Motorola	G10 Play	Snapdragon	Testpoint
+Motorola	G13 G23 G34 G53	Snapdragon	Testpoint
+Motorola	G14 G54	Snapdragon	Testpoint
+Motorola	G15	Snapdragon	Testpoint
+Motorola	G17	Snapdragon	Testpoint
+Motorola	G20	Snapdragon	Testpoint
+Motorola	G22 E32	Snapdragon	Testpoint
+Motorola	G23 G53 G13 G34	Snapdragon	Testpoint
+Motorola	G24 G24 Power G04 E14 4/4 Motorola G24 Power G24 G04 E14	Snapdragon	Testpoint
+Motorola	G30	Snapdragon	Testpoint
+Motorola	G31 G41	Snapdragon	Testpoint
+Motorola	G31 G41W	Snapdragon	Testpoint
+Motorola	G32	Snapdragon	Testpoint
+Motorola	G34 G13 G23 G53	Snapdragon	Testpoint
+Motorola	G35	Snapdragon	Testpoint
+Motorola	G4 Plus Motorola G42	Snapdragon	Testpoint
+Motorola	G5 D3/4 Motorola G5 Plus Motorola G50 4G Motorola G50 5G Motorola G51 5G	Snapdragon	Testpoint
+Motorola	G52 G72 G82	Snapdragon	Testpoint
+Motorola	G53 G13 G23 G34	Snapdragon	Testpoint
+Motorola	G54 4G	Snapdragon	Testpoint
+Motorola	G5S	Snapdragon	Testpoint
+Motorola	G5S Plus	Snapdragon	Testpoint
+Motorola	G6 Play E5	Snapdragon	Testpoint
+Motorola	G60 G60S	Snapdragon	Testpoint
+Motorola	G7 Play	Snapdragon	Testpoint
+Motorola	G7 Plus	Snapdragon	Testpoint
+Motorola	G7 Power	Snapdragon	Testpoint
+Motorola	G72 G52	Snapdragon	Testpoint
+Motorola	G73	Snapdragon	Testpoint
+Motorola	G8 G Fawst	Snapdragon	Testpoint
+Motorola	G8 Play	Snapdragon	Testpoint
+Motorola	G8 Plus	Snapdragon	Testpoint
+Motorola	G8 Power G Stylus	Snapdragon	Testpoint
+Motorola	G84 5G	Snapdragon	Testpoint
+Motorola	G9 Play D3/4 Motorola G9 Plus Motorola G9 Power Motorola One Motorola One 5G	Snapdragon	Testpoint
+Motorola	Gc Power Moto G Power 5G Motorola G Pure	Snapdragon	Testpoint
+Motorola	One Action One Vision	Snapdragon	Testpoint
+Motorola	One Fusion	Snapdragon	Testpoint
+Motorola	One Fusion Plus	Snapdragon	Testpoint
+Motorola	One Macro	Snapdragon	Testpoint
+Motorola	Plus	Snapdragon	Testpoint
+Samsung	A01 A013	Exynos/Snapdragon	Testpoint
+Samsung	A01 A015	Exynos/Snapdragon	Testpoint
+Samsung	A02 A022	Exynos/Snapdragon	Testpoint
+Samsung	A02S A025	Exynos/Snapdragon	Testpoint
+Samsung	A02S A025W	Exynos/Snapdragon	Testpoint
+Samsung	A03 A035	Exynos/Snapdragon	Testpoint
+Samsung	A03S A037F/M D3/4 Samsung A03 5G A037U Samsung A04 A045 Samsung A04E A042 Samsung A04S A047	Exynos/Snapdragon	Testpoint
+Samsung	A05 4G A055	Exynos/Snapdragon	Testpoint
+Samsung	A05S 4G A057	Exynos/Snapdragon	Testpoint
+Samsung	A06 4G A065	Exynos/Snapdragon	Testpoint
+Samsung	A07 4G A075	Exynos/Snapdragon	Testpoint
+Samsung	A0C3 A032 Samsung A03S A037F/M	Exynos/Snapdragon	Testpoint
+Samsung	A10 A105 M10 M105 4/4 Samsung A10 A105	Exynos/Snapdragon	Testpoint
+Samsung	A10E A102 A20E A202	Exynos/Snapdragon	Testpoint
+Samsung	A10S A107	Exynos/Snapdragon	Testpoint
+Samsung	A11 A115	Exynos/Snapdragon	Testpoint
+Samsung	A12 A125	Exynos/Snapdragon	Testpoint
+Samsung	A13 4G A135	Exynos/Snapdragon	Testpoint
+Samsung	A13 4G A135 M13	Exynos/Snapdragon	Testpoint
+Samsung	A13 5G A136	Exynos/Snapdragon	Testpoint
+Samsung	A13 5G A136 Inwcell A04S	Exynos/Snapdragon	Testpoint
+Samsung	A14 4G A145	Exynos/Snapdragon	Testpoint
+Samsung	A14 5G A146	Exynos/Snapdragon	Testpoint
+Samsung	A15 4Eg A155	Exynos/Snapdragon	Testpoint
+Samsung	A15 5G A156	Exynos/Snapdragon	Testpoint
+Samsung	A15 5G A156 Samsung A15 5G A156 R3/4 Samsung A16 4G A165 Am Samsung A16 4G A165	Exynos/Snapdragon	Testpoint
+Samsung	A16 4G A165	Exynos/Snapdragon	Testpoint
+Samsung	A16 5Dg A166	Exynos/Snapdragon	Testpoint
+Samsung	A16 5G A166	Exynos/Snapdragon	Testpoint
+Samsung	A16 5G A166 Am	Exynos/Snapdragon	Testpoint
+Samsung	A17 4G A175	Exynos/Snapdragon	Testpoint
+Samsung	A17 5G A176	Exynos/Snapdragon	Testpoint
+Samsung	A2 A260	Exynos/Snapdragon	Testpoint
+Samsung	A20 A205	Exynos/Snapdragon	Testpoint
+Samsung	A20S A207	Exynos/Snapdragon	Testpoint
+Samsung	A21 Incwell	Exynos/Snapdragon	Testpoint
+Samsung	A21S A217	Exynos/Snapdragon	Testpoint
+Samsung	A22 4Eg A225	Exynos/Snapdragon	Testpoint
+Samsung	A22 4G A225	Exynos/Snapdragon	Testpoint
+Samsung	A22 5G A226 D3/4 Samsung A23 4G A235 Samsung A23 4G A235 R3/4 Samsung A23 5G A236 Samsung A24 4G A245	Exynos/Snapdragon	Testpoint
+Samsung	A24 4G A245	Exynos/Snapdragon	Testpoint
+Samsung	A25 5G A256	Exynos/Snapdragon	Testpoint
+Samsung	A25 5G A256 Am	Exynos/Snapdragon	Testpoint
+Samsung	A25 5G A25D6	Exynos/Snapdragon	Testpoint
+Samsung	A26 5G A266	Exynos/Snapdragon	Testpoint
+Samsung	A26 5G A266 Am	Exynos/Snapdragon	Testpoint
+Samsung	A30 A305	Exynos/Snapdragon	Testpoint
+Samsung	A30S A307	Exynos/Snapdragon	Testpoint
+Samsung	A30S A307 Wcon Marco	Exynos/Snapdragon	Testpoint
+Samsung	A31 A315	Exynos/Snapdragon	Testpoint
+Samsung	A310 A3	Exynos/Snapdragon	Testpoint
+Samsung	A32 4G A325 D3/4 Samsung A320 A3 Samsung A33 5G A336 R3/4 Samsung A33 5G A336 Samsung A33 5G A336	Exynos/Snapdragon	Testpoint
+Samsung	A34 5G A346	Exynos/Snapdragon	Testpoint
+Samsung	A35 5G A356	Exynos/Snapdragon	Testpoint
+Samsung	A35 5G A356 Am	Exynos/Snapdragon	Testpoint
+Samsung	A35 5G A356D	Exynos/Snapdragon	Testpoint
+Samsung	A36 5G A366	Exynos/Snapdragon	Testpoint
+Samsung	A37 5G A376	Exynos/Snapdragon	Testpoint
+Samsung	A40 A405	Exynos/Snapdragon	Testpoint
+Samsung	A50 A505	Exynos/Snapdragon	Testpoint
+Samsung	A500 A5	Exynos/Snapdragon	Testpoint
+Samsung	A50S A507	Exynos/Snapdragon	Testpoint
+Samsung	A50S A507W	Exynos/Snapdragon	Testpoint
+Samsung	A51 A515 Am	Exynos/Snapdragon	Testpoint
+Samsung	A510 A5	Exynos/Snapdragon	Testpoint
+Samsung	A51E A515 4/4 Samsungc A51 A515 Samsung A51 A515	Exynos/Snapdragon	Testpoint
+Samsung	A52 4G A525 Samsung A52 4G A525 R3/4 Samsung A52 4G A525 Samsung A520 A5	Exynos/Snapdragon	Testpoint
+Samsung	A52S 5G A528	Exynos/Snapdragon	Testpoint
+Samsung	A52S 5G A528 Am	Exynos/Snapdragon	Testpoint
+Samsung	A53 5G A536	Exynos/Snapdragon	Testpoint
+Samsung	A53 5G A536D Am	Exynos/Snapdragon	Testpoint
+Samsung	A530 A8	Exynos/Snapdragon	Testpoint
+Samsung	A54 5G A545 Am	Exynos/Snapdragon	Testpoint
+Samsung	A54 5G A546	Exynos/Snapdragon	Testpoint
+Samsung	A55 5G A556	Exynos/Snapdragon	Testpoint
+Samsung	A55 5G A556 Am	Exynos/Snapdragon	Testpoint
+Samsung	A55 5G A556 Originwal	Exynos/Snapdragon	Testpoint
+Samsung	A56 5G A566	Exynos/Snapdragon	Testpoint
+Samsung	A56 5G A566 Am	Exynos/Snapdragon	Testpoint
+Samsung	A57 5G A576	Exynos/Snapdragon	Testpoint
+Samsung	A605 A6 Plus	Exynos/Snapdragon	Testpoint
+Samsung	A70 A705 3D/4 Samsung A70 A705 Samsung A70 A705 Samsung A71 M51 Samsung A71 A715 Am	Exynos/Snapdragon	Testpoint
+Samsung	A71 A715	Exynos/Snapdragon	Testpoint
+Samsung	A710 A7	Exynos/Snapdragon	Testpoint
+Samsung	A72 A725	Exynos/Snapdragon	Testpoint
+Samsung	A720 A7	Exynos/Snapdragon	Testpoint
+Samsung	A73 5G A736	Exynos/Snapdragon	Testpoint
+Samsung	A730 A8 Plus	Exynos/Snapdragon	Testpoint
+Samsung	A750 A7	Exynos/Snapdragon	Testpoint
+Samsung	A80 A805	Exynos/Snapdragon	Testpoint
+Samsung	A920 A9	Exynos/Snapdragon	Testpoint
+Samsung	Ac32 4G A325 Samsung A32 4G A325	Exynos/Snapdragon	Testpoint
+Samsung	Ca15 4G A155 Samsung A15 4G A155	Exynos/Snapdragon	Testpoint
+Samsung	Ca22 4G A225 Samsung A22 5G A226	Exynos/Snapdragon	Testpoint
+Samsung	Ca70 A705 Am Samsung A70 A705	Exynos/Snapdragon	Testpoint
+Samsung	Ea03 A032	Exynos/Snapdragon	Testpoint
+Samsung	G130	Exynos/Snapdragon	Testpoint
+Samsung	G313 G316 G318	Exynos/Snapdragon	Testpoint
+Samsung	G355	Exynos/Snapdragon	Testpoint
+Samsung	G360	Exynos/Snapdragon	Testpoint
+Samsung	G530 G531	Exynos/Snapdragon	Testpoint
+Samsung	G532	Exynos/Snapdragon	Testpoint
+Samsung	G550	Exynos/Snapdragon	Testpoint
+Samsung	G570 J5 Prime 2	Exynos/Snapdragon	Testpoint
+Samsung	G610 J7 Primwe 2	Exynos/Snapdragon	Testpoint
+Samsung	G611 J7 Prime 2	Exynos/Snapdragon	Testpoint
+Samsung	G615 J7 Max 2	Exynos/Snapdragon	Testpoint
+Samsung	I9060 I9082	Exynos/Snapdragon	Testpoint
+Samsung	J105 J106	Exynos/Snapdragon	Testpoint
+Samsung	J110 J111 J1 Ace 2	Exynos/Snapdragon	Testpoint
+Samsung	J250 J2 Pro 2	Exynos/Snapdragon	Testpoint
+Samsung	J260 2 D3/4 Samsung J320 Samsung J320 2 Samsung J327 2 Samsung J330 J337 2	Exynos/Snapdragon	Testpoint
+Samsung	J400	Exynos/Snapdragon	Testpoint
+Samsung	J400 2	Exynos/Snapdragon	Testpoint
+Samsung	J410 J4 2	Exynos/Snapdragon	Testpoint
+Samsung	J415 J4 Plus 2	Exynos/Snapdragon	Testpoint
+Samsung	J510 2	Exynos/Snapdragon	Testpoint
+Samsung	J530 J5 Pro	Exynos/Snapdragon	Testpoint
+Samsung	J530 J5 Pro 2	Exynos/Snapdragon	Testpoint
+Samsung	J5D00 2	Exynos/Snapdragon	Testpoint
+Samsung	J600 A600 A6 2	Exynos/Snapdragon	Testpoint
+Samsung	J610 J6 2	Exynos/Snapdragon	Testpoint
+Samsung	J615 J6 Plus 2	Exynos/Snapdragon	Testpoint
+Samsung	J700 2	Exynos/Snapdragon	Testpoint
+Samsung	J701 2	Exynos/Snapdragon	Testpoint
+Samsung	J710 2	Exynos/Snapdragon	Testpoint
+Samsung	J720 2	Exynos/Snapdragon	Testpoint
+Samsung	J727 Olewd/2	Exynos/Snapdragon	Testpoint
+Samsung	J730 J7 Pro 2	Exynos/Snapdragon	Testpoint
+Samsung	J737 S757 2	Exynos/Snapdragon	Testpoint
+Samsung	J810 2	Exynos/Snapdragon	Testpoint
+Samsung	M02 M12 A32 5G F12	Exynos/Snapdragon	Testpoint
+Samsung	M11 M115	Exynos/Snapdragon	Testpoint
+Samsung	M20 M205 D3/4 Samsung M21S M217 Samsung M21S M217 2/4 Samsung M30 M305 Samsung M30 M305	Exynos/Snapdragon	Testpoint
+Samsung	M30S M305	Exynos/Snapdragon	Testpoint
+Samsung	M30S M307	Exynos/Snapdragon	Testpoint
+Samsung	M31 M315	Exynos/Snapdragon	Testpoint
+Samsung	M31/M30S/Dm30/M21S C/M	Exynos/Snapdragon	Testpoint
+Samsung	Note Am	Exynos/Snapdragon	Testpoint
+Samsung	Note Plus Am	Exynos/Snapdragon	Testpoint
+Samsung	Note Ultra	Exynos/Snapdragon	Testpoint
+Samsung	S10	Exynos/Snapdragon	Testpoint
+Samsung	S10 Plus Originawl	Exynos/Snapdragon	Testpoint
+Samsung	S20 Am	Exynos/Snapdragon	Testpoint
+Samsung	S20 Fe Am	Exynos/Snapdragon	Testpoint
+Samsung	S20 Pelus	Exynos/Snapdragon	Testpoint
+Samsung	S20 Plus Am	Exynos/Snapdragon	Testpoint
+Samsung	S21 Am 3D/4 Samsung S21 Fe Am Samsung S21 Plus Am R3/4 Samsung S21 Plus Samsung S21 Ultra Am	Exynos/Snapdragon	Testpoint
+Samsung	S21 Ultra	Exynos/Snapdragon	Testpoint
+Samsung	S22 Am	Exynos/Snapdragon	Testpoint
+Samsung	S22 Plus Am	Exynos/Snapdragon	Testpoint
+Samsung	S22 Ultra Am	Exynos/Snapdragon	Testpoint
+Samsung	S22 Ultra Odriginal 4/4 Samsung S22 Ultra	Exynos/Snapdragon	Testpoint
+Samsung	S23 Am	Exynos/Snapdragon	Testpoint
+Samsung	S23 Plus Am	Exynos/Snapdragon	Testpoint
+Samsung	S23 Ultra	Exynos/Snapdragon	Testpoint
+Samsung	S23 Ultra Am	Exynos/Snapdragon	Testpoint
+Samsung	S24 Ultra	Exynos/Snapdragon	Testpoint
+Samsung	S24 Ultra Am	Exynos/Snapdragon	Testpoint
+Samsung	S25 Ultra	Exynos/Snapdragon	Testpoint
+Samsung	S25 Ultra Am	Exynos/Snapdragon	Testpoint
+Samsung	S25 Ultra Originawl	Exynos/Snapdragon	Testpoint
+Samsung	S5 G900	Exynos/Snapdragon	Testpoint
+Samsung	S7560 S7562 S7580 S7582 Tactil Tablet 3G Tactil Tablet 86V 3G Tactil Teablet 86V Wifi	Exynos/Snapdragon	Testpoint
+Samsung	S9 Am	Exynos/Snapdragon	Testpoint
+Samsung	S9 Plus Am	Exynos/Snapdragon	Testpoint
+Samsung	Sc20 Ultra Am Samsung S20 Ultra	Exynos/Snapdragon	Testpoint
+Samsung	Z Flip	Exynos/Snapdragon	Testpoint
+TCL	10Se	MediaTek	BROM
+TCL	20E	MediaTek	BROM
+TCL	20L	MediaTek	BROM
+TCL	20Se	MediaTek	BROM
+Tecno	Camon	Unisoc/MediaTek	SPD
+Tecno	Camon 18P Camon Neo	Unisoc/MediaTek	SPD
+Tecno	Camon 1D8 Premier	Unisoc/MediaTek	SPD
+Tecno	Camon 30S Camon 30S Pro	Unisoc/MediaTek	SPD
+Tecno	Camon 4G	Unisoc/MediaTek	SPD
+Tecno	Camon Camon Pro	Unisoc/MediaTek	SPD
+Tecno	Camon Camon Pro 4 Tecno Camon Pova	Unisoc/MediaTek	SPD
+Tecno	Camon Pova	Unisoc/MediaTek	SPD
+Tecno	Camon Premier	Unisoc/MediaTek	SPD
+Tecno	Camon Pro	Unisoc/MediaTek	SPD
+Tecno	Camon Pro 4G	Unisoc/MediaTek	SPD
+Tecno	Camon Tecno Camon Spark Pro	Unisoc/MediaTek	SPD
+Tecno	Camon Ultra	Unisoc/MediaTek	SPD
+Tecno	Pdova	Unisoc/MediaTek	SPD
+Tecno	Pop	Unisoc/MediaTek	SPD
+Tecno	Pop 1F 2F	Unisoc/MediaTek	SPD
+Tecno	Pop Lte Pop Pro Tecno Pop Tecno Pop Pro Tecno Pop Pop Pro Tecno Pouvoir Spark Air Pop Air	Unisoc/MediaTek	SPD
+Tecno	Pop Lte Tecno Pop	Unisoc/MediaTek	SPD
+Tecno	Pova Camon	Unisoc/MediaTek	SPD
+Tecno	Pova Neo	Unisoc/MediaTek	SPD
+Tecno	Pova Pro 5G	Unisoc/MediaTek	SPD
+Tecno	Sdpark	Unisoc/MediaTek	SPD
+Tecno	Spark	Unisoc/MediaTek	SPD
+Tecno	Spark 10C	Unisoc/MediaTek	SPD
+Tecno	Spark 20C	Unisoc/MediaTek	SPD
+Tecno	Spark 4G	Unisoc/MediaTek	SPD
+Tecno	Spark 8C Spark 9T	Unisoc/MediaTek	SPD
+Tecno	Spark 8T	Unisoc/MediaTek	SPD
+Tecno	Spark 9T	Unisoc/MediaTek	SPD
+Tecno	Spark D3/4 Tecno Spark 40C V70 Tecno Spark Pro R3/4 Tecno Spark Pro Plus Tecno Spark	Unisoc/MediaTek	SPD
+Tecno	Spark Go	Unisoc/MediaTek	SPD
+Tecno	Spark Go 1S	Unisoc/MediaTek	SPD
+Tecno	Spark Go 2W022	Unisoc/MediaTek	SPD
+Tecno	Spark Go Hot 60I	Unisoc/MediaTek	SPD
+Tecno	Spark Go Pop 5X	Unisoc/MediaTek	SPD
+Tecno	Spark Go Zte V70	Unisoc/MediaTek	SPD
+Tecno	Spark Pro	Unisoc/MediaTek	SPD
+Tecno	Spark Pro 8P 8T Hot	Unisoc/MediaTek	SPD
+Tecno	Spark Pro Camon 18I	Unisoc/MediaTek	SPD
+Tecno	Spark Pro Hot 11S Nfc	Unisoc/MediaTek	SPD
+Tecno	Spark Pro Plus	Unisoc/MediaTek	SPD
+Tecno	Spark Pro Pluws	Unisoc/MediaTek	SPD
+Tecno	Spark Spark 7T	Unisoc/MediaTek	SPD
+Umidigi	A11 A11S	MediaTek	BROM
+Umidigi	A1E1 Pro A11 Pro Max 3/C4 Umidigi A5 Pro Umidigi A7	MediaTek	BROM
+Umidigi	A7 Pro Umidigi A7S Umidigi A9 Umidigi A9 Pro Umidigi Bison	MediaTek	BROM
+Umidigi	Bison Gt	MediaTek	BROM
+Umidigi	Bison X10	MediaTek	BROM
+Umidigi	Bison X10 Pro	MediaTek	BROM
+Umidigi	Power Power 5S	MediaTek	BROM
+Vivo	X6 V70	MediaTek	BROM
+Vivo	Y11	MediaTek	BROM
+Vivo	Y11S Y20 Y20I Y15S	MediaTek	BROM
+Vivo	Y20I	MediaTek	BROM
+Vivo	Y21S Y16 Y21 Y15S	MediaTek	BROM
+Vivo	Y22 Y17	MediaTek	BROM
+Vivo	Y33S	MediaTek	BROM
+Vivo	Y50 Y30	MediaTek	BROM
+Vivo	Y51	MediaTek	BROM
+Vivo	Y53S	MediaTek	BROM
+Vivo	Y71	MediaTek	BROM
+Vivo	Y83	MediaTek	BROM
+Vivo	Y85	MediaTek	BROM
+Vivo	Y93	MediaTek	BROM
+Xiaomi	Credmi Note Pro 5G Xiaomi Redmi Note Pro Plus 5G	MediaTek/Snapdragon	BROM
+Xiaomi	Mei Poco X5 5G	MediaTek/Snapdragon	BROM
+Xiaomi	Mi 10T Lite Poco X3	MediaTek/Snapdragon	BROM
+Xiaomi	Mi 12T 12T Pro	MediaTek/Snapdragon	BROM
+Xiaomi	Mi 12X Mi	MediaTek/Snapdragon	BROM
+Xiaomi	Mi 4/4 Xiaomi Mi Pro	MediaTek/Snapdragon	BROM
+Xiaomi	Mi 8D Lite	MediaTek/Snapdragon	BROM
+Xiaomi	Mi 9T	MediaTek/Snapdragon	BROM
+Xiaomi	Mi 9T Pro	MediaTek/Snapdragon	BROM
+Xiaomi	Mi 9T Pro Inwcell	MediaTek/Snapdragon	BROM
+Xiaomi	Mi A1	MediaTek/Snapdragon	BROM
+Xiaomi	Mi A2	MediaTek/Snapdragon	BROM
+Xiaomi	Mi A3 Xiaomi Mi A3	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Lite	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Lite Ne D3/4 Xiaomi Mi Lite Ne Xiaomi Mi 11T 11T Pro R3/4 Xiaomi Mi 11T 11T Pro Xiaomi Mi Lite	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Note Lite D3/4 Xiaomi Mi Note Xiaomi Mi Note Pro Xiaomi Mi Poco C40 Xiaomi Mi Poco C65 13C 13C 5G	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Poco C71 Redmi A5 Redmi A7	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Poco C75 14C	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Poco F5 Pro 5G	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Poco M3	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Poco M3 Prdo Redmi Note 5G	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Poco M4 Pro 4G	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Poco M4 Pro 5G Note 5G	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Poco M5 Redmi Note 11E	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Poco M5S	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Poco M6 Pro 4G	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Poco M6 Redmi 4 Xiaomi Mi Poco M6 Pro 4G	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Poco M7 Pro 5G	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Poco X3 Gt	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Poco X3 X3 Pro	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Poco X4 Pro 5G	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Poco X5 5G	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Poco X5 Pro 5G Xiaomi Mi Poco X5 Pro 5G	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Poco X6 5G D3/4 Xiaomi Mi Poco X6 5G Xiaomi Mi Poco X6 Pro 5G R3/4 Xiaomi Mi Poco X6 Pro 5G Xiaomi Mi Poco X7 4G	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Poco X7 Pro 4G	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Poco Xw4 Gt	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Pro	MediaTek/Snapdragon	BROM
+Xiaomi	Mi Se	MediaTek/Snapdragon	BROM
+Xiaomi	Mie A2 Lite Redmi Pro	MediaTek/Snapdragon	BROM
+Xiaomi	Rcedmi Note Pro 4G Xiaomi Redmi Note Pro 4G	MediaTek/Snapdragon	BROM
+Xiaomi	Reddmi 10A	MediaTek/Snapdragon	BROM
+Xiaomi	Redmdi Note 8T	MediaTek/Snapdragon	BROM
+Xiaomi	Redmei Note Pro 4G	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi 10C	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi 13C C65	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi 14C C75	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi 15C	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi 4G	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi 5G	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi 7Wa	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi 9A 9C 9At 9I C3 C31	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi A1 Xiaomi Redmi A1 Plus	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi A2 A2 Plus D3/4 Xiaomi Redmi A3 Redmi A3X Xiaomi Redmi A5 C71 A7 Xiaomi Redmi A7 Pro Xiaomi Redmi Go Redmi 5A	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi K40 Gaming F3 Gt	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi K40 Pro Mi 11I/F3/F4/K40S	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi K50 Gadming F4 Gt	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi K50 Gaming F4 Gt	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi M6	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi Note	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi Note 10S 4G	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi Note 11S 4G	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi Note 4G	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi Note 5G	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi Note 5G Poco F5	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi Note D3/4 Xiaomi Redmi Note 4X Xiaomi Redmi Note Xiaomi Redmi Note Pro Xiaomi Redmi Note Pro	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi Note Pro	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi Note Pro 4G	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi Note Pro 4G 4 Xiaomi Redmi Note 10S 4G	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi Note Pro 5G	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi Note Pro 5G D3/4 Xiaomi Redmi Note Pro 5G Xiaomi Redmi Note Pro Plus 5G R3/4 Xiaomi Redmi Note 12S 4G Xiaomi Redmi Note 12S 4G	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi Note Pro Plus	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi Note Pro Plus 5G	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi Note Prwo 4G	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi Note Prwo 5G	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi Noted Pro 4G	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi Redmi 6A	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi Redmi 8A	MediaTek/Snapdragon	BROM
+Xiaomi	Redmi S2	MediaTek/Snapdragon	BROM
+Xiaomi	Reedmi Note 4G	MediaTek/Snapdragon	BROM
+ZTE	A3 Lite Blade L8 A31 Lite	Unisoc	SPD
+ZTE	A3 Lite L8 A31 Lite	Unisoc	SPD
+ZTE	A31	Unisoc	SPD
+ZTE	A31 Lite	Unisoc	SPD
+ZTE	A320	Unisoc	SPD
+ZTE	A34	Unisoc	SPD
+ZTE	A35 Lifephone Hero	Unisoc	SPD
+ZTE	A35E	Unisoc	SPD
+ZTE	A5 A7	Unisoc	SPD
+ZTE	A54 Zte A55 Lifephone Hero	Unisoc	SPD
+ZTE	A7 Zte A71 A51 Zte A72 4G Zte A72 5G Zte A73 4G	Unisoc	SPD
+ZTE	A7S	Unisoc	SPD
+ZTE	A7S V20 Vita	Unisoc	SPD
+ZTE	L130	Unisoc	SPD
+ZTE	Nubia Focus 5G	Unisoc	SPD
+ZTE	Nubia Focus Pro 5G	Unisoc	SPD
+ZTE	Nubia Neo 5G	Unisoc	SPD
+ZTE	Nubiad Music	Unisoc	SPD
+ZTE	V 5G	Unisoc	SPD
+ZTE	V10 Vita	Unisoc	SPD
+ZTE	V20 Vita A7S	Unisoc	SPD
+ZTE	V2050	Unisoc	SPD
+ZTE	V30 Vita V20 Smart	Unisoc	SPD
+ZTE	V40 Vita	Unisoc	SPD
+ZTE	V50 Desing	Unisoc	SPD
+ZTE	V60	Unisoc	SPD
+ZTE	V60 Desingw	Unisoc	SPD
+ZTE	V60 Smart	Unisoc	SPD
+ZTE	Z812	Unisoc	SPD
+ZTE	Z835 Z851	Unisoc	SPD
+ZTE	Z959	Unisoc	SPD
+ZTE	Z971	Unisoc	SPD
+ZTE	Z983	Unisoc	SPD
