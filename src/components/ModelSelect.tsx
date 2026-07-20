@@ -9,8 +9,8 @@ import type { PhoneModel, ScreenPart } from '@/types'
 
 const BRANDS = [
   'Samsung', 'Xiaomi', 'Tecno', 'Infinix', 'Apple', 'Huawei',
-  'Motorola', 'LG', 'Google', 'Nokia', 'POCO', 'Alcatel', 'ZTE',
-  'Vivo', 'BLU', 'TCL', 'Blackview', 'Umidigi',
+  'Motorola', 'LG', 'Google', 'Nokia', 'POCO', 'Oppo', 'Realme',
+  'OnePlus', 'Vivo', 'Alcatel', 'ZTE', 'BLU', 'TCL', 'Blackview', 'Umidigi',
 ]
 
 interface ModelSelectProps {
