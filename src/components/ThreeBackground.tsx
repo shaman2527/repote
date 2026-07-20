@@ -12,51 +12,48 @@ export function ThreeBackground() {
     const height = container.clientHeight
 
     const scene = new THREE.Scene()
-    const camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000)
+    const camera = new THREE.PerspectiveCamera(60, width / height, 0.1, 1000)
     const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true })
     renderer.setSize(width, height)
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
     container.appendChild(renderer.domElement)
 
-    // Circuit board particles
-    const particleCount = 200
+    // Refined particle field
+    const particleCount = 120
     const positions = new Float32Array(particleCount * 3)
-    const colors = new Float32Array(particleCount * 3)
+    const sizes = new Float32Array(particleCount)
 
     for (let i = 0; i < particleCount; i++) {
-      positions[i * 3] = (Math.random() - 0.5) * 20
-      positions[i * 3 + 1] = (Math.random() - 0.5) * 20
-      positions[i * 3 + 2] = (Math.random() - 0.5) * 10
-
-      colors[i * 3] = 0.23
-      colors[i * 3 + 1] = 0.51
-      colors[i * 3 + 2] = 0.96
+      positions[i * 3] = (Math.random() - 0.5) * 25
+      positions[i * 3 + 1] = (Math.random() - 0.5) * 25
+      positions[i * 3 + 2] = (Math.random() - 0.5) * 15
+      sizes[i] = Math.random() * 0.15 + 0.05
     }
 
     const geometry = new THREE.BufferGeometry()
     geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3))
-    geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3))
+    geometry.setAttribute('size', new THREE.BufferAttribute(sizes, 1))
 
     const material = new THREE.PointsMaterial({
-      size: 0.1,
-      vertexColors: true,
+      color: 0x3b82f6,
+      size: 0.08,
       transparent: true,
-      opacity: 0.6,
+      opacity: 0.4,
       blending: THREE.AdditiveBlending,
+      sizeAttenuation: true,
     })
 
     const particles = new THREE.Points(geometry, material)
     scene.add(particles)
 
-    // Connecting lines
+    // Subtle connecting lines
     const linePositions: number[] = []
-    for (let i = 0; i < 30; i++) {
-      const idx = Math.floor(Math.random() * particleCount)
-      const jdx = Math.floor(Math.random() * particleCount)
-      linePositions.push(
-        positions[idx * 3], positions[idx * 3 + 1], positions[idx * 3 + 2],
-        positions[jdx * 3], positions[jdx * 3 + 1], positions[jdx * 3 + 2],
-      )
+    for (let i = 0; i < 25; i++) {
+      const a = Math.floor(Math.random() * particleCount)
+      const b = Math.floor(Math.random() * particleCount)
+      for (const idx of [a, b]) {
+        linePositions.push(positions[idx * 3], positions[idx * 3 + 1], positions[idx * 3 + 2])
+      }
     }
 
     const lineGeo = new THREE.BufferGeometry()
@@ -64,19 +61,19 @@ export function ThreeBackground() {
     const lineMat = new THREE.LineBasicMaterial({
       color: 0x3b82f6,
       transparent: true,
-      opacity: 0.08,
+      opacity: 0.04,
     })
     const lines = new THREE.LineSegments(lineGeo, lineMat)
     scene.add(lines)
 
-    camera.position.z = 8
+    camera.position.z = 12
 
     let mouseX = 0
     let mouseY = 0
 
     const onMouseMove = (e: MouseEvent) => {
-      mouseX = (e.clientX / width - 0.5) * 2
-      mouseY = (e.clientY / height - 0.5) * 2
+      mouseX = (e.clientX / width - 0.5) * 0.8
+      mouseY = (e.clientY / height - 0.5) * 0.8
     }
 
     window.addEventListener('mousemove', onMouseMove)
@@ -86,13 +83,12 @@ export function ThreeBackground() {
     const animate = () => {
       animId = requestAnimationFrame(animate)
 
+      particles.rotation.y += 0.0008
       particles.rotation.x += 0.0003
-      particles.rotation.y += 0.0005
-      lines.rotation.x = particles.rotation.x
-      lines.rotation.y = particles.rotation.y
+      lines.rotation.set(particles.rotation.x, particles.rotation.y, particles.rotation.z)
 
-      camera.position.x += (mouseX * 0.5 - camera.position.x) * 0.02
-      camera.position.y += (-mouseY * 0.5 - camera.position.y) * 0.02
+      camera.position.x += (mouseX * 2 - camera.position.x) * 0.015
+      camera.position.y += (-mouseY * 2 - camera.position.y) * 0.015
       camera.lookAt(scene.position)
 
       renderer.render(scene, camera)
@@ -115,9 +111,11 @@ export function ThreeBackground() {
       window.removeEventListener('mousemove', onMouseMove)
       window.removeEventListener('resize', handleResize)
       renderer.dispose()
-      container.removeChild(renderer.domElement)
+      if (container.contains(renderer.domElement)) {
+        container.removeChild(renderer.domElement)
+      }
     }
   }, [])
 
-  return <div ref={containerRef} className="fixed inset-0 -z-10 opacity-40" />
+  return <div ref={containerRef} className="fixed inset-0 -z-10 opacity-30" />
 }

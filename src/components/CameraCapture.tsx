@@ -1,5 +1,6 @@
 import { useRef, useState, useCallback } from 'react'
 import { Button } from '@/components/ui/button'
+import { Camera, RotateCcw, X } from 'lucide-react'
 
 interface CameraCaptureProps {
   onCapture: (base64: string) => void
@@ -51,25 +52,38 @@ export function CameraCapture({ onCapture, disabled }: CameraCaptureProps) {
   }, [startCamera])
 
   return (
-    <div className="space-y-2">
+    <div className="space-y-3">
       {!active && !photo && (
-        <Button type="button" variant="outline" onClick={startCamera} disabled={disabled} className="w-full">
-          📸 Tomar Foto
+        <Button type="button" variant="outline" onClick={startCamera} disabled={disabled} className="w-full gap-2 h-12">
+          <Camera className="size-4" />
+          Tomar Foto
         </Button>
       )}
       {active && (
-        <div className="space-y-2">
-          <video ref={videoRef} autoPlay playsInline className="w-full rounded-lg border" />
+        <div className="space-y-3">
+          <div className="rounded-xl overflow-hidden border border-border">
+            <video ref={videoRef} autoPlay playsInline className="w-full" />
+          </div>
           <div className="flex gap-2">
-            <Button type="button" onClick={takePhoto}>Capturar</Button>
-            <Button type="button" variant="ghost" onClick={stopCamera}>Cancelar</Button>
+            <Button type="button" onClick={takePhoto} className="flex-1 gap-2">
+              <Camera className="size-4" />
+              Capturar
+            </Button>
+            <Button type="button" variant="ghost" onClick={stopCamera} className="gap-2">
+              <X className="size-4" />
+            </Button>
           </div>
         </div>
       )}
       {photo && (
-        <div className="space-y-2">
-          <img src={photo} alt="Foto del equipo" className="w-full rounded-lg border" />
-          <Button type="button" variant="outline" size="sm" onClick={retake}>Retomar Foto</Button>
+        <div className="space-y-3">
+          <div className="rounded-xl overflow-hidden border border-border">
+            <img src={photo} alt="Foto del equipo" className="w-full" />
+          </div>
+          <Button type="button" variant="outline" size="sm" onClick={retake} className="gap-2">
+            <RotateCcw className="size-4" />
+            Retomar
+          </Button>
         </div>
       )}
       <canvas ref={canvasRef} className="hidden" />

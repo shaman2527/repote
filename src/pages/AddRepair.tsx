@@ -11,6 +11,18 @@ import { Separator } from '@/components/ui/separator'
 import { ModelSelect } from '@/components/ModelSelect'
 import { CameraCapture } from '@/components/CameraCapture'
 import { useRepairs } from '@/hooks/useRepairs'
+import {
+  Smartphone,
+  Wrench,
+  DollarSign,
+  Camera,
+  FileText,
+  ArrowLeft,
+  Save,
+  X,
+  Cpu,
+  TestTube,
+} from 'lucide-react'
 import type { Repair, ServiceType, FrpMethod, RepairStatus } from '@/types'
 
 const SERVICE_OPTIONS = [
@@ -98,44 +110,63 @@ export default function AddRepair() {
   }
 
   return (
-    <div className="min-h-screen pb-24 md:pb-0 md:ml-64">
-      <div className="container-center p-4 space-y-4">
-        <h1 className="text-2xl font-bold">Registrar Equipo</h1>
+    <div className="min-h-screen pb-28 md:pb-0 md:ml-64">
+      <div className="container-app p-5 space-y-6">
+        {/* Header */}
+        <div className="flex items-center gap-3">
+          <button onClick={() => navigate('/')} className="size-9 rounded-xl bg-secondary/50 flex items-center justify-center hover:bg-secondary transition-colors">
+            <ArrowLeft className="size-4" />
+          </button>
+          <div>
+            <h1 className="text-xl font-bold tracking-tight">Registrar Equipo</h1>
+            <p className="text-sm text-muted-foreground">Nuevo ingreso al taller</p>
+          </div>
+        </div>
 
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form onSubmit={handleSubmit} className="space-y-5">
           {/* Model Selection */}
-          <Card>
-            <CardHeader><CardTitle className="text-lg">Equipo</CardTitle></CardHeader>
+          <Card className="border-0 glass">
+            <CardHeader className="pb-3">
+              <CardTitle className="text-sm font-medium flex items-center gap-2">
+                <Smartphone className="size-4 text-primary" />
+                Equipo
+              </CardTitle>
+            </CardHeader>
             <CardContent className="space-y-4">
               <ModelSelect onSelect={handleModelSelect} />
               <div>
                 <Label>IMEI (opcional)</Label>
-                <Input value={imei} onChange={e => setImei(e.target.value)} placeholder="Ingresa IMEI" maxLength={15} />
+                <Input value={imei} onChange={e => setImei(e.target.value)} placeholder="000000000000000" maxLength={15} className="font-mono" />
               </div>
             </CardContent>
           </Card>
 
           {/* Service */}
-          <Card>
-            <CardHeader><CardTitle className="text-lg">Servicio</CardTitle></CardHeader>
+          <Card className="border-0 glass">
+            <CardHeader className="pb-3">
+              <CardTitle className="text-sm font-medium flex items-center gap-2">
+                <Wrench className="size-4 text-primary" />
+                Servicio
+              </CardTitle>
+            </CardHeader>
             <CardContent className="space-y-4">
               <div>
                 <Label>Tipo de Servicio</Label>
                 <Select options={SERVICE_OPTIONS} value={serviceType} onChange={e => setServiceType(e.target.value as ServiceType)} />
               </div>
-
               <div>
                 <Label>Método FRP</Label>
                 <Select options={FRP_METHODS} value={frpMethod} onChange={e => setFrpMethod(e.target.value as FrpMethod)} />
               </div>
-
               <div className="flex items-center gap-4">
-                <label className="flex items-center gap-2 text-sm">
+                <label className="flex items-center gap-2 text-sm cursor-pointer">
                   <input type="checkbox" checked={hasTestpointFRP} onChange={e => setHasTestpointFRP(e.target.checked)} className="rounded" />
+                  <TestTube className="size-3.5 text-muted-foreground" />
                   Testpoint FRP
                 </label>
-                <label className="flex items-center gap-2 text-sm">
+                <label className="flex items-center gap-2 text-sm cursor-pointer">
                   <input type="checkbox" checked={isSoftware} onChange={e => setIsSoftware(e.target.checked)} className="rounded" />
+                  <Cpu className="size-3.5 text-muted-foreground" />
                   Es Software
                 </label>
               </div>
@@ -143,8 +174,13 @@ export default function AddRepair() {
           </Card>
 
           {/* Status & Price */}
-          <Card>
-            <CardHeader><CardTitle className="text-lg">Estado y Precio</CardTitle></CardHeader>
+          <Card className="border-0 glass">
+            <CardHeader className="pb-3">
+              <CardTitle className="text-sm font-medium flex items-center gap-2">
+                <DollarSign className="size-4 text-primary" />
+                Estado y Precio
+              </CardTitle>
+            </CardHeader>
             <CardContent className="space-y-4">
               <div>
                 <Label>Estado</Label>
@@ -158,8 +194,13 @@ export default function AddRepair() {
           </Card>
 
           {/* Photo */}
-          <Card>
-            <CardHeader><CardTitle className="text-lg">Foto del Equipo</CardTitle></CardHeader>
+          <Card className="border-0 glass">
+            <CardHeader className="pb-3">
+              <CardTitle className="text-sm font-medium flex items-center gap-2">
+                <Camera className="size-4 text-primary" />
+                Foto del Equipo
+              </CardTitle>
+            </CardHeader>
             <CardContent>
               <CameraCapture onCapture={setPhoto} />
             </CardContent>
@@ -167,17 +208,22 @@ export default function AddRepair() {
 
           {/* Notes */}
           <div>
-            <Label>Notas</Label>
-            <Textarea value={notes} onChange={e => setNotes(e.target.value)} placeholder="Notas adicionales..." rows={3} />
+            <Label className="flex items-center gap-2 mb-1.5">
+              <FileText className="size-3.5 text-muted-foreground" />
+              Notas
+            </Label>
+            <Textarea value={notes} onChange={e => setNotes(e.target.value)} placeholder="Observaciones, daños, accesorios..." rows={3} />
           </div>
 
           <Separator />
 
           <div className="flex gap-3">
-            <Button type="submit" disabled={saving} className="flex-1">
+            <Button type="submit" disabled={saving} className="flex-1 gap-2">
+              <Save className="size-4" />
               {saving ? 'Guardando...' : 'Registrar Equipo'}
             </Button>
-            <Button type="button" variant="outline" onClick={() => navigate('/')}>
+            <Button type="button" variant="outline" onClick={() => navigate('/')} className="gap-2">
+              <X className="size-4" />
               Cancelar
             </Button>
           </div>

@@ -3,6 +3,19 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Separator } from '@/components/ui/separator'
+import {
+  Bot,
+  X,
+  Send,
+  Mic,
+  MicOff,
+  MessageSquare,
+  Loader2,
+  Smartphone,
+  Wrench,
+  MonitorSmartphone,
+  Zap,
+} from 'lucide-react'
 
 interface Message {
   role: 'user' | 'assistant'
@@ -14,7 +27,7 @@ const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
 export function AIAssistant() {
   const [open, setOpen] = useState(false)
   const [messages, setMessages] = useState<Message[]>([
-    { role: 'assistant', content: '👋 ¡Hola! Soy el asistente Repote. Pregúntame sobre FRP, flasheo, pantallas o reparación.' },
+    { role: 'assistant', content: '¡Hola! Soy el asistente Repote. Pregúntame sobre FRP, flasheo, pantallas o reparación de teléfonos.' },
   ])
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)
@@ -31,7 +44,7 @@ export function AIAssistant() {
   const startListening = useCallback(() => {
     const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition
     if (!SpeechRecognition) {
-      alert('El reconocimiento de voz no está disponible en este navegador. Usa Chrome en Android o Desktop.')
+      alert('El reconocimiento de voz no está disponible. Usa Chrome.')
       return
     }
     const recognition = new SpeechRecognition()
@@ -43,17 +56,10 @@ export function AIAssistant() {
       const transcript = event.results[0][0].transcript
       setInput(transcript)
       setListening(false)
-      // Auto-send after voice input
-      setTimeout(() => {
-        sendMessage(transcript)
-      }, 500)
+      setTimeout(() => sendMessage(transcript), 500)
     }
 
-    recognition.onerror = () => {
-      setListening(false)
-      alert('Error al reconocer voz. Intenta de nuevo.')
-    }
-
+    recognition.onerror = () => setListening(false)
     recognition.onend = () => setListening(false)
 
     recognitionRef.current = recognition
@@ -86,7 +92,7 @@ export function AIAssistant() {
     } catch {
       setMessages(prev => [...prev, {
         role: 'assistant',
-        content: '⚠️ No pude conectar con el servidor. Asegúrate de que el backend esté corriendo en el puerto 8000, o configúralo con VITE_API_URL.',
+        content: 'No pude conectar con el servidor. Asegúrate de que el backend esté corriendo en :8000.',
       }])
     } finally {
       setLoading(false)
@@ -105,29 +111,32 @@ export function AIAssistant() {
       {/* Floating button */}
       <button
         onClick={() => setOpen(!open)}
-        className="fixed bottom-20 right-4 md:bottom-6 md:right-6 z-50 w-14 h-14 rounded-full bg-primary text-primary-foreground shadow-lg flex items-center justify-center text-2xl hover:bg-primary/90 transition-all"
+        className="fixed bottom-24 right-5 md:bottom-8 md:right-8 z-50 size-12 rounded-2xl bg-primary/90 text-primary-foreground shadow-lg shadow-primary/20 flex items-center justify-center hover:bg-primary transition-all active:scale-95 backdrop-blur-xl"
       >
-        {open ? '✕' : '🤖'}
+        {open ? <X className="size-5" /> : <Bot className="size-5" />}
       </button>
 
       {/* Chat panel */}
       {open && (
-        <Card className="fixed bottom-36 right-4 md:bottom-20 md:right-6 z-50 w-[calc(100vw-2rem)] md:w-96 max-h-[60vh] flex flex-col shadow-2xl border-primary/20">
-          <CardHeader className="p-3 pb-0">
+        <Card className="fixed bottom-40 right-4 md:bottom-24 md:right-8 z-50 w-[calc(100vw-2rem)] md:w-96 max-h-[65vh] flex flex-col shadow-2xl border border-border/50 glass">
+          <CardHeader className="p-4 pb-2">
             <CardTitle className="text-sm flex items-center gap-2">
-              <span>🤖 Asistente Repote</span>
-              {loading && <span className="text-xs text-muted-foreground animate-pulse">pensando...</span>}
+              <div className="size-7 rounded-lg bg-primary/10 flex items-center justify-center">
+                <Bot className="size-4 text-primary" />
+              </div>
+              <span>Asistente Repote</span>
+              {loading && <Loader2 className="size-3.5 text-muted-foreground animate-spin ml-auto" />}
             </CardTitle>
           </CardHeader>
-          <Separator className="my-2" />
-          <CardContent className="p-3 pt-0 flex-1 overflow-y-auto max-h-[40vh] space-y-3">
+          <Separator />
+          <CardContent className="p-3 flex-1 overflow-y-auto max-h-[45vh] space-y-3">
             {messages.map((m, i) => (
               <div key={i} className={`flex ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}>
                 <div
-                  className={`max-w-[85%] rounded-lg px-3 py-2 text-sm whitespace-pre-wrap ${
+                  className={`max-w-[88%] rounded-2xl px-3.5 py-2.5 text-sm leading-relaxed whitespace-pre-wrap ${
                     m.role === 'user'
-                      ? 'bg-primary text-primary-foreground'
-                      : 'bg-secondary text-secondary-foreground'
+                      ? 'bg-primary text-white rounded-tr-md'
+                      : 'bg-secondary/80 rounded-tl-md'
                   }`}
                 >
                   {m.content}
@@ -137,7 +146,7 @@ export function AIAssistant() {
             <div ref={messagesEndRef} />
           </CardContent>
 
-          <div className="p-3 pt-0 border-t border-border">
+          <div className="p-3 pt-2 border-t border-border/50">
             <div className="flex gap-2">
               <Input
                 value={input}
@@ -145,19 +154,24 @@ export function AIAssistant() {
                 onKeyDown={handleKeyDown}
                 placeholder="Pregunta sobre FRP, flasheo..."
                 disabled={loading}
-                className="flex-1"
+                className="flex-1 bg-secondary/30 border-0 h-10 rounded-xl"
               />
               <Button
                 size="icon"
                 onClick={listening ? stopListening : startListening}
                 variant={listening ? 'destructive' : 'outline'}
-                title={listening ? 'Detener grabación' : 'Grabar voz'}
+                className="size-10 rounded-xl"
               >
-                🎤
+                {listening ? <MicOff className="size-4" /> : <Mic className="size-4" />}
               </Button>
-              <Button size="icon" onClick={() => sendMessage()} disabled={loading || !input.trim()}>
-                ➤
+              <Button size="icon" onClick={() => sendMessage()} disabled={loading || !input.trim()} className="size-10 rounded-xl">
+                <Send className="size-4" />
               </Button>
+            </div>
+            <div className="flex items-center gap-3 mt-2 text-[10px] text-muted-foreground">
+              <span className="flex items-center gap-1"><Wrench className="size-3" />FRP</span>
+              <span className="flex items-center gap-1"><MonitorSmartphone className="size-3" />Pantallas</span>
+              <span className="flex items-center gap-1"><Zap className="size-3" />Flasheo</span>
             </div>
           </div>
         </Card>

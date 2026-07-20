@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import { v4 as uuid } from 'uuid'
 import * as db from '@/lib/db'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -11,6 +10,23 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { StatusBadge } from '@/components/StatusBadge'
 import { Separator } from '@/components/ui/separator'
 import { useRepairs } from '@/hooks/useRepairs'
+import {
+  ArrowLeft,
+  ArrowRight,
+  CheckCircle2,
+  Edit3,
+  Save,
+  Trash2,
+  Smartphone,
+  DollarSign,
+  Calendar,
+  Fingerprint,
+  TestTube,
+  Cpu,
+  FileText,
+  Image,
+  Wrench,
+} from 'lucide-react'
 import type { Repair, ServiceType, FrpMethod, RepairStatus } from '@/types'
 
 const SERVICE_OPTIONS = [
@@ -24,13 +40,13 @@ const SERVICE_OPTIONS = [
 
 const FRP_METHODS = [
   { value: '', label: 'N/A' },
-  { value: 'SPD', label: 'SPD (Spreadtrum/Unisoc)' },
-  { value: 'BROM', label: 'BROM (MediaTek)' },
-  { value: 'Testpoint', label: 'Testpoint (Qualcomm)' },
+  { value: 'SPD', label: 'SPD' },
+  { value: 'BROM', label: 'BROM' },
+  { value: 'Testpoint', label: 'Testpoint' },
   { value: 'UMT', label: 'UMT' },
   { value: 'Octoplus', label: 'Octoplus' },
-  { value: 'Bypass', label: 'Bypass Software' },
-  { value: 'EDL', label: 'EDL (Qualcomm)' },
+  { value: 'Bypass', label: 'Bypass' },
+  { value: 'EDL', label: 'EDL' },
 ]
 
 const STATUS_OPTIONS = [
@@ -67,7 +83,7 @@ export default function DetailRepair() {
   }
 
   const handleDelete = async () => {
-    if (confirm('¿Eliminar este equipo definitivamente?')) {
+    if (confirm('Eliminar este equipo permanentemente?')) {
       await remove(repair.id)
       navigate('/list')
     }
@@ -78,9 +94,7 @@ export default function DetailRepair() {
     const idx = flow.indexOf(repair.status)
     if (idx < flow.length - 1) {
       const updated = { ...repair, status: flow[idx + 1] }
-      if (flow[idx + 1] === 'entregado') {
-        updated.dateOut = new Date().toISOString().slice(0, 10)
-      }
+      if (flow[idx + 1] === 'entregado') updated.dateOut = new Date().toISOString().slice(0, 10)
       await update(updated)
       setRepair(updated)
     }
@@ -91,93 +105,102 @@ export default function DetailRepair() {
   }
 
   return (
-    <div className="min-h-screen pb-24 md:pb-0 md:ml-64">
-      <div className="container-center p-4 space-y-4">
-        <div className="flex items-center justify-between">
-          <Button variant="ghost" onClick={() => navigate('/list')}>← Volver</Button>
-          <div className="flex gap-2">
-            <StatusBadge status={repair.status} />
+    <div className="min-h-screen pb-28 md:pb-0 md:ml-64">
+      <div className="container-app p-5 space-y-5">
+        {/* Header */}
+        <div className="flex items-center gap-3">
+          <button onClick={() => navigate('/list')} className="size-9 rounded-xl bg-secondary/50 flex items-center justify-center hover:bg-secondary transition-colors">
+            <ArrowLeft className="size-4" />
+          </button>
+          <div className="flex-1">
+            <div className="flex items-center gap-2">
+              <h1 className="text-xl font-bold tracking-tight">{repair.brand} {repair.modelName}</h1>
+              <StatusBadge status={repair.status} />
+            </div>
           </div>
         </div>
 
-        {/* Quick actions */}
+        {/* Quick Actions */}
         <div className="flex gap-2">
-          <Button onClick={handleStatusAdvance} className="flex-1">
-            {repair.status === 'entregado' ? '✓ Entregado' : `Avanzar a → ${{
-              pendiente: 'En Proceso',
-              en_proceso: 'Completado',
-              completado: 'Entregado',
-            }[repair.status]}`}
+          <Button onClick={handleStatusAdvance} className="flex-1 gap-2 rounded-xl h-11">
+            {repair.status === 'entregado' ? (
+              <><CheckCircle2 className="size-4" /> Entregado</>
+            ) : (
+              <><ArrowRight className="size-4" /> Avanzar a {{
+                pendiente: 'En Proceso',
+                en_proceso: 'Completado',
+                completado: 'Entregado',
+              }[repair.status]}</>
+            )}
           </Button>
-          <Button variant="outline" onClick={() => setEditing(!editing)}>
-            {editing ? 'Cancelar' : 'Editar'}
+          <Button variant="outline" onClick={() => setEditing(!editing)} className="gap-2 rounded-xl">
+            <Edit3 className="size-4" />
           </Button>
         </div>
 
         {/* Photo */}
         {repair.photo && (
-          <Card>
-            <CardContent className="p-2">
-              <img src={repair.photo} alt="Foto del equipo" className="w-full rounded-lg" />
-            </CardContent>
+          <Card className="border-0 glass overflow-hidden">
+            <div className="relative">
+              <img src={repair.photo} alt="Foto del equipo" className="w-full max-h-64 object-cover" />
+              <div className="absolute top-2 right-2 size-7 rounded-lg bg-black/40 backdrop-blur flex items-center justify-center">
+                <Image className="size-3.5 text-white" />
+              </div>
+            </div>
           </Card>
         )}
 
         {/* Details */}
-        <Card>
-          <CardHeader><CardTitle className="text-lg">Detalles del Equipo</CardTitle></CardHeader>
-          <CardContent className="space-y-4">
+        <Card className="border-0 glass">
+          <CardHeader className="pb-3">
+            <CardTitle className="text-sm font-medium flex items-center gap-2">
+              <Smartphone className="size-4 text-primary" />
+              Detalles
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
             <div className="grid grid-cols-2 gap-4 text-sm">
-              <div>
-                <p className="text-muted-foreground">Marca</p>
-                <p className="font-medium">{repair.brand}</p>
-              </div>
-              <div>
-                <p className="text-muted-foreground">Modelo</p>
-                <p className="font-medium">{repair.modelName}</p>
-              </div>
-              <div>
-                <p className="text-muted-foreground">Servicio</p>
-                <p className="font-medium">{repair.serviceType}</p>
-              </div>
-              <div>
-                <p className="text-muted-foreground">Precio</p>
-                <p className="font-medium text-success">${repair.totalPrice.toFixed(2)}</p>
-              </div>
-              <div>
-                <p className="text-muted-foreground">Fecha Entrada</p>
-                <p className="font-medium">{repair.dateIn}</p>
-              </div>
-              {repair.dateOut && (
-                <div>
-                  <p className="text-muted-foreground">Fecha Entrega</p>
-                  <p className="font-medium">{repair.dateOut}</p>
+              {[
+                { icon: Smartphone, label: 'Marca', value: repair.brand },
+                { icon: Smartphone, label: 'Modelo', value: repair.modelName },
+                { icon: Wrench, label: 'Servicio', value: repair.serviceType },
+                { icon: DollarSign, label: 'Precio', value: `$${repair.totalPrice.toFixed(2)}` },
+                { icon: Calendar, label: 'Entrada', value: repair.dateIn },
+                ...(repair.dateOut ? [{ icon: Calendar, label: 'Entrega', value: repair.dateOut }] : []),
+                ...(repair.imei ? [{ icon: Smartphone, label: 'IMEI', value: repair.imei }] : []),
+                ...(repair.frpMethodUsed ? [{ icon: Fingerprint, label: 'Método FRP', value: repair.frpMethodUsed }] : []),
+              ].map((item, i) => (
+                <div key={i} className="p-3 rounded-xl bg-secondary/30">
+                  <div className="flex items-center gap-1.5 text-muted-foreground text-xs mb-1">
+                    <item.icon className="size-3" />
+                    {item.label}
+                  </div>
+                  <p className="font-medium">{item.value}</p>
                 </div>
-              )}
-              {repair.imei && (
-                <div>
-                  <p className="text-muted-foreground">IMEI</p>
-                  <p className="font-mono text-xs">{repair.imei}</p>
-                </div>
-              )}
-              {repair.frpMethodUsed && (
-                <div>
-                  <p className="text-muted-foreground">Método FRP</p>
-                  <p className="font-medium">{repair.frpMethodUsed}</p>
-                </div>
-              )}
+              ))}
             </div>
-            <div className="flex gap-4 text-xs">
-              <span>Testpoint: {repair.hasTestpointFRP ? '✓ Sí' : '✗ No'}</span>
-              <span>Software: {repair.isSoftware ? '✓ Sí' : '✗ No'}</span>
+            <div className="flex gap-4 mt-4 text-xs">
+              <span className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg ${repair.hasTestpointFRP ? 'bg-success/10 text-success' : 'bg-secondary/50 text-muted-foreground'}`}>
+                <TestTube className="size-3" />
+                Testpoint: {repair.hasTestpointFRP ? 'Sí' : 'No'}
+              </span>
+              <span className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg ${repair.isSoftware ? 'bg-primary/10 text-primary' : 'bg-secondary/50 text-muted-foreground'}`}>
+                <Cpu className="size-3" />
+                Software: {repair.isSoftware ? 'Sí' : 'No'}
+              </span>
             </div>
           </CardContent>
         </Card>
 
         {/* Notes */}
         {repair.notes && (
-          <Card>
-            <CardHeader><CardTitle className="text-lg">Notas</CardTitle></CardHeader>
+          <Card className="border-0 glass">
+            <CardHeader className="pb-3">
+              <CardTitle className="text-sm font-medium flex items-center gap-2">
+                <FileText className="size-4 text-primary" />
+                Notas
+              </CardTitle>
+            </CardHeader>
             <CardContent>
               <p className="text-sm whitespace-pre-wrap">{repair.notes}</p>
             </CardContent>
@@ -186,15 +209,20 @@ export default function DetailRepair() {
 
         {/* Edit Mode */}
         {editing && (
-          <Card>
-            <CardHeader><CardTitle className="text-lg">Editar</CardTitle></CardHeader>
+          <Card className="border-0 glass">
+            <CardHeader className="pb-3">
+              <CardTitle className="text-sm font-medium flex items-center gap-2">
+                <Edit3 className="size-4 text-primary" />
+                Editar
+              </CardTitle>
+            </CardHeader>
             <CardContent className="space-y-4">
               <div>
                 <Label>Estado</Label>
                 <Select options={STATUS_OPTIONS} value={repair.status} onChange={e => updateField('status', e.target.value as RepairStatus)} />
               </div>
               <div>
-                <Label>Tipo de Servicio</Label>
+                <Label>Servicio</Label>
                 <Select options={SERVICE_OPTIONS} value={repair.serviceType} onChange={e => updateField('serviceType', e.target.value as ServiceType)} />
               </div>
               <div>
@@ -210,8 +238,14 @@ export default function DetailRepair() {
                 <Textarea value={repair.notes || ''} onChange={e => updateField('notes', e.target.value)} rows={3} />
               </div>
               <div className="flex gap-2">
-                <Button onClick={handleSave} className="flex-1">Guardar Cambios</Button>
-                <Button variant="destructive" onClick={handleDelete}>Eliminar</Button>
+                <Button onClick={handleSave} className="flex-1 gap-2 rounded-xl">
+                  <Save className="size-4" />
+                  Guardar
+                </Button>
+                <Button variant="destructive" onClick={handleDelete} className="gap-2 rounded-xl">
+                  <Trash2 className="size-4" />
+                  Eliminar
+                </Button>
               </div>
             </CardContent>
           </Card>
