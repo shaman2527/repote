@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from '@/components/ui/command'
-import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover'
 import * as db from '@/lib/db'
@@ -23,7 +22,6 @@ interface ModelSelectProps {
 export function ModelSelect({ onSelect, defaultBrand, defaultModel }: ModelSelectProps) {
   const [brand, setBrand] = useState(defaultBrand || '')
   const [models, setModels] = useState<PhoneModel[]>([])
-  const [search, setSearch] = useState(defaultModel || '')
   const [selectedModel, setSelectedModel] = useState(defaultModel || '')
   const [modelOpen, setModelOpen] = useState(false)
 
@@ -35,13 +33,8 @@ export function ModelSelect({ onSelect, defaultBrand, defaultModel }: ModelSelec
     }
   }, [brand])
 
-  const filteredModels = models.filter(m =>
-    m.model.toLowerCase().includes(search.toLowerCase())
-  )
-
   const handleBrandChange = (value: string) => {
     setBrand(value)
-    setSearch('')
     setSelectedModel('')
     onSelect(value, '')
   }
@@ -92,21 +85,16 @@ export function ModelSelect({ onSelect, defaultBrand, defaultModel }: ModelSelec
             </PopoverTrigger>
             <PopoverContent className="w-[var(--radix-popover-trigger-width)] p-0 bg-popover border-border">
               <Command>
-                <CommandInput
-                  placeholder="Escribe para buscar..."
-                  value={search}
-                  onValueChange={setSearch}
-                  className="text-foreground"
-                />
+                <CommandInput placeholder="Buscar modelo..." className="text-foreground" />
                 <CommandList>
                   <CommandEmpty className="text-muted-foreground py-6 text-center text-sm">
-                    Sin resultados para "{search}"
+                    No se encontraron modelos
                   </CommandEmpty>
                   <CommandGroup>
-                    {filteredModels.slice(0, 60).map((m) => (
+                    {models.slice(0, 100).map((m) => (
                       <CommandItem
                         key={m.id}
-                        value={`${m.brand} ${m.model}`}
+                        value={`${m.brand} ${m.model} ${m.model.toLowerCase()} ${m.frpMethod || ''}`}
                         onSelect={() => handleModelSelect(m.model)}
                         className="text-foreground data-[selected=true]:bg-accent data-[selected=true]:text-accent-foreground cursor-pointer"
                       >
