@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#6366f1"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="100" fill="url(#bg)"/>
+  <!-- Circuit traces -->
+  <g stroke="#3b82f6" stroke-width="2" fill="none" opacity="0.3">
+    <path d="M100 100 L150 100 L150 200 L250 200"/>
+    <path d="M412 100 L362 100 L362 200 L262 200"/>
+    <path d="M100 412 L150 412 L150 312 L250 312"/>
+    <path d="M412 412 L362 412 L362 312 L262 312"/>
+    <path d="M256 80 L256 160"/>
+    <path d="M256 432 L256 352"/>
+    <circle cx="256" cy="256" r="80" stroke-width="1"/>
+  </g>
+  <!-- Phone icon -->
+  <g transform="translate(256,246)">
+    <!-- Phone body -->
+    <rect x="-55" y="-90" width="110" height="180" rx="18" fill="#1e293b" stroke="url(#grad)" stroke-width="4"/>
+    <!-- Screen -->
+    <rect x="-45" y="-75" width="90" height="130" rx="8" fill="#0f172a"/>
+    <!-- Circuit nodes on screen -->
+    <circle cx="-20" cy="-40" r="3" fill="#22c55e"/>
+    <circle cx="20" cy="-40" r="3" fill="#22c55e"/>
+    <circle cx="0" cy="0" r="4" fill="#3b82f6"/>
+    <!-- Signal bars -->
+    <g stroke="#22c55e" stroke-width="2" stroke-linecap="round">
+      <line x1="-30" y1="35" x2="-30" y2="25"/>
+      <line x1="-22" y1="35" x2="-22" y2="20"/>
+      <line x1="-14" y1="35" x2="-14" y2="15"/>
+      <line x1="-6" y1="35" x2="-6" y2="25"/>
+    </g>
+    <!-- Home button -->
+    <circle cx="0" cy="85" r="6" fill="none" stroke="url(#grad)" stroke-width="2"/>
+  </g>
+  <!-- Tool/repair icon - wrench -->
+  <g transform="translate(180,130)" stroke="#3b82f6" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M0 20 L20 0 L30 10 L10 30 Z"/>
+    <path d="M10 10 L30 30"/>
+    <circle cx="25" cy="25" r="3" fill="#3b82f6"/>
+  </g>
+  <!-- Small screw icon -->
+  <g transform="translate(340,130)" stroke="#6366f1" stroke-width="3" fill="none">
+    <line x1="0" y1="10" x2="20" y2="10"/>
+    <line x1="10" y1="0" x2="10" y2="20"/>
+    <circle cx="10" cy="10" r="10"/>
+  </g>
+</svg>
