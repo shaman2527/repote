@@ -25,14 +25,12 @@ import {
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
-  LineChart,
-  Line,
   AreaChart,
   Area,
 } from 'recharts'
 import type { Repair } from '@/types'
 
-function MiniList({ repairs, title }: { repairs: Repair[]; title: string }) {
+function MiniList({ repairs, title: _title }: { repairs: Repair[]; title: string }) {
   if (repairs.length === 0) return <p className="text-sm text-muted-foreground py-6 text-center">Sin equipos</p>
   return (
     <div className="space-y-1">

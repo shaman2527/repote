@@ -13,7 +13,6 @@ import {
   Smartphone,
   ArrowRight,
   Check,
-  Filter,
 } from 'lucide-react'
 import type { Repair, RepairStatus } from '@/types'
 

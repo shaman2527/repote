@@ -9,9 +9,7 @@ import {
   Send,
   Mic,
   MicOff,
-  MessageSquare,
   Loader2,
-  Smartphone,
   Wrench,
   MonitorSmartphone,
   Zap,
@@ -34,12 +32,17 @@ export function AIAssistant() {
   const [listening, setListening] = useState(false)
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const recognitionRef = useRef<any>(null)
+  const sendMessageRef = useRef<typeof sendMessage>(null)
 
   const scrollToBottom = useCallback(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
   }, [])
 
   useEffect(() => { scrollToBottom() }, [messages, scrollToBottom])
+
+  useEffect(() => {
+    sendMessageRef.current = sendMessage
+  })
 
   const startListening = useCallback(() => {
     const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition
@@ -56,7 +59,7 @@ export function AIAssistant() {
       const transcript = event.results[0][0].transcript
       setInput(transcript)
       setListening(false)
-      setTimeout(() => sendMessage(transcript), 500)
+      setTimeout(() => sendMessageRef.current?.(transcript), 500)
     }
 
     recognition.onerror = () => setListening(false)

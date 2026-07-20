@@ -8,7 +8,6 @@ import { Separator } from '@/components/ui/separator'
 import { ChartContainer, chartColors } from '@/components/ui/chart'
 import * as XLSX from 'xlsx'
 import {
-  Download,
   FileSpreadsheet,
   FileText,
   Calendar as CalendarIcon,
@@ -28,7 +27,6 @@ import {
   PieChart,
   Pie,
   Cell,
-  Legend,
 } from 'recharts'
 
 export default function Report() {

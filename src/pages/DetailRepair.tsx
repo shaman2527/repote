@@ -8,7 +8,6 @@ import { Textarea } from '@/components/ui/textarea'
 import { Select } from '@/components/ui/select'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { StatusBadge } from '@/components/StatusBadge'
-import { Separator } from '@/components/ui/separator'
 import { useRepairs } from '@/hooks/useRepairs'
 import {
   ArrowLeft,

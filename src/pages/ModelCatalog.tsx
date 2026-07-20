@@ -4,7 +4,7 @@ import { Card, CardContent } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
 import { Select } from '@/components/ui/select'
-import { Search, BookOpen, Cpu, Hash } from 'lucide-react'
+import { Search, BookOpen, Cpu } from 'lucide-react'
 import type { PhoneModel } from '@/types'
 
 const BRAND_OPTIONS = [
