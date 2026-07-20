@@ -1,3 +1,13 @@
+/**
+ * Repote — Capa de persistencia (IndexedDB)
+ *
+ * Proporciona una API asíncrona sobre IndexedDB usando la librería `idb`.
+ * Almacena 4 colecciones: repairs, models, screens, screenCompatibility.
+ *
+ * Los datos seed (modelos y pantallas) se cargan automáticamente
+ * la primera vez que se inicializa la base de datos.
+ */
+
 import { openDB, type IDBPDatabase } from 'idb'
 import type { Repair, PhoneModel, ScreenPart } from '@/types'
 
@@ -34,6 +44,9 @@ export async function getDB() {
   return dbInstance
 }
 
+/**
+ * Seed data: carga modelos iniciales si la tabla está vacía
+ */
 export async function seedModels(models: PhoneModel[]) {
   const db = await getDB()
   const tx = db.transaction('models', 'readwrite')
@@ -58,7 +71,10 @@ export async function seedScreens(screens: ScreenPart[]) {
   await tx.done
 }
 
+// ──────────────────────────────────────────
 // Repairs CRUD
+// ──────────────────────────────────────────
+
 export async function getAllRepairs(): Promise<Repair[]> {
   const db = await getDB()
   return db.getAll('repairs')
@@ -84,6 +100,7 @@ export async function deleteRepair(id: string) {
   return db.delete('repairs', id)
 }
 
+/** Elimina todos los registros de reparaciones */
 export async function clearAllRepairs() {
   const db = await getDB()
   await db.clear('repairs')
@@ -94,7 +111,10 @@ export async function getRepairsByStatus(status: string): Promise<Repair[]> {
   return db.getAllFromIndex('repairs', 'status', status)
 }
 
+// ──────────────────────────────────────────
 // Models
+// ──────────────────────────────────────────
+
 export async function getAllModels(): Promise<PhoneModel[]> {
   const db = await getDB()
   return db.getAll('models')
@@ -105,7 +125,10 @@ export async function getModelsByBrand(brand: string): Promise<PhoneModel[]> {
   return db.getAllFromIndex('models', 'brand', brand)
 }
 
+// ──────────────────────────────────────────
 // Screens
+// ──────────────────────────────────────────
+
 export async function getAllScreens(): Promise<ScreenPart[]> {
   const db = await getDB()
   return db.getAll('screens')

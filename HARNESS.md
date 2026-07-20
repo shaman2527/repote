@@ -1,90 +1,186 @@
-# Harness Engineering — Repote PWA
+# Harness Engineering — Repote
 
 ## ¿Qué es Harness Engineering?
 
-Harness Engineering es el framework de orquestación para proyectos profesionales de software. Este documento define el harness que controla, automatiza y estandariza todo el ciclo de vida del proyecto Repote.
-
-## Pilares del Harness
-
-### 1. CI/CD Pipeline (GitHub Actions)
-- **Push a main** → Lint → Build → Deploy a GitHub Pages
-- Automatización completa sin intervención manual
-
-### 2. Calidad de Código
-- **TypeScript estricto**: tipado fuerte en toda la base de código
-- **Oxlint**: linter rápido
-- **Arquitectura**: lib → hooks → pages → components
-
-### 3. PWA Mobile-First
-- Offline-first con IndexedDB (idb)
-- Service Worker con Workbox
-- Instalable en Android/iOS/Desktop
-- Bottom nav mobile + sidebar desktop
-
-### 4. Datos
-- **Fase 1**: IndexedDB local (actual)
-- **Fase 2**: Supabase cloud (migración planificada)
-- Seed data automático al primer inicio:
-  - 200+ modelos con métodos FRP
-  - 658 pantallas con precios (extraído del PDF)
-
-### 5. UI/UX
-- **shadcn/ui** + Tailwind CSS v4 (tema oscuro)
-- **Three.js** fondo 3D interactivo en Dashboard
-- **Splide.js** sliders
-
-### 6. AI Assistant (DeepSeek + FastAPI)
-- Backend FastAPI para consultas técnicas
-- DeepSeek API para respuestas IA sobre FRP y reparación
-- Speech-to-text con Web Speech API
-- Fallback rule-based cuando no hay API key
-
-### 7. Comandos del Harness
-
-```bash
-# Frontend
-npm run dev           # Desarrollo
-npm run build         # Build producción
-npm run lint          # Linting
-npm run preview       # Preview build
-npm run setup         # Instalación completa + íconos
-
-# Backend (AI Assistant)
-cd backend
-pip install -r requirements.txt
-cp .env.example .env  # Configurar DEEPSEEK_API_KEY
-python main.py        # Inicia en :8000
-```
-
-## Estructura del Proyecto
-
-```
-repote-personal-software-frp/
-├── .github/workflows/ci.yml   # CI/CD
-├── backend/                    # FastAPI + DeepSeek
-├── data/                       # PDF extraído
-├── scripts/                    # Herramientas
-├── src/
-│   ├── components/ui/          # shadcn/ui
-│   ├── components/             # Custom (AIAssistant, ThreeBackground, etc.)
-│   ├── pages/                  # Dashboard, AddRepair, ListRepairs, etc.
-│   ├── hooks/                  # useRepairs, useDebounce
-│   ├── lib/                    # db.ts, seed-models.ts
-│   └── data/                   # screen_catalog.json (658 screens)
-└── public/icons/               # PWA icons
-```
-
-## Roadmap
-
-| Fase | Estado | Descripción |
-|------|--------|-------------|
-| 1. Core App | ✅ | Scaffold, routing, PWA, DB |
-| 2. Modelos | ✅ | 200+ modelos con métodos FRP |
-| 3. Pantallas | ✅ | 658 pantallas desde PDF con precios |
-| 4. AI Assistant | ✅ | FastAPI + DeepSeek + voz |
-| 5. Supabase | 📋 | Migración a nube |
-| 6. Compatibilidad | 📋 | Matching pantallas ↔ modelos |
+Es el framework de orquestación que controla, automatiza y estandariza todo el ciclo de vida del proyecto Repote. Cada aspecto del proyecto —código, CI/CD, datos, UI, testing— está orquestado por este harness.
 
 ---
 
-*Harness Engineering v1.1 — Proyecto Repote*
+## 1. CI/CD Pipeline
+
+```yaml
+# .github/workflows/ci.yml
+on: push → main
+  jobs:
+    build: lint → build → upload artifact
+    deploy: deploy to GitHub Pages
+```
+
+- **Push a main** → Lint (oxlint) → Build (Vite) → Deploy (Vercel automático)
+- **Vercel** conectado al repo GitHub, deploy automático en cada push
+- **URL producción:** https://repote.vercel.app
+
+---
+
+## 2. Arquitectura
+
+```
+Frontend (Vite + React) ─→ IndexedDB (local)
+                         ─→ FastAPI (IA opcional) ─→ DeepSeek API
+```
+
+### Mobile-First PWA
+- Offline-first con IndexedDB
+- Service Worker con Workbox (12 assets precacheados, ~1.7MB)
+- Instalable en Android/iOS/Desktop
+- Diseño responsive: bottom nav mobile + sidebar desktop (>768px)
+
+---
+
+## 3. Calidad de Código
+
+| Herramienta | Uso |
+|---|---|
+| TypeScript 6 | Tipado estricto en toda la base |
+| Oxlint | Linter rápido (<1s) |
+| shadcn/ui | Componentes atómicos con Radix UI |
+| Tailwind v4 | Utilidades + tema oscuro profesional |
+
+### Reglas del Harness
+- `@/` path alias para imports
+- `cn()` de `clsx` + `tailwind-merge` para clases condicionales
+- No emojis en UI — solo Lucide icons
+- Componentes shadcn manuales (CLI no funciona en Windows por EPERM)
+
+---
+
+## 4. Datos
+
+### Persistencia
+- **Fase 1 (actual):** IndexedDB con `idb` — local, offline, sin servidor
+- **Fase 2 (futura):** Supabase — nube, multi-dispositivo, auth
+
+### Seed Data (automático al primer inicio)
+
+| Dataset | Cantidad | Fuente |
+|---|---|---|
+| Phone models | ~500 | Hardcodeado + datos Venezuela |
+| Screen catalog | 658 | Extraído de PDF CELL WORLD |
+| FRP methods | Por chipset | Asignado por modelo |
+
+### IndexedDB Stores
+- `repairs` — equipos registrados
+- `models` — catálogo de modelos
+- `screens` — catálogo de pantallas
+- `screenCompatibility` — compatibilidad (futuro)
+
+---
+
+## 5. UI / Design System
+
+### Tema
+- **Fondo:** `#0a0a0f` (casi negro)
+- **Cards:** `#14141a` con glassmorphism (`backdrop-filter: blur(20px)`)
+- **Acento:** `#3b82f6` (azul)
+- **Texto:** `#f5f5f7`
+- **Muted:** `#8e8e93`
+- **Tipografía:** `-apple-system, SF Pro Display, Inter`
+
+### Componentes shadcn/ui implementados
+
+| Componente | Base | Props |
+|---|---|---|
+| Button | Radix Slot | variant (6), size (8), asChild |
+| Card | div simple | Header, Title, Description, Content, Footer |
+| Select | Radix Root | Trigger, Content, Group, Item, Value |
+| Badge | CVA | variant (7), asChild |
+| Input | input nativo | — |
+| Textarea | textarea nativo | — |
+| Label | label nativo | — |
+| Separator | div | orientation |
+| Dialog | Radix Root | Content, Header, Title, Description, Footer |
+| Command | cmdk | Input, List, Empty, Group, Item |
+| Chart | div wrapper | + Recharts (Area, Bar, Pie) |
+
+---
+
+## 6. Páginas y Rutas
+
+| Ruta | Página | Componente clave |
+|---|---|---|
+| `/` | Dashboard | ThreeBackground + Recharts + StatsCard |
+| `/add` | Registrar | ModelSelect + CameraCapture |
+| `/list` | Lista | StatusBadge + Dialog (confirmación) |
+| `/detail/:id` | Detalle | StatusBadge + Edit mode |
+| `/report` | Reportes | Recharts (Bar/Pie) + SheetJS export |
+| `/screens` | Pantallas | Screen search + brand filter |
+| `/models` | Modelos | Model search + FRP badges |
+
+---
+
+## 7. AI Assistant
+
+```
+Frontend (Web Speech API) ─→ FastAPI ─→ DeepSeek API (opcional)
+                                   └→ Rule-based fallback
+```
+
+- **Speech-to-text:** Web Speech API (Chrome Android/Desktop)
+- **Backend:** FastAPI en `backend/main.py`
+- **Modelo:** deepseek-chat (deepseek-v3)
+- **Costo:** ~$0.14/1M input tokens, $0.28/1M output tokens
+- **Sin API key:** Fallback rule-based con FRP knowledge base
+
+---
+
+## 8. Comandos
+
+```bash
+# Frontend
+npm run dev              # Desarrollo :5173
+npm run build            # Build producción
+npm run preview          # Preview build
+npm run lint             # Oxlint
+npm run setup            # Instalación completa
+npm run icons:generate   # Regenerar icons PWA
+
+# Backend IA
+cd backend
+pip install -r requirements.txt
+python main.py           # API :8000
+```
+
+---
+
+## 9. Roadmap
+
+| Fase | Estado | Descripción |
+|---|---|---|
+| 1. Core App | ✅ | React + Vite + PWA + IndexedDB |
+| 2. Modelos | ✅ | 500+ modelos con FRP method |
+| 3. Pantallas | ✅ | 658 screens with prices from PDF |
+| 4. Dashboard | ✅ | Three.js + Recharts + Stats |
+| 5. AI Assistant | ✅ | FastAPI + DeepSeek + Voz |
+| 6. Rediseño | ✅ | Apple-style + glassmorphism |
+| 7. Error Recovery | ✅ | ErrorBoundary + WebGL check |
+| 8. CI/CD | ✅ | GitHub Actions + Vercel |
+| 9. Supabase | 📋 | Migración a nube |
+| 10. Compatibilidad | 📋 | Pantallas ↔ modelos |
+
+---
+
+## 10. Composición del Repo
+
+```
+repote/ (7.8 MB, 60+ archivos)
+├── src/          (45 archivos TSX/TS/CSS)
+├── backend/      (3 archivos Python)
+├── public/       (4 archivos: SVG + PNG)
+├── scripts/      (5 scripts Python/JS)
+├── data/         (2 archivos: JSON + TXT)
+└── configs       (vite, ts, vercel, github, tailwind)
+```
+
+---
+
+*Harness Engineering v2.0 — Repote*

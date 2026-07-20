@@ -1,3 +1,13 @@
+/**
+ * Repote — Tipos de datos principales
+ *
+ * Define las estructuras de datos utilizadas en toda la aplicación:
+ *  - Repair: registro de reparación de un equipo
+ *  - PhoneModel: catálogo de modelos con método FRP
+ *  - ScreenPart: catálogo de pantallas con precios
+ *  - DailyStats: estadísticas calculadas del dashboard
+ */
+
 export interface PhoneModel {
   id: string
   brand: string
@@ -17,23 +27,16 @@ export interface ScreenPart {
   id: string
   brand: string
   model: string
-  screenType: string
-  wholesalePrice: number
-  retailPrice: number
+  screenType: string       // INCELL | OLED | AMOLED | ORIGINAL CON MARCO | etc.
+  wholesalePrice: number   // Precio MAYOR (USD)
+  retailPrice: number      // Precio DETAL (USD)
   stockStatus: 'disponible' | 'agotado'
-  notes?: string
-}
-
-export interface ScreenCompatibility {
-  id: string
-  originalModelId: string
-  compatibleScreenId: string
   notes?: string
 }
 
 export interface Repair {
   id: string
-  dateIn: string
+  dateIn: string           // ISO date (YYYY-MM-DD)
   dateOut?: string
   brand: string
   modelName: string
@@ -49,7 +52,7 @@ export interface Repair {
   price: number
   totalPrice: number
   status: RepairStatus
-  photo?: string
+  photo?: string           // base64 JPEG
   notes?: string
   createdAt: string
   updatedAt: string
