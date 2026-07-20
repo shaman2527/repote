@@ -1,0 +1,5924 @@
+[
+  {
+    "brand": "Alcatel",
+    "model": "1V",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "2e39f151-61c9-4c60-b439-9c5ecb8541b1"
+  },
+  {
+    "brand": "Alcatel",
+    "model": "1B",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "f67f0267-43ea-4fc5-ab75-1a24fc48e5cf"
+  },
+  {
+    "brand": "Alcatel",
+    "model": "1X",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "ca40935a-d9c9-43ce-af99-1e27ca82e4da"
+  },
+  {
+    "brand": "Alcatel",
+    "model": "1S 2W019",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "86c4ec35-d0ec-4734-8611-63d6d63a2069"
+  },
+  {
+    "brand": "Alcatel",
+    "model": "1S",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "52d828da-a6b7-45be-811a-cdc0c567e168"
+  },
+  {
+    "brand": "Alcatel",
+    "model": "1SE",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "afe20ada-b054-4bce-9f51-3e84780c8b9b"
+  },
+  {
+    "brand": "Alcatel",
+    "model": "3X ALCATEL",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "1ef759e5-df7f-4cf7-8cd6-d65481561874"
+  },
+  {
+    "brand": "Alcatel",
+    "model": "3X",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "34929530-146b-4903-bc3b-75b8764f4a45"
+  },
+  {
+    "brand": "Blackview",
+    "model": "A100 KRIP K68",
+    "screenType": "3/4",
+    "wholesalePrice": 15.0,
+    "retailPrice": 18.75,
+    "stockStatus": "disponible",
+    "id": "58d6dcfa-227c-48a9-b43a-1a57f7870c3a"
+  },
+  {
+    "brand": "Blackview",
+    "model": "A70",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "4bf0192c-5bd9-4745-9534-3d7379152740"
+  },
+  {
+    "brand": "Blackview",
+    "model": "A80",
+    "screenType": "3/4",
+    "wholesalePrice": 15.0,
+    "retailPrice": 18.75,
+    "stockStatus": "disponible",
+    "id": "1dad4c5b-439b-4b2a-b55e-9243093fc2da"
+  },
+  {
+    "brand": "Blackview",
+    "model": "A80 PLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 15.0,
+    "retailPrice": 18.75,
+    "stockStatus": "disponible",
+    "id": "ae126cd4-7759-445f-b289-c9417d1ad45e"
+  },
+  {
+    "brand": "Blackview",
+    "model": "A90",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "agotado",
+    "id": "4e375e60-47fe-4806-9a14-5e58d70063ec"
+  },
+  {
+    "brand": "Blackview",
+    "model": "BV5100",
+    "screenType": "3/4",
+    "wholesalePrice": 15.0,
+    "retailPrice": 18.75,
+    "stockStatus": "disponible",
+    "id": "86d842b5-8a5f-4e1a-a8a9-b84a61367270"
+  },
+  {
+    "brand": "Blackview",
+    "model": "BV6600",
+    "screenType": "3/4",
+    "wholesalePrice": 15.0,
+    "retailPrice": 18.75,
+    "stockStatus": "disponible",
+    "id": "db106f13-d066-4486-aa15-fc88ed735be9"
+  },
+  {
+    "brand": "BLU",
+    "model": "G50",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "ef7e8896-b0e9-47a8-9cc9-b5d111acd8ad"
+  },
+  {
+    "brand": "BLU",
+    "model": "G50 PLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 19.0,
+    "retailPrice": 23.75,
+    "stockStatus": "disponible",
+    "id": "82a5f0ff-82c4-4ef8-8b27-643cfe9d4489"
+  },
+  {
+    "brand": "BLU",
+    "model": "G51 PLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "51a49b59-1c80-4c1a-aa2e-401798b23c7f"
+  },
+  {
+    "brand": "BLU",
+    "model": "G53",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "agotado",
+    "id": "a1cd396f-51cb-4ad7-8e1c-8ea3a8376b64"
+  },
+  {
+    "brand": "Vivo",
+    "model": "X6 V70",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "670eb308-1a55-498f-b628-27a9c7d5a640"
+  },
+  {
+    "brand": "BLU",
+    "model": "G61",
+    "screenType": "3/4",
+    "wholesalePrice": 14.0,
+    "retailPrice": 17.5,
+    "stockStatus": "disponible",
+    "id": "82c2d789-ed9e-4395-a383-e27a76f227a0"
+  },
+  {
+    "brand": "BLU",
+    "model": "G61 PLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 14.0,
+    "retailPrice": 17.5,
+    "stockStatus": "disponible",
+    "id": "7f865d2d-ff6b-429f-8e71-8a4afde9c813"
+  },
+  {
+    "brand": "BLU",
+    "model": "G70",
+    "screenType": "3/4",
+    "wholesalePrice": 19.0,
+    "retailPrice": 23.75,
+    "stockStatus": "disponible",
+    "id": "0b9af467-30fa-4f63-93cd-4c1e6e98567a"
+  },
+  {
+    "brand": "BLU",
+    "model": "G71 PLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 15.0,
+    "retailPrice": 18.75,
+    "stockStatus": "disponible",
+    "id": "e022ce43-6744-4a74-bc72-88271295e881"
+  },
+  {
+    "brand": "BLU",
+    "model": "G73 G73L HONWOR X7",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "edb50633-6a14-44b5-8a10-eb577403f24f"
+  },
+  {
+    "brand": "BLU",
+    "model": "G8",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "f1ccea0f-ed68-476c-89a6-1584d3413b14"
+  },
+  {
+    "brand": "BLU",
+    "model": "G80 V90",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "f85b5075-3f03-4edd-9240-2154bbc5a4bb"
+  },
+  {
+    "brand": "BLU",
+    "model": "G90",
+    "screenType": "3/4",
+    "wholesalePrice": 15.0,
+    "retailPrice": 18.75,
+    "stockStatus": "disponible",
+    "id": "5a8ffbfe-7d06-4bae-a69c-1ce25e0c5d3f"
+  },
+  {
+    "brand": "BLU",
+    "model": "G91",
+    "screenType": "3/4",
+    "wholesalePrice": 15.0,
+    "retailPrice": 18.75,
+    "stockStatus": "disponible",
+    "id": "3a402ec6-fa75-4124-8b60-f72f85e7c1ca"
+  },
+  {
+    "brand": "BLU",
+    "model": "G91 PRO",
+    "screenType": "3/4",
+    "wholesalePrice": 15.0,
+    "retailPrice": 18.75,
+    "stockStatus": "disponible",
+    "id": "6927e7f3-1cd1-4607-8464-3c67189ca8bc"
+  },
+  {
+    "brand": "BLU",
+    "model": "G91S",
+    "screenType": "3/4",
+    "wholesalePrice": 15.0,
+    "retailPrice": 18.75,
+    "stockStatus": "disponible",
+    "id": "afe74688-1a79-425d-8ccb-23d5f0a1b9b3"
+  },
+  {
+    "brand": "Google",
+    "model": "GOOGLE PIXEL PRO R3/4 GOOGLE PIXEL 6A GOOGLE PIXEL",
+    "screenType": "OLED",
+    "wholesalePrice": 60.0,
+    "retailPrice": 75.0,
+    "stockStatus": "agotado",
+    "id": "616ce98e-27e3-4ae2-8ae0-8ffd5fe3d475"
+  },
+  {
+    "brand": "Google",
+    "model": "PRO",
+    "screenType": "OLED",
+    "wholesalePrice": 40.0,
+    "retailPrice": 50.0,
+    "stockStatus": "disponible",
+    "id": "f031e4b7-80cf-4c1b-b058-f636a1ee6e0c"
+  },
+  {
+    "brand": "Google",
+    "model": "7A",
+    "screenType": "OLED",
+    "wholesalePrice": 75.0,
+    "retailPrice": 93.75,
+    "stockStatus": "disponible",
+    "id": "d962ce0e-53cd-4413-a2c2-5e45fc779672"
+  },
+  {
+    "brand": "Google",
+    "model": "8A",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 120.0,
+    "retailPrice": 150.0,
+    "stockStatus": "disponible",
+    "id": "3e757cb8-931f-44ad-aa03-8d03797d4e97"
+  },
+  {
+    "brand": "Google",
+    "model": "PRO",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 120.0,
+    "retailPrice": 150.0,
+    "stockStatus": "disponible",
+    "id": "0b07d1e7-9ff2-4ad6-87b9-36dbee618d34"
+  },
+  {
+    "brand": "Huawei",
+    "model": "GR3 ENJOY 5S",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "e8a3f339-d6c7-48eb-a8f3-825203d3f5f2"
+  },
+  {
+    "brand": "Huawei",
+    "model": "GR5",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "a803600a-33ee-4ebf-b44c-7cb0090aa9cd"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR LITE 20i LITE",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "c943545b-e6d0-4d45-bf43-6b26c4c659ba"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR 5G",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 30.0,
+    "retailPrice": 37.5,
+    "stockStatus": "disponible",
+    "id": "b3d79eab-27d8-4cf9-8646-17f49fd6433c"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR LITE 5G",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 28.0,
+    "retailPrice": 35.0,
+    "stockStatus": "agotado",
+    "id": "f8790d2a-5838-4f98-b3c3-6218f9822334"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR PRO 4G",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 45.0,
+    "retailPrice": 56.25,
+    "stockStatus": "disponible",
+    "id": "1a4bd794-6983-4fb0-a73a-e277880c5e01"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR PRO 5G",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 45.0,
+    "retailPrice": 56.25,
+    "stockStatus": "disponible",
+    "id": "3f7882ea-88b3-462a-bc8b-880c4de38e8a"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR LITE 5WG",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 32.0,
+    "retailPrice": 40.0,
+    "stockStatus": "agotado",
+    "id": "7422eac1-d43b-4806-876d-b142b91173ee"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR LITE NOVA 8I",
+    "screenType": "3/4",
+    "wholesalePrice": 15.0,
+    "retailPrice": 18.75,
+    "stockStatus": "disponible",
+    "id": "6c53fe9c-3a6f-4ab1-8560-5fee53f4b388"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR 8C",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "609e9abe-c87d-460c-8055-f5bd657c0a0b"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR 8X HONOR 9X LITE",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "664d8afd-4115-4499-8f01-2a9210e3fd9b"
+  },
+  {
+    "brand": "Huawei",
+    "model": "9X",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "111318ac-d50c-489c-9b41-9bb6e434d08c"
+  },
+  {
+    "brand": "Huawei",
+    "model": "4G HONOR MAGIC LITE 5G",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 19.0,
+    "retailPrice": 23.75,
+    "stockStatus": "disponible",
+    "id": "b0cfaa8c-bf22-4395-b47c-781f91026d1c"
+  },
+  {
+    "brand": "Huawei",
+    "model": "MAGIC LITE 5G X9A X40 D3/4 HONOR MAGIC LITE 5G HONOR MAGIC LITE 5G X9B R3/4 HONOR MAGIC LITE 5G HONOR MAGIC LITE 5G X9C",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 40.0,
+    "retailPrice": 50.0,
+    "stockStatus": "disponible",
+    "id": "0ecf1416-06da-4b40-9083-b2e70b466d8b"
+  },
+  {
+    "brand": "Huawei",
+    "model": "MAGIC LITE 5G",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 40.0,
+    "retailPrice": 50.0,
+    "stockStatus": "disponible",
+    "id": "2fa5619e-7e48-4067-9678-c9453f07e87d"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR PLAY",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "ff29643d-526c-4ff1-85e1-5bd61f60e92c"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR PLAY 9A",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "5a8740cc-83a5-4e67-a0cc-4a77bc13fc54"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR X5B",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "288dd31d-fa7d-4616-b95b-87e8b2a2e2c6"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONDOR X5B PLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "3cb4fb41-0d68-4252-ac2a-281988a36f2d"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR X5C",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "4b631b2e-dae1-47e9-9262-ea4a075f4e8d"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR X5C PLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "954f9f67-c5b7-4d2d-a684-3ce6a5bf6154"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR X6",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "7c5b6d89-77c2-4390-a70c-fd54aa97ddd0"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR X6A",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "0333ee62-8d58-4e94-b770-042a6a057716"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR X6A PLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "7854b584-45dc-4c76-ab25-07272f769fcd"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR X6B",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "978833c9-82c7-4d58-9f35-e75993269fff"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR X6B PLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "e448f0fc-5d8e-4948-bcdc-d3a37f9240fb"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR X6C",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "2b475db5-b360-458b-abe9-0d1a4c57c929"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR X6S",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "f3eefe67-dfb8-416f-9c16-5449c3b40d0b"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR X7 BLU G73L BLU G73",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "bd3a314d-5714-48bf-a84b-9fef2f596fcd"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR XW7A",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "3a801f81-e388-493b-ba26-668e3a057de0"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR X7B",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "8db68644-6f7f-49ae-b699-31b3def77ca4"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR X7C",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "4dd5914e-d1be-44b0-9bbc-daee1542d73d"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR X7D",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "3cf59a91-16c1-4346-ba5e-699beb6ad49a"
+  },
+  {
+    "brand": "Huawei",
+    "model": "X8",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "d077cb6a-ef8a-40fc-b59a-fd94ecaad0a5"
+  },
+  {
+    "brand": "Huawei",
+    "model": "CHONOR X8A HONOR LITE HUAWEI HONOR X8B",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 30.0,
+    "retailPrice": 37.5,
+    "stockStatus": "disponible",
+    "id": "5f5e97aa-d6ff-445e-a2b4-a5a94e808e62"
+  },
+  {
+    "brand": "Huawei",
+    "model": "HONOR X8C D3/4 HUAWEI HONOR X8D HUAWEI HONOR X9 MAGIC LITE R3/4 HUAWEI MATE LITE P SMART PLUS NOVA HUAWEI MATE PRO",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 90.0,
+    "retailPrice": 112.5,
+    "stockStatus": "disponible",
+    "id": "0985d5de-443e-46fc-a0e9-c4f98b31b20c"
+  },
+  {
+    "brand": "Huawei",
+    "model": "MATE PRO",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 145.0,
+    "retailPrice": 181.3,
+    "stockStatus": "disponible",
+    "id": "85008cc5-54d3-4ac0-bb36-a727c891ef5a"
+  },
+  {
+    "brand": "Huawei",
+    "model": "MATE",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "94d24c02-a6f6-49c0-a86e-503cde017c85"
+  },
+  {
+    "brand": "Huawei",
+    "model": "MATE LITE HONOR 6X HONOR 5A",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "bdf2b72e-5155-49cf-9e15-1629d9571665"
+  },
+  {
+    "brand": "Huawei",
+    "model": "MATE SDE HONOR 7X",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "4b7e4303-5c36-44be-a784-fa19788d1ec2"
+  },
+  {
+    "brand": "Huawei",
+    "model": "NOVA",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "b4fddf89-3881-4d07-96e1-6e129bd483bc"
+  },
+  {
+    "brand": "Huawei",
+    "model": "NOVA 5T HONOR 20S",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "a2d7174e-106a-4798-a896-08f4312eef43"
+  },
+  {
+    "brand": "Huawei",
+    "model": "NOVA SE",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "72232ed7-df48-49fe-9a2c-5760b5d75921"
+  },
+  {
+    "brand": "Huawei",
+    "model": "NOVA Y60",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "63a3bbd5-b950-4d89-9396-4e8fb14f0266"
+  },
+  {
+    "brand": "Huawei",
+    "model": "NOVA Y70",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "a1c42256-9390-4ea7-98f6-4afdb82f6cfd"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P SMART",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "7d2e7969-707c-452a-8815-5a65277b0d59"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P SMART Y7A",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "21ea7cc7-062b-4e02-a519-a72dc62cc7dc"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P10 PLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 15.0,
+    "retailPrice": 18.75,
+    "stockStatus": "disponible",
+    "id": "213c0f4f-ad15-4cd0-ba3b-ad2a4382b20c"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P20",
+    "screenType": "3/4",
+    "wholesalePrice": 19.0,
+    "retailPrice": 23.75,
+    "stockStatus": "disponible",
+    "id": "ebca2a73-95a5-47ac-8bf7-162accd22fff"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P20 LITWE",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "da93eb46-0f6d-469d-9767-b75facbfdb7b"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P20 PRO",
+    "screenType": "INCELL",
+    "wholesalePrice": 15.0,
+    "retailPrice": 18.75,
+    "stockStatus": "disponible",
+    "id": "07044020-4284-4bd9-87ee-a8c05e152cad"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P20 PRO",
+    "screenType": "OLED",
+    "wholesalePrice": 65.0,
+    "retailPrice": 81.25,
+    "stockStatus": "disponible",
+    "id": "86f52ede-0052-4684-84ba-e7c4da3b7e99"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P30",
+    "screenType": "INCELL",
+    "wholesalePrice": 13.0,
+    "retailPrice": 16.25,
+    "stockStatus": "disponible",
+    "id": "05404607-7dd7-4c43-a084-21f61958a7a9"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P30 HUAWEI P30 PRO",
+    "screenType": "OLED",
+    "wholesalePrice": 60.0,
+    "retailPrice": 75.0,
+    "stockStatus": "disponible",
+    "id": "298035c7-ea72-41a4-9c73-14a99ea30445"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P40 LITE 4G D3/4 HUAWEI P40 LITE 5G NOVA SE HUAWEI P8 LITE R3/4 HUAWEI P8 LITE 2017/P9 LITE 2017/HONOR LITE HUAWEI P9",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "5a8f4aa1-aa57-4bc1-98c1-3f545a970041"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P9 LITE",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "766482fd-e2bf-4552-9502-5137247dccd7"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P9 LITE MINI",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "110c5103-9c06-48e3-9349-7bf492e67030"
+  },
+  {
+    "brand": "Huawei",
+    "model": "P9 LITE SMART",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "4e421fe6-59bd-45c9-8304-49130163a693"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y5",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "33f278e0-980d-4d00-a4bc-1720d9a7bfab"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y5 201D8 HONOR 7S",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "bda6cbc0-44d1-49f1-a6f3-a6b6d5a2c5e1"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y5 HONOR 8S",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "351fc690-025e-4ac2-853f-6b52fadc0337"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y5 II",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "e8f77065-3d8c-4527-85d6-0bfa5dfd449b"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y5 LITE",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "153af48a-f421-45e7-8db8-dd4fcb997d0c"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y6",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "88af9871-073a-4506-ac74-91d24de6221f"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y6 HONOR 7A",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "c4c7fd11-1252-4894-a8ec-1c2560a3ad66"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y6 8A",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "ddfb3607-2e12-46df-a42f-63b4781ff0b1"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y6 II",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "bb722be8-3a06-437e-b565-009261c60668"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y6 PRO",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "cbfa2b65-838c-4837-8214-450caa1cb538"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y6P",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "a2b432c3-133c-4f00-8e76-d3557c92d9e3"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y7 HONOR 7C",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "23b8a8c3-4d73-4a09-aa61-b9d4719d3c44"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y7 Y7 PRWIME",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "6facd67f-1a67-4cca-b254-d4b0c554346a"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y7 PRIME",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "68a9d3b6-6554-4286-8345-ec985c121f5a"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y7A P SMART",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "15ed66bc-40f1-4b7e-b946-bf46f237fe01"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y7P",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "a046467b-94c7-4a13-a7fd-f2f0a4b705e6"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y8P 3/C4 HUAWEI Y9 HUAWEI Y9 Y9 PLUS Y8S",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "c1d9b65d-48c5-4b6a-bc18-7d3189519c25"
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y9 PRIME Y9S P SMART Z 9X HUAWEI Y9A HYUNDAI E504 HYUNDAI E553 HYUNDAI L553",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "cf78a9e6-33d6-498e-9e87-9a66bbee4d6a"
+  },
+  {
+    "brand": "Infinix",
+    "model": "GT PRO NOTE",
+    "screenType": "INCELL",
+    "wholesalePrice": 13.0,
+    "retailPrice": 16.25,
+    "stockStatus": "disponible",
+    "id": "d5c5d024-6185-4223-849e-fc7d957137a0"
+  },
+  {
+    "brand": "Infinix",
+    "model": "GT PRO NOTE",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 40.0,
+    "retailPrice": 50.0,
+    "stockStatus": "disponible",
+    "id": "3aea4941-1d55-4516-a483-1f4e958b3676"
+  },
+  {
+    "brand": "Infinix",
+    "model": "GT PRO",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 75.0,
+    "retailPrice": 93.75,
+    "stockStatus": "disponible",
+    "id": "2264f6c7-c092-4849-9a0a-654207e6234c"
+  },
+  {
+    "brand": "Infinix",
+    "model": "HOT",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "6f3ec345-c98b-4f83-a9d8-41addf078bcd"
+  },
+  {
+    "brand": "Infinix",
+    "model": "HODT LITE",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "0a8b2aa3-4f6b-43fb-b13e-bc82a3525d30"
+  },
+  {
+    "brand": "Infinix",
+    "model": "HOT PLAY HOT PLAY",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "45ffdd83-aefa-41c6-ae85-30f24207f9cc"
+  },
+  {
+    "brand": "Infinix",
+    "model": "HOT 10i",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "8069053c-011c-4c84-81e4-ea2eb2635319"
+  },
+  {
+    "brand": "Infinix",
+    "model": "HOT 10S",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "30275d4f-5f01-4cb3-ae70-9b72d661064f"
+  },
+  {
+    "brand": "Infinix",
+    "model": "HOT 11S NFC SPARK PRO",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "cf31eba9-1f5b-483a-aca6-4fa942c91865"
+  },
+  {
+    "brand": "Infinix",
+    "model": "HOT PLAY",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "d6227915-8d54-4627-a6b9-4ec62269664b"
+  },
+  {
+    "brand": "Infinix",
+    "model": "HOT 12i",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "ce7ddb60-213c-4ab6-bb79-16bc19a5b0c3"
+  },
+  {
+    "brand": "Infinix",
+    "model": "HOT 20Wi",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "aa26ac99-995b-4d36-8525-c256912450bb"
+  },
+  {
+    "brand": "Infinix",
+    "model": "HOT 20S",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "6df79dc8-3170-4b69-aec2-9d1d0327864c"
+  },
+  {
+    "brand": "Infinix",
+    "model": "HOT PRO INFINIX HOT 40i",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "agotado",
+    "id": "52c51007-5698-438f-868b-b9156f856f82"
+  },
+  {
+    "brand": "Infinix",
+    "model": "HOT 4G D3/4 INFINIX HOT 50i 4G INFINIX HOT PRO INFINIX HOT PRO INFINIX HOT PRO PLUS 4G",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 16.0,
+    "retailPrice": 20.0,
+    "stockStatus": "agotado",
+    "id": "908af3fb-b677-4aec-b615-275cb46096f0"
+  },
+  {
+    "brand": "Infinix",
+    "model": "HOT PRO PLUS 4G",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 45.0,
+    "retailPrice": 56.25,
+    "stockStatus": "disponible",
+    "id": "e901f81f-7a6e-491f-a46d-f7d06ee126a2"
+  },
+  {
+    "brand": "Infinix",
+    "model": "HOT 60i",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "fb636998-1544-41dd-87ec-0c5190468f09"
+  },
+  {
+    "brand": "Infinix",
+    "model": "HOT PRO",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 75.0,
+    "retailPrice": 93.75,
+    "stockStatus": "agotado",
+    "id": "ff766260-3b0b-48fd-a8a0-711a97fc91dc"
+  },
+  {
+    "brand": "Infinix",
+    "model": "HOT PRDO PLUS",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 50.0,
+    "retailPrice": 62.5,
+    "stockStatus": "agotado",
+    "id": "3044af21-d9d2-4167-9a2c-e04fb669fa10"
+  },
+  {
+    "brand": "Infinix",
+    "model": "HOT LITE SPARK",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "6b504f3f-b260-463d-8970-79a91e2184e1"
+  },
+  {
+    "brand": "Infinix",
+    "model": "NOTE NOTE PRO POVA 5G",
+    "screenType": "3/4",
+    "wholesalePrice": 13.0,
+    "retailPrice": 16.25,
+    "stockStatus": "disponible",
+    "id": "acb9c9d1-fecf-406d-b9fb-466fd8eb73d8"
+  },
+  {
+    "brand": "Infinix",
+    "model": "NOTE PRO",
+    "screenType": "3/4",
+    "wholesalePrice": 13.0,
+    "retailPrice": 16.25,
+    "stockStatus": "agotado",
+    "id": "cd47fdbf-189c-4906-b7e3-f72ebafcf568"
+  },
+  {
+    "brand": "Infinix",
+    "model": "NOTE",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "084aacdb-e56b-4501-a0a8-efdec1a305d1"
+  },
+  {
+    "brand": "Infinix",
+    "model": "NOTE",
+    "screenType": "OLED",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "agotado",
+    "id": "c530751e-aa2f-4b91-a7d1-9dbc149c3193"
+  },
+  {
+    "brand": "Infinix",
+    "model": "NOTE PROW",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "c95d2610-80c4-4c9f-a15f-899c8d630a6a"
+  },
+  {
+    "brand": "Infinix",
+    "model": "NOTE PRO",
+    "screenType": "OLED",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "agotado",
+    "id": "76093ff6-e401-4b23-984a-62f0ced47315"
+  },
+  {
+    "brand": "Infinix",
+    "model": "NOTE PRO",
+    "screenType": "INCELL",
+    "wholesalePrice": 13.0,
+    "retailPrice": 16.25,
+    "stockStatus": "disponible",
+    "id": "2b7f0932-03c3-4645-8088-9e88439ce3e9"
+  },
+  {
+    "brand": "Infinix",
+    "model": "NOTE GT PRO INFINIX NOTE GT PRO",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 40.0,
+    "retailPrice": 50.0,
+    "stockStatus": "disponible",
+    "id": "99e4fb32-8c5a-4f77-a9ac-5c1f40160a92"
+  },
+  {
+    "brand": "Infinix",
+    "model": "NOTE PRO D3/4 INFINIX NOTE PRO INFINIX NOTE PRO INFINIX NOTE INFINIX NOTE PRO",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 75.0,
+    "retailPrice": 93.75,
+    "stockStatus": "agotado",
+    "id": "b05ab3e0-b155-463c-979d-9d83559d7b9b"
+  },
+  {
+    "brand": "Infinix",
+    "model": "NOTE LITE",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "de4800fd-58e5-4d27-ab96-206c94e35eb7"
+  },
+  {
+    "brand": "Infinix",
+    "model": "NOTE",
+    "screenType": "3/4",
+    "wholesalePrice": 14.0,
+    "retailPrice": 17.5,
+    "stockStatus": "disponible",
+    "id": "920edbe1-14c2-4336-bee7-4d4729e76068"
+  },
+  {
+    "brand": "Infinix",
+    "model": "NOTE 8i",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "a53ac5e0-ff1c-480b-b8b1-2c5b3cad4faf"
+  },
+  {
+    "brand": "Infinix",
+    "model": "SMART",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "b9fa0348-f4df-45a4-81ef-fa76a50bf9b9"
+  },
+  {
+    "brand": "Infinix",
+    "model": "SMDART PRO",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "2f6f51b7-e028-4ef7-bf48-4604adf8dab7"
+  },
+  {
+    "brand": "Infinix",
+    "model": "SMART HD",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "fc314698-acfd-4c44-a09b-f626a2f0ecaa"
+  },
+  {
+    "brand": "Infinix",
+    "model": "SMART PLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "08c57924-6ad6-4562-b5a3-39938e74bd72"
+  },
+  {
+    "brand": "Infinix",
+    "model": "SMART SMART HD",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "57e3f07b-1e18-4bad-9b98-c9b72206259d"
+  },
+  {
+    "brand": "Infinix",
+    "model": "SMART PRO",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "agotado",
+    "id": "057eb001-5f5c-460a-bd6d-f0a112d28c2d"
+  },
+  {
+    "brand": "Infinix",
+    "model": "SMART LIFEPHONE IDOL STAR",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "b4b37bd3-5623-473f-9e5b-894abad879b0"
+  },
+  {
+    "brand": "Infinix",
+    "model": "ZERO ORIWGINAL",
+    "screenType": "3/4",
+    "wholesalePrice": 45.0,
+    "retailPrice": 56.25,
+    "stockStatus": "disponible",
+    "id": "a464dfa7-0065-4f1d-8b85-41b1606076fc"
+  },
+  {
+    "brand": "Infinix",
+    "model": "ZERO 4G",
+    "screenType": "INCELL",
+    "wholesalePrice": 16.0,
+    "retailPrice": 20.0,
+    "stockStatus": "disponible",
+    "id": "613f1807-f863-4c1e-af8d-6c60e93254bf"
+  },
+  {
+    "brand": "Infinix",
+    "model": "ZERO 4G",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 45.0,
+    "retailPrice": 56.25,
+    "stockStatus": "disponible",
+    "id": "5a6b93d3-9e0c-40bc-8e39-00362f77eb07"
+  },
+  {
+    "brand": "Infinix",
+    "model": "ZERO X NEO",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "d92c28f6-5f0d-4eb3-b213-d79f4ecdbe08"
+  },
+  {
+    "brand": "LG",
+    "model": "K11",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "e6155a47-ce8d-4f6b-b376-1ee109c644d9"
+  },
+  {
+    "brand": "LG",
+    "model": "K20 K8 PLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "9b25a866-a072-4a16-809f-b8bc7c916a47"
+  },
+  {
+    "brand": "LG",
+    "model": "K20 V K20 PLUS MP260 K10 MS250",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "945ffd05-48d1-4104-a733-5b7c85d78da1"
+  },
+  {
+    "brand": "LG",
+    "model": "K22 K22 PLUS K32",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "412d55d1-7a9a-4620-899f-efb862df77de"
+  },
+  {
+    "brand": "LG",
+    "model": "K30",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "fd63a8e2-a763-4c5f-8d69-0ae677b1b482"
+  },
+  {
+    "brand": "LG",
+    "model": "K4 X230",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "93038986-e240-4588-aa77-0717758f492b"
+  },
+  {
+    "brand": "LG",
+    "model": "K40 X420",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "54f037e7-9ecb-488a-b0c7-5a64db4b8fec"
+  },
+  {
+    "brand": "LG",
+    "model": "K40S",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "2c643f2f-c37a-403f-950e-a6eeea904b7a"
+  },
+  {
+    "brand": "LG",
+    "model": "K41S",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "agotado",
+    "id": "be9cb48b-4610-45af-9a4d-ed1d16424121"
+  },
+  {
+    "brand": "LG",
+    "model": "K42 K62 K52",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "7a46bcfe-5205-485a-9080-acc976ffec60"
+  },
+  {
+    "brand": "LG",
+    "model": "K50 Q60 K12 PRIME",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "a0b41ed8-f92e-4b66-9373-94865688b835"
+  },
+  {
+    "brand": "LG",
+    "model": "K50S 3E/4 LG K51 C3/4 LG K51S LG K61",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "agotado",
+    "id": "338067d6-6e47-47e9-9b43-27b4d92fddff"
+  },
+  {
+    "brand": "LG",
+    "model": "K62 LG K7 MS330 LG K8 X240 LG K8 MS350 K8 MS371 LG M150 M153 M154",
+    "screenType": "3/4",
+    "wholesalePrice": 15.0,
+    "retailPrice": 18.75,
+    "stockStatus": "disponible",
+    "id": "d3d5f8d3-04b5-4384-89b8-3c9e96769579"
+  },
+  {
+    "brand": "LG",
+    "model": "MS210",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "3f32e5ef-cde6-449c-84f7-ca953baf310f"
+  },
+  {
+    "brand": "LG",
+    "model": "Q60 X525",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "59f3d497-f844-44ea-9945-1b5ec6c1358a"
+  },
+  {
+    "brand": "LG",
+    "model": "Q7 Q610",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "ec2b6cff-5f06-4661-aa0c-101172b4cfe5"
+  },
+  {
+    "brand": "LG",
+    "model": "STYLU Q710",
+    "screenType": "3/4",
+    "wholesalePrice": 19.0,
+    "retailPrice": 23.75,
+    "stockStatus": "agotado",
+    "id": "14ed0476-f4b7-41b9-9b72-8472cf863611"
+  },
+  {
+    "brand": "LG",
+    "model": "STYLUD Q730",
+    "screenType": "3/4",
+    "wholesalePrice": 19.0,
+    "retailPrice": 23.75,
+    "stockStatus": "agotado",
+    "id": "10bd7892-1b52-4fc3-aa6d-06325d791d02"
+  },
+  {
+    "brand": "LG",
+    "model": "X POWER K220",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "07a307cb-7f48-43be-b632-65d19cf8726e"
+  },
+  {
+    "brand": "Motorola",
+    "model": "PLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "43db320d-f3a9-4e67-b185-ccc99a77e973"
+  },
+  {
+    "brand": "Motorola",
+    "model": "EDGE G200",
+    "screenType": "3/4",
+    "wholesalePrice": 18.0,
+    "retailPrice": 22.5,
+    "stockStatus": "disponible",
+    "id": "023a5ef8-8474-408e-a009-4a08374491b4"
+  },
+  {
+    "brand": "Motorola",
+    "model": "EDGE LITE",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "9fd41f12-0fd8-4d05-85d3-5ac5b541c379"
+  },
+  {
+    "brand": "Motorola",
+    "model": "EDGE 4G",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 39.0,
+    "retailPrice": 48.75,
+    "stockStatus": "disponible",
+    "id": "94d820ca-a0d7-4ecc-aeca-26ab1dbd1d63"
+  },
+  {
+    "brand": "Motorola",
+    "model": "EDGE PROW 4G",
+    "screenType": "INCELL",
+    "wholesalePrice": 14.0,
+    "retailPrice": 17.5,
+    "stockStatus": "disponible",
+    "id": "2719bdfc-5d34-40fa-ab04-abe1e543e764"
+  },
+  {
+    "brand": "Motorola",
+    "model": "EDGE PRO 4G",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 43.0,
+    "retailPrice": 53.75,
+    "stockStatus": "disponible",
+    "id": "5f04fc89-ac63-40a9-ac08-aad9bb45e73e"
+  },
+  {
+    "brand": "Motorola",
+    "model": "EDGE ULTRA 5G",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 27.0,
+    "retailPrice": 33.75,
+    "stockStatus": "disponible",
+    "id": "7bc231ee-c0d1-469f-80ce-43b881efe714"
+  },
+  {
+    "brand": "Motorola",
+    "model": "EDGE NEO 4G",
+    "screenType": "INCELL",
+    "wholesalePrice": 20.0,
+    "retailPrice": 25.0,
+    "stockStatus": "disponible",
+    "id": "25c75823-21f5-4e98-8633-7416aa0861c6"
+  },
+  {
+    "brand": "Motorola",
+    "model": "EEDGE NEO 4G",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 40.0,
+    "retailPrice": 50.0,
+    "stockStatus": "disponible",
+    "id": "f7e0c095-f786-4902-8de9-a0d7015a45ba"
+  },
+  {
+    "brand": "Motorola",
+    "model": "ECDGE FUSION 5G G85 MOTOROLA EDGE NEO",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 55.0,
+    "retailPrice": 68.75,
+    "stockStatus": "agotado",
+    "id": "ad110a03-ae1b-4798-b26c-964303ba6a09"
+  },
+  {
+    "brand": "Motorola",
+    "model": "EDGE PRO 5G D3/4 MOTOROLA E13 MOTOROLA E14 G04 G24 G24 POWER MOTOROLA E15 MOTOROLA E20",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "9021fa8a-0aff-480b-98c4-b17b689cb8fa"
+  },
+  {
+    "brand": "Motorola",
+    "model": "E22i E22",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "fc3c0743-a0c6-4069-9584-c04cae8e4b4e"
+  },
+  {
+    "brand": "Motorola",
+    "model": "E30 E40",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "b32de53a-e6bf-4e49-973b-db9a11e7dde9"
+  },
+  {
+    "brand": "Motorola",
+    "model": "E4 PLUS AMERICANO",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "66b9c323-695d-4b77-aab7-679567524181"
+  },
+  {
+    "brand": "Motorola",
+    "model": "E40 E30",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "596ed5fe-31de-40bf-b1d2-b683d2dba56b"
+  },
+  {
+    "brand": "Motorola",
+    "model": "E5 PLAY",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "ce51d163-da99-41bb-9df2-e6c30a79d882"
+  },
+  {
+    "brand": "Motorola",
+    "model": "E5 PLAY GO",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "5a4dad1f-41f6-4783-a6d0-e649c4b49201"
+  },
+  {
+    "brand": "Motorola",
+    "model": "E5 PLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "07066534-ecec-4afb-a383-26c6b3c45a58"
+  },
+  {
+    "brand": "Motorola",
+    "model": "E6 PLAY",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "4b8767e8-f6c3-413e-aca0-cfa4514f46dd"
+  },
+  {
+    "brand": "Motorola",
+    "model": "E6 PLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "9f74eff6-30be-429e-a45e-eaa6596f0356"
+  },
+  {
+    "brand": "Motorola",
+    "model": "E6i",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "95bc8526-be91-4198-a473-12097b7b09e4"
+  },
+  {
+    "brand": "Motorola",
+    "model": "E6S E6S",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "6bb7fdca-71ea-420a-b8ad-ddef10bf5867"
+  },
+  {
+    "brand": "Motorola",
+    "model": "E7 E7 POWER",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "15a50d32-c3d1-4810-a130-a45d43ed07a5"
+  },
+  {
+    "brand": "Motorola",
+    "model": "E7 PLUS G9 PLAY",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "76f2c547-7c7b-4818-a08a-4e283c0b67f3"
+  },
+  {
+    "brand": "Motorola",
+    "model": "E7 POWER E7i POWER",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "b2c4be2d-cd60-4e4e-9568-a851a51ccd97"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G 5G",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "08d44ac1-f4b5-49bb-bba4-6ec1a78a52d5"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G 5G 2W022",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "6bd634ae-9c3d-4bbf-9c33-b5105506f97e"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G PLAY",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "7eb5b64b-b9b6-4d5d-97b3-7d51f206bdb3"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G POWER",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "90aa038c-4a55-48ff-a18d-3797e9e560d2"
+  },
+  {
+    "brand": "Motorola",
+    "model": "GC POWER MOTO G POWER 5G MOTOROLA G PURE",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "0a2b8c7a-716f-40b4-8178-99fd85706689"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G STYLUS 4G D3/4 MOTOROLA G STYLUS 5G MOTOROLA G STYLUS 5G MOTOROLA G STYLUS 5G MOTOROLA G04 G24 G24 POWER E14",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "25f576fe-a47f-43f6-9bd0-13e54d2a127f"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G05",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "ab491bad-b8af-4f9d-a1ef-769fd34e069e"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G06",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "8cc062d1-dc49-4cb3-8167-546393d9ef2f"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G10 G10 POWER",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "agotado",
+    "id": "e5384640-a7fd-48f1-9d96-ea3f8d11cdd4"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G10 PLAY",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "444da587-e8c2-49ad-bb5b-b301af70bc78"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G13 G23 G34 G53",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "82b129e4-ed12-4740-988f-522df4232d6d"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G14 G54",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "b9e17dce-52f0-45cc-a014-73502add8898"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G15",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "6fe5a28a-431b-476f-bdaa-28b2bba2285a"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G17",
+    "screenType": "3/4",
+    "wholesalePrice": 14.0,
+    "retailPrice": 17.5,
+    "stockStatus": "disponible",
+    "id": "3705fe35-ddc5-49aa-9d05-61aab4ffb7b7"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G20",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "agotado",
+    "id": "95598dc5-a354-498f-af17-48468ad0f54b"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G22 E32",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "5f8e066f-fbee-47e2-b549-c44d1368a8e8"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G23 G53 G13 G34",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "8b2577b4-e4a7-43cc-91f8-39b28895043c"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G24 G24 POWER G04 E14 4/4 MOTOROLA G24 POWER G24 G04 E14",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "71b9649b-99cb-40fe-bcd7-38501945ed43"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G30",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "agotado",
+    "id": "51dc7948-f604-4a01-9159-e35b0595164a"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G31 G41",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "b23abdf9-4b7f-491f-9cae-b75c3940bc69"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G31 G41W",
+    "screenType": "OLED",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "disponible",
+    "id": "62be3adc-df10-44bc-af3d-88322f880026"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G32",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "268a19e1-1526-4e8f-b193-6ba659b0210a"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G34 G13 G23 G53",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "e9cbc3b6-d13b-4eb2-837a-9f3b1e48f584"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G35",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "01b02506-4f4f-4b86-89a2-78305abfe8c6"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G4 PLUS MOTOROLA G42",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "9bfb06ed-bac9-43a8-b1ad-00d0005bceed"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G5 D3/4 MOTOROLA G5 PLUS MOTOROLA G50 4G MOTOROLA G50 5G MOTOROLA G51 5G",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "dbe51536-8da1-452a-b91b-dd7ca159c6c2"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G52 G72 G82",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "58bdb6ff-c6d2-4b5b-814c-4b5072915122"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G52 G72 G82",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 39.0,
+    "retailPrice": 48.75,
+    "stockStatus": "disponible",
+    "id": "2078d3dc-4222-46ef-970a-8341183c0aa1"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G53 G13 G23 G34",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "6f050a84-1ccf-4270-bd1e-75475e956c4d"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G54 4G",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "0e1d3bf9-1d54-4ab2-9937-a6debfb6ba40"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G5S",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "c7efd418-2f92-417f-91f1-cd9c21f2cc59"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G5S PLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "d309f5ee-fdc1-4aa9-9205-00706615bf3e"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G6 PLAY E5",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "f1c3b26c-bab2-4b39-8216-0901f3311af8"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G60 G60S",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "995f9a68-42a6-4f1b-b172-a3cf8f75fb2b"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G7",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "99da0186-1842-4990-9fd1-cd4611ede3a9"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G7 PLAY",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "224ec70e-4ea0-463d-b29d-e6362c6d87ee"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G7 PLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "3bf21572-64e3-47a6-9ee9-7c7c11cc87da"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G7 POWER",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "e52442ea-ef2d-446a-b9e9-080a5b7099a7"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G72 G52",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "32d564d0-df59-44b3-8bcf-90ce4595ef97"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G73",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "713b3d86-e25a-464e-87fa-46d722e5eec3"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G8 G FAWST",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "b473bcef-c54b-4603-9d35-86d02423af68"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G8 PLAY",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "4b56a97c-5b2a-45fc-a02b-00950215a383"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G8 PLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "789c8c64-5bf3-4801-9269-d9666bd39ae5"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G8 POWER G STYLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "3b185987-1da2-4404-98dc-e81cb0c07d70"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G84 5G",
+    "screenType": "INCELL",
+    "wholesalePrice": 13.0,
+    "retailPrice": 16.25,
+    "stockStatus": "agotado",
+    "id": "e35f0f0b-ba43-4e94-ac4e-7192a1d3c620"
+  },
+  {
+    "brand": "Motorola",
+    "model": "G9 PLAY D3/4 MOTOROLA G9 PLUS MOTOROLA G9 POWER MOTOROLA ONE MOTOROLA ONE 5G",
+    "screenType": "3/4",
+    "wholesalePrice": 16.0,
+    "retailPrice": 20.0,
+    "stockStatus": "disponible",
+    "id": "1f3e8e8f-38fa-40b3-b3a2-17c3926a19f8"
+  },
+  {
+    "brand": "Motorola",
+    "model": "ONE ACTION ONE VISION",
+    "screenType": "3/4",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "disponible",
+    "id": "6f5f63ac-a82e-4c90-9b53-a0c36d03127d"
+  },
+  {
+    "brand": "Motorola",
+    "model": "ONE FUSION",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "agotado",
+    "id": "0f9f198a-8751-439f-bfca-bbf824d2f8ff"
+  },
+  {
+    "brand": "Motorola",
+    "model": "ONE FUSION PLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "11f02a3a-b7c2-4d08-831b-e68978008775"
+  },
+  {
+    "brand": "Motorola",
+    "model": "ONE MACRO",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "a91b66eb-7a51-430d-9896-f73c5ab6b941"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A01 A015",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "91909d7f-d008-41fb-b3af-d824f8620b3d"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A01 A013",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "bd7b18fe-67f4-4b89-aeca-ef9ec6e10580"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A02 A022",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "0db573e9-d209-4bd9-a3d8-fb0ac34e6c4f"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A02S A025W",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "ab90ad6a-c09b-4ffd-8ec7-425f88338066"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A02S A025",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "aa3f4077-d9c0-4d9a-90fa-6392b4d80778"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A03 A035",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "6537754d-c485-4e76-aaa4-ace8230d83ad"
+  },
+  {
+    "brand": "Samsung",
+    "model": "EA03 A032",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "745ea9d9-2152-4244-b0b0-550b691422d4"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A0C3 A032 SAMSUNG A03S A037F/M",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "807f9364-64af-47c0-bfde-cd7ef3bdfadc"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A03S A037F/M D3/4 SAMSUNG A03 5G A037U SAMSUNG A04 A045 SAMSUNG A04E A042 SAMSUNG A04S A047",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "a5b167fe-ad24-4a20-9406-2d42e4fc687e"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A05 4G A055",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "6f46ae19-0349-4e88-a038-1e3df6aae505"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A05S 4G A057",
+    "screenType": "INCELL",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "02204ed4-e95b-470c-8d90-beb2cd6baee7"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A06 4G A065",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "b2b97c4b-de5b-4973-a9af-91f2f251ebb5"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A07 4G A075",
+    "screenType": "INCELL",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "f2c4da66-0792-4ccf-b2d4-7737237e4bc4"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A10 A105 M10 M105 4/4 SAMSUNG A10 A105",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "c412bd84-0f79-41b5-a052-832c74cef56e"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A10E A102 A20E A202",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "40a0ddf0-398d-43b9-80dc-4049418828df"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A10S A107",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "agotado",
+    "id": "1545c210-0dc4-48cb-bf9e-35a3fb0ce33f"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A11 A115",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "be38627b-9fd9-4cc7-90f3-2328d9d80c37"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A12 A125",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "f0b85ae7-493f-4649-8322-1d13e5b9cdd8"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A13 4G A135 M13",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "1dc5dfd6-2d3e-4c03-a2c8-41358b264ef2"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A13 4G A135",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "a4c9716a-f959-43b6-9794-d5c7e77feb14"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A13 5G A136 INWCELL A04S",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "5860f0b8-5786-4cd2-b7d2-313d3050d479"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A13 5G A136",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "d64a8a95-8c93-4937-a8c0-12d20f33977d"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A14 4G A145",
+    "screenType": "INCELL",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "01958af8-813d-428e-a326-8f5c0038ff60"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A14 5G A146",
+    "screenType": "INCELL",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "dd080582-8272-4bad-824c-ae3ffdc0612e"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A15 4EG A155",
+    "screenType": "INCELL",
+    "wholesalePrice": 14.0,
+    "retailPrice": 17.5,
+    "stockStatus": "disponible",
+    "id": "5c2942c8-ea51-4128-b6ef-409796a80a8c"
+  },
+  {
+    "brand": "Samsung",
+    "model": "CA15 4G A155 SAMSUNG A15 4G A155",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 55.0,
+    "retailPrice": 68.75,
+    "stockStatus": "agotado",
+    "id": "1ca44f14-f16b-4cae-bb67-46c4f5ffc921"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A15 5G A156",
+    "screenType": "INCELL",
+    "wholesalePrice": 14.0,
+    "retailPrice": 17.5,
+    "stockStatus": "disponible",
+    "id": "502833ae-db29-4b43-a918-a08c0e0bea73"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A15 5G A156 SAMSUNG A15 5G A156 R3/4 SAMSUNG A16 4G A165 AM SAMSUNG A16 4G A165",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "agotado",
+    "id": "bd78c4e9-2415-4e28-a64d-c061c36f2af6"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A16 4G A165",
+    "screenType": "INCELL",
+    "wholesalePrice": 14.0,
+    "retailPrice": 17.5,
+    "stockStatus": "disponible",
+    "id": "375be82c-6723-4155-9870-f999f15a6315"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A16 4G A165",
+    "screenType": "OLED",
+    "wholesalePrice": 38.0,
+    "retailPrice": 47.5,
+    "stockStatus": "agotado",
+    "id": "26bdb164-e3f0-4e16-98de-383003fa1899"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A16 4G A165",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 69.0,
+    "retailPrice": 86.25,
+    "stockStatus": "disponible",
+    "id": "1cbc6342-899f-4b32-a4ef-1f6f23dd6a55"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A16 5G A166 AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 45.0,
+    "retailPrice": 56.25,
+    "stockStatus": "disponible",
+    "id": "56fd9fea-3322-42b1-a0bc-89172d0d5c80"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A16 5DG A166",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "6892c159-85b7-4e65-913f-46431fa8dadb"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A16 5G A166",
+    "screenType": "OLED",
+    "wholesalePrice": 38.0,
+    "retailPrice": 47.5,
+    "stockStatus": "disponible",
+    "id": "541bc79c-e90d-4386-8d5d-57d42f528036"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A16 5G A166",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 69.0,
+    "retailPrice": 86.25,
+    "stockStatus": "disponible",
+    "id": "bafcd0fe-b5ed-43b6-9fa1-5834a8f66ef9"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A17 4G A175",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "7dfb1f40-d3d1-488b-b0ea-73cab9725b87"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A17 5G A176",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "e67167ff-cf24-42e5-9d8a-4b21a8667436"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A2 A260",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "9a0d23a4-44d0-4671-af9c-0b5828162027"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A20 A205",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "agotado",
+    "id": "336b5c08-510d-49a5-92c4-c5c45f8673df"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A20 A205",
+    "screenType": "OLED",
+    "wholesalePrice": 28.0,
+    "retailPrice": 35.0,
+    "stockStatus": "disponible",
+    "id": "6cb4b5e7-ca49-4a6e-a124-0dd55382f75a"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A20S A207",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "4fef4f11-c9e5-46fd-bdc7-b3931309e7aa"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A21 INCWELL",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "be707c55-66d4-436e-9b77-4f79cf92d4c5"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A21S A217",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "7cda9bc9-f252-496b-adfd-84b9d0f94b09"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A22 4G A225",
+    "screenType": "INCELL",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "5fe31890-2cd2-44a1-bd06-7813170f4892"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A22 4EG A225",
+    "screenType": "INCELL",
+    "wholesalePrice": 13.0,
+    "retailPrice": 16.25,
+    "stockStatus": "disponible",
+    "id": "9e8c0f86-cdb4-4ef0-a0d2-5fd8ecb3c912"
+  },
+  {
+    "brand": "Samsung",
+    "model": "CA22 4G A225 SAMSUNG A22 5G A226",
+    "screenType": "INCELL",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "3629e57f-ce01-43d5-95fc-7e7161981193"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A22 5G A226 D3/4 SAMSUNG A23 4G A235 SAMSUNG A23 4G A235 R3/4 SAMSUNG A23 5G A236 SAMSUNG A24 4G A245",
+    "screenType": "INCELL",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "dadc4a25-87b3-494e-a7d8-9e1a6a349c09"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A24 4G A245",
+    "screenType": "INCELL",
+    "wholesalePrice": 13.0,
+    "retailPrice": 16.25,
+    "stockStatus": "disponible",
+    "id": "6f682e45-26fa-49b3-8587-a9224319ecc4"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A24 4G A245",
+    "screenType": "OLED",
+    "wholesalePrice": 30.0,
+    "retailPrice": 37.5,
+    "stockStatus": "disponible",
+    "id": "46ca2287-e877-486e-b135-f292537050ea"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A25 5G A256 AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 40.0,
+    "retailPrice": 50.0,
+    "stockStatus": "disponible",
+    "id": "2ddcab07-d7ac-48d3-baf2-58a2580bc294"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A25 5G A256",
+    "screenType": "INCELL",
+    "wholesalePrice": 14.0,
+    "retailPrice": 17.5,
+    "stockStatus": "disponible",
+    "id": "524e09a5-0664-4732-a84c-1e71a63ad7b7"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A25 5G A25D6",
+    "screenType": "OLED",
+    "wholesalePrice": 33.0,
+    "retailPrice": 41.25,
+    "stockStatus": "disponible",
+    "id": "23c5d2a7-6979-4308-9e72-3ce7603752b3"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A25 5G A256",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 85.0,
+    "retailPrice": 106.3,
+    "stockStatus": "agotado",
+    "id": "6fb29d12-4945-456f-b2a5-ddc055163cf5"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A26 5G A266 AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 49.0,
+    "retailPrice": 61.25,
+    "stockStatus": "agotado",
+    "id": "3efe7b73-dd4c-4135-87bc-bc17439fb737"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A26 5G A266",
+    "screenType": "INCELL",
+    "wholesalePrice": 17.0,
+    "retailPrice": 21.25,
+    "stockStatus": "disponible",
+    "id": "f6ec2c1a-bda0-4d79-9bf9-70d0bcd218fd"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A26 5G A266",
+    "screenType": "OLED",
+    "wholesalePrice": 45.0,
+    "retailPrice": 56.25,
+    "stockStatus": "disponible",
+    "id": "206a6e5b-4eef-4e8b-8521-c90541bb634d"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A26 5G A266",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 75.0,
+    "retailPrice": 93.75,
+    "stockStatus": "disponible",
+    "id": "fd23deac-9c77-4b6b-a12f-e6db044b4270"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A30 A305",
+    "screenType": "INCELL",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "7b6b032c-5f02-4499-a075-92561ec00fd6"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A30 A305",
+    "screenType": "OLED",
+    "wholesalePrice": 28.0,
+    "retailPrice": 35.0,
+    "stockStatus": "disponible",
+    "id": "33787e16-e98b-4f0e-b41c-53835643370a"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A30S A307",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "e77b358a-c066-4a9d-aa1b-ae2ec9732ce7"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A30S A307 WCON MARCO",
+    "screenType": "OLED",
+    "wholesalePrice": 28.0,
+    "retailPrice": 35.0,
+    "stockStatus": "disponible",
+    "id": "1e3029ca-ef4d-4291-92d0-7ca7476f50da"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A31 A315",
+    "screenType": "INCELL",
+    "wholesalePrice": 13.0,
+    "retailPrice": 16.25,
+    "stockStatus": "disponible",
+    "id": "75f6ba00-3d78-4536-80e7-e702f983f06d"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A31 A315",
+    "screenType": "OLED",
+    "wholesalePrice": 28.0,
+    "retailPrice": 35.0,
+    "stockStatus": "disponible",
+    "id": "19012f26-f951-4d44-8735-f9672e5e990b"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A31 A315",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 75.0,
+    "retailPrice": 93.75,
+    "stockStatus": "disponible",
+    "id": "b5d59eb4-9cf4-44e2-b767-179698fe9d9b"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A310 A3",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "6e6715e7-eb87-4cd2-b935-0cb36712db02"
+  },
+  {
+    "brand": "Samsung",
+    "model": "AC32 4G A325 SAMSUNG A32 4G A325",
+    "screenType": "INCELL",
+    "wholesalePrice": 30.0,
+    "retailPrice": 37.5,
+    "stockStatus": "disponible",
+    "id": "21100e03-c3a8-44cf-a9bb-fdef5c7fe9ef"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A32 4G A325 D3/4 SAMSUNG A320 A3 SAMSUNG A33 5G A336 R3/4 SAMSUNG A33 5G A336 SAMSUNG A33 5G A336",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 95.0,
+    "retailPrice": 118.8,
+    "stockStatus": "agotado",
+    "id": "ef0abe5c-6ac1-4298-8e4a-ef0254b98c52"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A34 5G A346",
+    "screenType": "INCELL",
+    "wholesalePrice": 17.0,
+    "retailPrice": 21.25,
+    "stockStatus": "disponible",
+    "id": "c4e0ec7c-dc64-4b46-b1e5-d5be14913d06"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A34 5G A346",
+    "screenType": "OLED",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "disponible",
+    "id": "f3b77f53-b778-499e-a612-e1b09e16607a"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A34 5G A346",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 85.0,
+    "retailPrice": 106.3,
+    "stockStatus": "agotado",
+    "id": "53419af7-66d9-4e09-a973-7ad4cc807443"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A35 5G A356 AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 42.0,
+    "retailPrice": 52.5,
+    "stockStatus": "disponible",
+    "id": "b0f34d15-0204-453d-bc78-93e29b8be9d4"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A35 5G A356D",
+    "screenType": "INCELL",
+    "wholesalePrice": 17.0,
+    "retailPrice": 21.25,
+    "stockStatus": "disponible",
+    "id": "87822940-a515-41c1-a9d8-35785bc92038"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A35 5G A356",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 80.0,
+    "retailPrice": 100.0,
+    "stockStatus": "agotado",
+    "id": "d6395916-2c81-4e8b-9335-5cf7c78ce7e2"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A36 5G A366",
+    "screenType": "INCELL",
+    "wholesalePrice": 17.0,
+    "retailPrice": 21.25,
+    "stockStatus": "agotado",
+    "id": "8db6aea3-e15e-4974-a7a7-9a98658940ea"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A36 5G A366",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 95.0,
+    "retailPrice": 118.8,
+    "stockStatus": "agotado",
+    "id": "332abfd1-7f15-4bfe-9a5f-c06f626b3746"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A37 5G A376",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 95.0,
+    "retailPrice": 118.8,
+    "stockStatus": "disponible",
+    "id": "de8e4fcf-27c9-4451-8218-5b2b8f23a640"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A40 A405",
+    "screenType": "INCELL",
+    "wholesalePrice": 16.0,
+    "retailPrice": 20.0,
+    "stockStatus": "disponible",
+    "id": "2d47833f-da93-4382-ab56-ba915edf80b9"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A50 A505",
+    "screenType": "INCELL",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "0bbbcfde-ac26-4c13-9382-701acfe75455"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A50 A505",
+    "screenType": "OLED",
+    "wholesalePrice": 28.0,
+    "retailPrice": 35.0,
+    "stockStatus": "disponible",
+    "id": "6a9f66e6-2b2d-4516-a098-d740d0baa374"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A500 A5",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "0278ccc3-891c-4798-bf8d-428c8fe5eb51"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A50S A507W",
+    "screenType": "INCELL",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "e22c0807-8513-4232-8139-a41ab7b60a44"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A50S A507",
+    "screenType": "INCELL",
+    "wholesalePrice": 13.0,
+    "retailPrice": 16.25,
+    "stockStatus": "disponible",
+    "id": "ffab091e-8cd3-4375-a0a4-70877d53adcd"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A50S A507",
+    "screenType": "OLED",
+    "wholesalePrice": 28.0,
+    "retailPrice": 35.0,
+    "stockStatus": "disponible",
+    "id": "3f65826f-3a8b-4439-98bb-85b96826197a"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A51 A515 AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 33.0,
+    "retailPrice": 41.25,
+    "stockStatus": "disponible",
+    "id": "84da90cd-630e-4cb3-9c72-730c2dac807f"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A51E A515 4/4 SAMSUNGC A51 A515 SAMSUNG A51 A515",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 65.0,
+    "retailPrice": 81.25,
+    "stockStatus": "disponible",
+    "id": "2dff7dd4-9e6c-46e2-9b05-cb0e6afcf284"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A510 A5",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "eb4a4223-7c9b-4ffc-afba-9232759fb507"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A52 4G A525 SAMSUNG A52 4G A525 R3/4 SAMSUNG A52 4G A525 SAMSUNG A520 A5",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "b30b2bea-2267-4f95-8d7e-fa4e2cb6e45c"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A52S 5G A528 AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "disponible",
+    "id": "32a94faf-6f69-4245-b1e7-7ccabb0949bc"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A52S 5G A528",
+    "screenType": "INCELL",
+    "wholesalePrice": 17.0,
+    "retailPrice": 21.25,
+    "stockStatus": "disponible",
+    "id": "dd14f21a-0759-48df-bcc6-03c00439a6f5"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A52S 5G A528",
+    "screenType": "OLED",
+    "wholesalePrice": 30.0,
+    "retailPrice": 37.5,
+    "stockStatus": "agotado",
+    "id": "bab1f7b1-a9f8-4b7d-a16d-0ce443a912a0"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A52S 5G A528",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 85.0,
+    "retailPrice": 106.3,
+    "stockStatus": "agotado",
+    "id": "22273a40-3860-4992-b7d0-3ba00d62620f"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A53 5G A536D AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 40.0,
+    "retailPrice": 50.0,
+    "stockStatus": "disponible",
+    "id": "94323e61-a0de-40d4-a2b2-1ed135c91ab3"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A53 5G A536",
+    "screenType": "INCELL",
+    "wholesalePrice": 17.0,
+    "retailPrice": 21.25,
+    "stockStatus": "disponible",
+    "id": "d1703ced-5cfa-46d1-8951-8ec726d5fb7d"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A53 5G A536",
+    "screenType": "OLED",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "agotado",
+    "id": "6944ae96-c285-437d-80e2-e58954e21365"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A53 5G A536",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 85.0,
+    "retailPrice": 106.3,
+    "stockStatus": "agotado",
+    "id": "55fa99db-da52-46eb-8901-0ae5e1c3f2fe"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A530 A8",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "af98ce9d-0467-41b2-90e7-9cb9f8b368f8"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A54 5G A545 AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 40.0,
+    "retailPrice": 50.0,
+    "stockStatus": "disponible",
+    "id": "58794733-8e0f-4724-817d-c4acd8702790"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A54 5G A546",
+    "screenType": "OLED",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "agotado",
+    "id": "e4aadf05-5d00-4ab5-9500-bf8dc726255f"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A54 5G A546",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 80.0,
+    "retailPrice": 100.0,
+    "stockStatus": "disponible",
+    "id": "9d677268-7be8-49cd-990d-786676ce5f53"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A55 5G A556 AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 40.0,
+    "retailPrice": 50.0,
+    "stockStatus": "disponible",
+    "id": "bb160acd-018a-4825-badd-f67a83c1c4c0"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A55 5G A556",
+    "screenType": "INCELL",
+    "wholesalePrice": 20.0,
+    "retailPrice": 25.0,
+    "stockStatus": "disponible",
+    "id": "83991b6c-1479-459c-bccc-c44fe8b3ccbc"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A55 5G A556 ORIGINWAL",
+    "screenType": "3/4 CON MARCO",
+    "wholesalePrice": 90.0,
+    "retailPrice": 112.5,
+    "stockStatus": "agotado",
+    "id": "1b2f44bb-c541-4b81-a887-333ebcbf2206"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A56 5G A566 AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 40.0,
+    "retailPrice": 50.0,
+    "stockStatus": "disponible",
+    "id": "e3aba9f5-72ad-4a8a-8995-f9c9f098b90d"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A56 5G A566",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 100.0,
+    "retailPrice": 125.0,
+    "stockStatus": "disponible",
+    "id": "ca2e0b8f-56cd-4665-bd92-42f682a45b76"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A57 5G A576",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 115.0,
+    "retailPrice": 143.8,
+    "stockStatus": "disponible",
+    "id": "9f1352b8-35f7-4e29-a149-80ed7b621e38"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A605 A6 PLUS",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "agotado",
+    "id": "2942036d-84af-4af9-be8b-060ffa9f7633"
+  },
+  {
+    "brand": "Samsung",
+    "model": "CA70 A705 AM SAMSUNG A70 A705",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "9a2b0b87-47d3-4371-a0e7-370f33809320"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A70 A705 3D/4 SAMSUNG A70 A705 SAMSUNG A70 A705 SAMSUNG A71 M51 SAMSUNG A71 A715 AM",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 40.0,
+    "retailPrice": 50.0,
+    "stockStatus": "agotado",
+    "id": "b9437aed-bb90-44bf-b8bd-51829d4dd677"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A71 A715",
+    "screenType": "INCELL",
+    "wholesalePrice": 14.0,
+    "retailPrice": 17.5,
+    "stockStatus": "disponible",
+    "id": "274da097-c919-431e-b1ba-b05821ea4b0f"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A71 A715",
+    "screenType": "OLED",
+    "wholesalePrice": 36.0,
+    "retailPrice": 45.0,
+    "stockStatus": "disponible",
+    "id": "39908ea9-2f6e-41eb-a496-15c49022ed16"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A71 A715",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 90.0,
+    "retailPrice": 112.5,
+    "stockStatus": "disponible",
+    "id": "d99aa0e6-2ae7-4fd8-9ab6-f914bdb7ccd1"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A710 A7",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "3beac9b6-d476-445e-8d9c-9c4a0e90ebec"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A72 A725",
+    "screenType": "INCELL",
+    "wholesalePrice": 17.0,
+    "retailPrice": 21.25,
+    "stockStatus": "disponible",
+    "id": "3b21f0dc-c22b-4188-b17a-1a77a2210af5"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A72 A725",
+    "screenType": "OLED",
+    "wholesalePrice": 38.0,
+    "retailPrice": 47.5,
+    "stockStatus": "disponible",
+    "id": "7582e704-9bb4-4e3a-a845-c60ffa1c29ac"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A72 A725",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 90.0,
+    "retailPrice": 112.5,
+    "stockStatus": "agotado",
+    "id": "43050e3e-c5da-4b87-be71-80cf2a383308"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A73 5G A736",
+    "screenType": "OLED",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "disponible",
+    "id": "4a54013d-8f74-44a1-aea0-f59b6fbcf9d9"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A720 A7",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "f9cf5940-2607-45e9-ba6e-57a9a26d6a84"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A730 A8 PLUS",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "ea97ff8c-525f-486e-8c57-02b8695d063b"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A750 A7",
+    "screenType": "INCELL",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "7a3fd43e-b9ce-4545-beac-3b9432bef65f"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A750 A7",
+    "screenType": "OLED",
+    "wholesalePrice": 38.0,
+    "retailPrice": 47.5,
+    "stockStatus": "disponible",
+    "id": "e8649a34-b89a-4524-b6c3-64a24f5c6c0d"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A80 A805",
+    "screenType": "OLED",
+    "wholesalePrice": 45.0,
+    "retailPrice": 56.25,
+    "stockStatus": "disponible",
+    "id": "efa06fa3-f558-481f-983c-834fdfbf5b99"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A920 A9",
+    "screenType": "OLED",
+    "wholesalePrice": 38.0,
+    "retailPrice": 47.5,
+    "stockStatus": "disponible",
+    "id": "209ff6c0-7bc9-4c4e-af4c-44f439c8170e"
+  },
+  {
+    "brand": "Samsung",
+    "model": "G570 J5 PRIME 2",
+    "screenType": "OLED",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "5c8cf6ae-7dbe-42a8-b3a2-f6e94d811b3c"
+  },
+  {
+    "brand": "Samsung",
+    "model": "G610 J7 PRIMWE 2",
+    "screenType": "OLED",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "d9fef029-b24d-42f0-82f5-a2ea6bbce460"
+  },
+  {
+    "brand": "Samsung",
+    "model": "G611 J7 PRIME 2",
+    "screenType": "OLED",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "b1ab7030-ff74-48d1-b7fd-adc6cefae650"
+  },
+  {
+    "brand": "Samsung",
+    "model": "G615 J7 MAX 2",
+    "screenType": "OLED",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "3a531ced-1d94-4924-bdb6-883261537860"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J110 J111 J1 ACE 2",
+    "screenType": "OLED",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "84b4afde-b186-4c33-8a06-b9e38e3fead7"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J250 J2 PRO 2",
+    "screenType": "OLED",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "7c86ed7b-e7c6-4a35-8e7f-3a663b2b4f42"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J260 2 D3/4 SAMSUNG J320 SAMSUNG J320 2 SAMSUNG J327 2 SAMSUNG J330 J337 2",
+    "screenType": "OLED",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "agotado",
+    "id": "92a82ddc-1865-45ea-8869-3c053109d799"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J400",
+    "screenType": "OLED",
+    "wholesalePrice": 20.0,
+    "retailPrice": 25.0,
+    "stockStatus": "disponible",
+    "id": "71ed1013-b695-47c0-aed7-cf8f876b10cd"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J400 2",
+    "screenType": "OLED",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "f624c268-469a-48cb-9d9f-339bf8c63135"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J410 J4 2",
+    "screenType": "OLED",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "f6526139-7d0f-4c3b-a133-a719512bbc00"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J415 J4 PLUS 2",
+    "screenType": "OLED",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "b29d9942-9c1e-4f32-8625-fbbe20ea9c53"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J5D00 2",
+    "screenType": "OLED",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "64158d04-fb48-4601-947a-0755c170cba6"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J510 2",
+    "screenType": "OLED",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "f446c0d9-a680-4c2f-b46f-39ae343fcd91"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J530 J5 PRO",
+    "screenType": "OLED",
+    "wholesalePrice": 20.0,
+    "retailPrice": 25.0,
+    "stockStatus": "disponible",
+    "id": "25d9fbcf-3600-4fd0-9835-782e17a898ab"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J530 J5 PRO 2",
+    "screenType": "OLED",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "89a16416-c74a-4c93-9e68-442386d3c15d"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J600 A600 A6 2",
+    "screenType": "OLED",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "f6296fd6-ed25-4d58-913b-7f235f2fa602"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J610 J6 2",
+    "screenType": "OLED",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "ede1aa0e-2c69-45b9-b0b0-312dc718b3a3"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J615 J6 PLUS 2",
+    "screenType": "OLED",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "508bbd6f-5b2c-4abc-b688-8636073a9654"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J700 2",
+    "screenType": "OLED",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "18ac8de9-1b1e-4939-a9f0-8298d04ee775"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J701 2",
+    "screenType": "OLED",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "538de97e-db6b-4f5d-a7b7-17c698f8a916"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J710 2",
+    "screenType": "OLED",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "b53e8fbe-648f-438d-92d2-001c5d439054"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J720 2",
+    "screenType": "OLED",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "agotado",
+    "id": "c5218bce-1b19-4faf-8364-810da2ea5796"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J727 OLEWD/2",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "1d37bf62-d7bc-4df3-a031-e574ad2e2452"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J730 J7 PRO 2",
+    "screenType": "OLED",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "b33de74b-f86f-4c3b-830e-f7e896047cb1"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J737 S757 2",
+    "screenType": "OLED",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "bd5bbb3d-a8af-400b-99a3-e2544abfb399"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J810 2",
+    "screenType": "OLED",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "f087b51d-5227-4064-900a-7f26e5c7761a"
+  },
+  {
+    "brand": "Samsung",
+    "model": "M02 M12 A32 5G F12",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "59806d68-866b-4750-9d91-2674652cdf34"
+  },
+  {
+    "brand": "Samsung",
+    "model": "M11 M115",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "agotado",
+    "id": "5f857a7d-6436-4f5b-9707-03b7d0a4f6e4"
+  },
+  {
+    "brand": "Samsung",
+    "model": "M20 M205 D3/4 SAMSUNG M21S M217 SAMSUNG M21S M217 2/4 SAMSUNG M30 M305 SAMSUNG M30 M305",
+    "screenType": "INCELL",
+    "wholesalePrice": 28.0,
+    "retailPrice": 35.0,
+    "stockStatus": "disponible",
+    "id": "a0146662-9ebe-4d28-bc6c-372473f3c0b2"
+  },
+  {
+    "brand": "Samsung",
+    "model": "M30S M305",
+    "screenType": "INCELL",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "3be231d0-dd6c-48d3-839a-8e01d8518f4b"
+  },
+  {
+    "brand": "Samsung",
+    "model": "M30S M307",
+    "screenType": "OLED",
+    "wholesalePrice": 28.0,
+    "retailPrice": 35.0,
+    "stockStatus": "disponible",
+    "id": "fbce84d2-8600-409d-ac82-bd5b2ab2f0fb"
+  },
+  {
+    "brand": "Samsung",
+    "model": "M31 M315",
+    "screenType": "INCELL",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "c9696776-948e-4949-8cac-6ec187203532"
+  },
+  {
+    "brand": "Samsung",
+    "model": "M31 M315",
+    "screenType": "OLED",
+    "wholesalePrice": 28.0,
+    "retailPrice": 35.0,
+    "stockStatus": "disponible",
+    "id": "81fea3b8-0058-44c1-82a1-1e674a3eed4f"
+  },
+  {
+    "brand": "Samsung",
+    "model": "M31/M30S/DM30/M21S C/M",
+    "screenType": "OLED",
+    "wholesalePrice": 30.0,
+    "retailPrice": 37.5,
+    "stockStatus": "agotado",
+    "id": "1a268968-542d-4e8a-a8c2-858507656772"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Z FLIP",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 250.0,
+    "retailPrice": 312.5,
+    "stockStatus": "disponible",
+    "id": "d38010ba-8daa-4653-b337-bc7f6b1e77fc"
+  },
+  {
+    "brand": "Samsung",
+    "model": "NOTE AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 90.0,
+    "retailPrice": 112.5,
+    "stockStatus": "disponible",
+    "id": "ae223435-98eb-4f66-82d4-68b5762fe1c9"
+  },
+  {
+    "brand": "Samsung",
+    "model": "NOTE PLUS AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 75.0,
+    "retailPrice": 93.75,
+    "stockStatus": "disponible",
+    "id": "7ea8647d-480b-470f-86cb-f309a896eeaf"
+  },
+  {
+    "brand": "Samsung",
+    "model": "NOTE ULTRA",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 250.0,
+    "retailPrice": 312.5,
+    "stockStatus": "disponible",
+    "id": "ae36886b-fe50-40bc-bea3-c5ff987fbc01"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S9 AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 95.0,
+    "retailPrice": 118.8,
+    "stockStatus": "disponible",
+    "id": "c6c5c235-79e9-45da-8de2-8a4be90d807a"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S9 PLUS AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 95.0,
+    "retailPrice": 118.8,
+    "stockStatus": "disponible",
+    "id": "db238075-8598-4c64-a182-3aa4b202c86f"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S10",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 125.0,
+    "retailPrice": 156.3,
+    "stockStatus": "disponible",
+    "id": "ed5a09a9-bfe0-48f6-86df-9b76a60e7d52"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S10 PLUS ORIGINAWL",
+    "screenType": "3/4 CON MARCO",
+    "wholesalePrice": 150.0,
+    "retailPrice": 187.5,
+    "stockStatus": "disponible",
+    "id": "1764ae93-69f1-4655-a19b-50f66d6563c2"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S20 AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 100.0,
+    "retailPrice": 125.0,
+    "stockStatus": "disponible",
+    "id": "dff81e59-a2f6-4ed0-b6e5-3a3195fdd86c"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S20 FE AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 40.0,
+    "retailPrice": 50.0,
+    "stockStatus": "agotado",
+    "id": "d432f884-507b-4f87-8cab-0a67a07e9b0a"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S20 PLUS AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 80.0,
+    "retailPrice": 100.0,
+    "stockStatus": "disponible",
+    "id": "1f62808e-f9db-4df2-8783-d37c07370822"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S20 PELUS",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 175.0,
+    "retailPrice": 218.8,
+    "stockStatus": "disponible",
+    "id": "323ce38f-d332-4a4b-afb0-c0e8260c6f63"
+  },
+  {
+    "brand": "Samsung",
+    "model": "SC20 ULTRA AM SAMSUNG S20 ULTRA",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 225.0,
+    "retailPrice": 281.3,
+    "stockStatus": "disponible",
+    "id": "ca5cb8c5-a21c-4957-bc9d-0e53789f1a25"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S21 AM 3D/4 SAMSUNG S21 FE AM SAMSUNG S21 PLUS AM R3/4 SAMSUNG S21 PLUS SAMSUNG S21 ULTRA AM",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 90.0,
+    "retailPrice": 112.5,
+    "stockStatus": "disponible",
+    "id": "bf06d8fa-6b31-4217-9b72-e0f43aab0c4a"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S21 ULTRA",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 220.0,
+    "retailPrice": 275.0,
+    "stockStatus": "disponible",
+    "id": "d026d639-bacb-4132-8ccb-431097d858d6"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S22 AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 155.0,
+    "retailPrice": 193.8,
+    "stockStatus": "disponible",
+    "id": "60ddc58a-b3b0-422a-b1da-657f78783a15"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S22 PLUS AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 80.0,
+    "retailPrice": 100.0,
+    "stockStatus": "disponible",
+    "id": "a4399c06-d5e1-4c7e-aafd-595024bf08ae"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S22 ULTRA AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 90.0,
+    "retailPrice": 112.5,
+    "stockStatus": "disponible",
+    "id": "6e4b930c-0a17-4276-b6a5-37c998481e14"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S22 ULTRA ODRIGINAL 4/4 SAMSUNG S22 ULTRA",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 250.0,
+    "retailPrice": 312.5,
+    "stockStatus": "disponible",
+    "id": "bf47edb8-7c16-4874-a72a-6d9451fa314b"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S23 AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 155.0,
+    "retailPrice": 193.8,
+    "stockStatus": "disponible",
+    "id": "eab75cc2-2356-4156-becc-e6f48ee617ff"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S23 PLUS AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 80.0,
+    "retailPrice": 100.0,
+    "stockStatus": "disponible",
+    "id": "97db1299-6031-4411-81cb-7f3ff9302627"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S23 ULTRA AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 90.0,
+    "retailPrice": 112.5,
+    "stockStatus": "disponible",
+    "id": "6a2c6af0-9f41-4703-8e1b-ef7160000e6d"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S23 ULTRA",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 270.0,
+    "retailPrice": 337.5,
+    "stockStatus": "agotado",
+    "id": "c1f86b3a-94e6-4042-8204-62ecddfe11e5"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S24 ULTRA AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 100.0,
+    "retailPrice": 125.0,
+    "stockStatus": "disponible",
+    "id": "fd62950c-8bc3-47aa-8d1d-f20cf617bfdd"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S24 ULTRA",
+    "screenType": "ORIGINAL CON MARCO",
+    "wholesalePrice": 270.0,
+    "retailPrice": 337.5,
+    "stockStatus": "agotado",
+    "id": "508ad39c-f31a-4ed7-9273-276b2afb6060"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S24 ULTRA",
+    "screenType": "ORIGINAL SIN MARCO",
+    "wholesalePrice": 250.0,
+    "retailPrice": 312.5,
+    "stockStatus": "disponible",
+    "id": "1b4c1be3-2a40-4361-a96b-a638d878f0f7"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S25 ULTRA AM",
+    "screenType": "AMOLED",
+    "wholesalePrice": 120.0,
+    "retailPrice": 150.0,
+    "stockStatus": "disponible",
+    "id": "71913aae-f513-45b3-a10a-8c26716e78fb"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S25 ULTRA ORIGINAWL",
+    "screenType": "3/4 CON MARCO",
+    "wholesalePrice": 270.0,
+    "retailPrice": 337.5,
+    "stockStatus": "disponible",
+    "id": "bfe63495-055a-4a32-9077-97f77c86f044"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S25 ULTRA",
+    "screenType": "ORIGINAL SIN MARCO",
+    "wholesalePrice": 250.0,
+    "retailPrice": 312.5,
+    "stockStatus": "disponible",
+    "id": "e0822913-4124-4963-b424-c37c59bde9fa"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S5 G900",
+    "screenType": "INCELL",
+    "wholesalePrice": 19.0,
+    "retailPrice": 23.75,
+    "stockStatus": "disponible",
+    "id": "36c38a41-709e-4eab-a151-1b4eed3803d0"
+  },
+  {
+    "brand": "TCL",
+    "model": "10SE",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "agotado",
+    "id": "7cd20299-586a-4eff-ad0d-be1b71ab16ca"
+  },
+  {
+    "brand": "TCL",
+    "model": "20E",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "89978855-ea11-4d04-a250-2fd065ef7713"
+  },
+  {
+    "brand": "TCL",
+    "model": "20L",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "2d8b6593-3885-487d-865e-70fb4fe7377b"
+  },
+  {
+    "brand": "TCL",
+    "model": "20SE",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "45959484-4831-4b13-9643-0fec1798daf9"
+  },
+  {
+    "brand": "Tecno",
+    "model": "CAMON TECNO CAMON SPARK PRO",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "39be1c92-336c-4c7f-8730-761638a1a54a"
+  },
+  {
+    "brand": "Tecno",
+    "model": "CAMON PRO",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "9a667fd0-0e36-40bf-a954-919f1f8f5ebe"
+  },
+  {
+    "brand": "Tecno",
+    "model": "CAMON 17P",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "4b64a21b-4ca1-4649-88a1-7aaf3fcc6814"
+  },
+  {
+    "brand": "Tecno",
+    "model": "CAMON",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "e6e6f80c-cf82-4ccb-802c-95d91a8cfdf5"
+  },
+  {
+    "brand": "Tecno",
+    "model": "CAMON PREMIER",
+    "screenType": "INCELL",
+    "wholesalePrice": 13.0,
+    "retailPrice": 16.25,
+    "stockStatus": "disponible",
+    "id": "76f6ee44-2980-412e-b832-4268b4b3ab61"
+  },
+  {
+    "brand": "Tecno",
+    "model": "CAMON 1D8 PREMIER",
+    "screenType": "OLED",
+    "wholesalePrice": 40.0,
+    "retailPrice": 50.0,
+    "stockStatus": "disponible",
+    "id": "7ae65ecf-eb45-47a5-964a-fc35a2a0f573"
+  },
+  {
+    "brand": "Tecno",
+    "model": "CAMON 18P CAMON NEO",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "f550a8f0-e0e2-4a1a-a88b-2da47600c93f"
+  },
+  {
+    "brand": "Tecno",
+    "model": "CAMON 4G",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "098c4d47-7cc8-4e48-b45a-697aa29d20be"
+  },
+  {
+    "brand": "Tecno",
+    "model": "CAMON PRO 4G",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "48abe628-109b-44f0-80e1-5f52b11c7728"
+  },
+  {
+    "brand": "Tecno",
+    "model": "CAMON CAMON PRO",
+    "screenType": "INCELL",
+    "wholesalePrice": 13.0,
+    "retailPrice": 16.25,
+    "stockStatus": "disponible",
+    "id": "6a72cd6e-6995-47b2-ad93-e1df4617f0dc"
+  },
+  {
+    "brand": "Tecno",
+    "model": "CAMON CAMON PRO 4 TECNO CAMON POVA",
+    "screenType": "INCELL",
+    "wholesalePrice": 13.0,
+    "retailPrice": 16.25,
+    "stockStatus": "disponible",
+    "id": "38f46126-2d21-427a-b92f-3f025d275efb"
+  },
+  {
+    "brand": "Tecno",
+    "model": "CAMON POVA",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 45.0,
+    "retailPrice": 56.25,
+    "stockStatus": "disponible",
+    "id": "6739da55-1475-4cd5-ab3f-d5975fe0f415"
+  },
+  {
+    "brand": "Tecno",
+    "model": "CAMON 30S CAMON 30S PRO",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 45.0,
+    "retailPrice": 56.25,
+    "stockStatus": "disponible",
+    "id": "862b968c-0f17-4c8c-a5dc-10202edca0fa"
+  },
+  {
+    "brand": "Tecno",
+    "model": "CAMON",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 40.0,
+    "retailPrice": 50.0,
+    "stockStatus": "disponible",
+    "id": "a2da595f-80fc-4145-ac5c-313d8cd3a717"
+  },
+  {
+    "brand": "Tecno",
+    "model": "CAMON PRO",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 45.0,
+    "retailPrice": 56.25,
+    "stockStatus": "disponible",
+    "id": "d9c4c2bf-86f5-4366-894d-03ac5d01f93c"
+  },
+  {
+    "brand": "Tecno",
+    "model": "CAMON ULTRA",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 70.0,
+    "retailPrice": 87.5,
+    "stockStatus": "disponible",
+    "id": "1f86ae01-2622-46e4-a89d-a173b5ebb9bd"
+  },
+  {
+    "brand": "Tecno",
+    "model": "POP 1F 2F",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "623d9527-d5b6-479b-882f-0aca967fc197"
+  },
+  {
+    "brand": "Tecno",
+    "model": "POP",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "ba501783-28df-4639-afbd-c0711ccd7703"
+  },
+  {
+    "brand": "Tecno",
+    "model": "POP LTE TECNO POP",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "agotado",
+    "id": "b454c8c3-072a-4f32-af04-482a1bf4cb24"
+  },
+  {
+    "brand": "Tecno",
+    "model": "POP LTE POP PRO TECNO POP TECNO POP PRO TECNO POP POP PRO TECNO POUVOIR SPARK AIR POP AIR",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "agotado",
+    "id": "0d3c5cde-cd57-4961-a60a-0300a04580e6"
+  },
+  {
+    "brand": "Tecno",
+    "model": "POVA",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "598f5fae-f160-4014-be44-555914f1fda9"
+  },
+  {
+    "brand": "Tecno",
+    "model": "PDOVA",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "670d0a8c-1de9-4dc6-b61e-dbccc8096969"
+  },
+  {
+    "brand": "Tecno",
+    "model": "POVA PRO 5G",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "8ed4bd8a-296e-4ca5-b201-c6ce562a96d7"
+  },
+  {
+    "brand": "Tecno",
+    "model": "POVA CAMON",
+    "screenType": "INCELL",
+    "wholesalePrice": 13.0,
+    "retailPrice": 16.25,
+    "stockStatus": "disponible",
+    "id": "3fb1be09-5c10-43ac-aabb-2aa183e4124e"
+  },
+  {
+    "brand": "Tecno",
+    "model": "POVA CAMON",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 45.0,
+    "retailPrice": 56.25,
+    "stockStatus": "disponible",
+    "id": "b2ee31f8-d132-4dfb-b04b-af3c5a844cc9"
+  },
+  {
+    "brand": "Tecno",
+    "model": "POVA NEO",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "4fc82387-f9b2-4a89-9f1e-5737e40ce7be"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "9247840b-bed5-478e-a082-22e2729b8b41"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK PRO",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "e47b0e16-3f85-497e-a7f5-802a64580a82"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK 10C",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "49444c19-4218-444f-9779-de297ae6ed91"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK PRO PLUS",
+    "screenType": "INCELL",
+    "wholesalePrice": 16.0,
+    "retailPrice": 20.0,
+    "stockStatus": "agotado",
+    "id": "17900efa-1df4-41c0-96c5-0c70e9f295ec"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK PRO PLUWS",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 45.0,
+    "retailPrice": 56.25,
+    "stockStatus": "disponible",
+    "id": "2793ff68-1422-4401-b9b2-17b8bc562df3"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK 20C",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "agotado",
+    "id": "6db45121-f717-4d1b-a5b9-dae2c34e46f0"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK 4G",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "44013d87-289f-4824-a5cd-7aab33051b8e"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK PRO",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 42.0,
+    "retailPrice": 52.5,
+    "stockStatus": "disponible",
+    "id": "cbfcf97d-4826-4259-936e-169feb050a29"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK D3/4 TECNO SPARK 40C V70 TECNO SPARK PRO R3/4 TECNO SPARK PRO PLUS TECNO SPARK",
+    "screenType": "ORIGINAL",
+    "wholesalePrice": 13.0,
+    "retailPrice": 16.25,
+    "stockStatus": "agotado",
+    "id": "3a3761e8-d71c-451c-be97-71b739737c84"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK GO POP 5X",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "b7c80a74-5f3d-483e-b793-1b336bf5d47b"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK SPARK 7T",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "0165b779-37c1-4a4c-9d13-e5596c2185d7"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK PRO CAMON 18I",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "8f82a361-73fc-4f29-88e8-9a0341597b94"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SDPARK",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "a92cd8d0-1735-4a90-a2d3-7f51584be2bb"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK PRO HOT 11S NFC",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "cacfe9cb-3e2d-4565-a867-294cfb68643e"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK 8C SPARK 9T",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "990f3157-cf05-46db-a02b-60b858f8bf1f"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK 8P",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "5c7e4609-73d6-48eb-8850-5a62c0f748c3"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK 8T",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "0d1e3fca-7c27-4cf5-9155-b43b4bdb3109"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK PRO 8P 8T HOT",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "4822b201-d56e-42aa-a85a-b87bcd0c1c3d"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK 9T",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "c7c6374c-bdcc-49c9-a3e4-bdb6e9aad6d4"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK GO ZTE V70",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "62cb510e-b2fe-4cd7-b9c7-a8bd2e9b297b"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK GO 1S",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "0c3d4367-d308-4cea-b784-0c817d0f7360"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK GO HOT 60I",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "c865af6f-902a-4799-9c49-99cf97983637"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK GO",
+    "screenType": "3/4",
+    "wholesalePrice": 13.0,
+    "retailPrice": 16.25,
+    "stockStatus": "disponible",
+    "id": "cdae790b-aaeb-4caa-9548-f6e0d096b228"
+  },
+  {
+    "brand": "Tecno",
+    "model": "SPARK GO 2W022",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "8902dd55-d986-49de-872b-79f4ec9be7a7"
+  },
+  {
+    "brand": "Umidigi",
+    "model": "A11 A11S",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "1bfcd5f9-bf2e-4cd4-856b-f580e86a786c"
+  },
+  {
+    "brand": "Umidigi",
+    "model": "A1E1 PRO A11 PRO MAX 3/C4 UMIDIGI A5 PRO UMIDIGI A7",
+    "screenType": "3/4",
+    "wholesalePrice": 15.0,
+    "retailPrice": 18.75,
+    "stockStatus": "disponible",
+    "id": "d532eb23-9681-41d3-967d-5d5bad31f95a"
+  },
+  {
+    "brand": "Umidigi",
+    "model": "A7 PRO UMIDIGI A7S UMIDIGI A9 UMIDIGI A9 PRO UMIDIGI BISON",
+    "screenType": "3/4",
+    "wholesalePrice": 19.0,
+    "retailPrice": 23.75,
+    "stockStatus": "disponible",
+    "id": "29bd6642-cd41-4655-a530-3b870f2736ff"
+  },
+  {
+    "brand": "Umidigi",
+    "model": "BISON GT",
+    "screenType": "3/4",
+    "wholesalePrice": 19.0,
+    "retailPrice": 23.75,
+    "stockStatus": "disponible",
+    "id": "f0d4aee7-c66e-4579-8f74-7b35eb38f7df"
+  },
+  {
+    "brand": "Umidigi",
+    "model": "BISON X10",
+    "screenType": "3/4",
+    "wholesalePrice": 16.0,
+    "retailPrice": 20.0,
+    "stockStatus": "disponible",
+    "id": "a524b4a0-4110-422e-b37a-15bec8c1e15c"
+  },
+  {
+    "brand": "Umidigi",
+    "model": "BISON X10 PRO",
+    "screenType": "3/4",
+    "wholesalePrice": 16.0,
+    "retailPrice": 20.0,
+    "stockStatus": "disponible",
+    "id": "0424ff3a-4616-4731-a350-9d8345a27db5"
+  },
+  {
+    "brand": "Umidigi",
+    "model": "POWER POWER 5S",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "7978bb41-2d45-458c-9939-5973c1df2909"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y11",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "0f00d796-04af-44cc-ba12-33133cc83b1e"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y11S Y20 Y20i Y15S",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "30d37c10-16a2-494b-9df0-71905e7343b2"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y20i",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "0e185582-7b58-406a-a955-ae90a0aedb2a"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y21S Y16 Y21 Y15S",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "f064ea7b-f84a-45b6-a372-9e5d97f693c0"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y22 Y17",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "agotado",
+    "id": "0e1b7f5a-b1e7-48ef-b4f5-bd7740de4d9d"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y33S",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "f8f54db8-80ab-48a6-a2f3-d0321339f3f1"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y50 Y30",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "5867500d-312f-40b2-a3cd-fafefc5b7b74"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y51",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "139dd793-642c-4a49-bfb3-5b8d57eb73d2"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y53S",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "8bedccf3-8485-4182-98d7-74ae40c707ed"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y71",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "75a32a66-be81-4752-95e6-27e343522e5e"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y83",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "d1a3bcbb-c0c9-45d9-96eb-e92165cb9955"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y85",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "db42f813-371c-48b4-9546-396ca651eff5"
+  },
+  {
+    "brand": "Vivo",
+    "model": "Y93",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "e46065c2-5215-418f-b3a1-efc54477715d"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI LITE",
+    "screenType": "INCELL",
+    "wholesalePrice": 16.0,
+    "retailPrice": 20.0,
+    "stockStatus": "disponible",
+    "id": "d6b98776-4c41-472c-a0c4-3f4a02040095"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI LITE",
+    "screenType": "OLED",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "disponible",
+    "id": "a063576b-fcbd-4b48-9dfd-46050cb144b4"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI 10T LITE POCO X3",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "60db81c9-bd40-4d69-ab5f-d9a5bb4d5e27"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI LITE NE D3/4 XIAOMI MI LITE NE XIAOMI MI 11T 11T PRO R3/4 XIAOMI MI 11T 11T PRO XIAOMI MI LITE",
+    "screenType": "INCELL",
+    "wholesalePrice": 40.0,
+    "retailPrice": 50.0,
+    "stockStatus": "disponible",
+    "id": "2ef073dc-fc89-40a0-b995-4d2c66f1402b"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI PRO",
+    "screenType": "OLED",
+    "wholesalePrice": 60.0,
+    "retailPrice": 75.0,
+    "stockStatus": "agotado",
+    "id": "72607946-9244-43bd-a05f-d9ace005121e"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI 12T 12T PRO",
+    "screenType": "OLED",
+    "wholesalePrice": 45.0,
+    "retailPrice": 56.25,
+    "stockStatus": "disponible",
+    "id": "f817a728-98d2-4326-bd7c-33c27d13dba6"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI 12X MI",
+    "screenType": "OLED",
+    "wholesalePrice": 55.0,
+    "retailPrice": 68.75,
+    "stockStatus": "agotado",
+    "id": "813a78a6-315b-46cf-89ce-b60368d3b813"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI",
+    "screenType": "INCELL",
+    "wholesalePrice": 17.0,
+    "retailPrice": 21.25,
+    "stockStatus": "disponible",
+    "id": "f9d1aed8-f50f-414b-a78e-0bc0bc309278"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI 8D LITE",
+    "screenType": "INCELL",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "27cc713b-6991-481f-87da-82228fe26306"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI 4/4 XIAOMI MI PRO",
+    "screenType": "OLED",
+    "wholesalePrice": 20.0,
+    "retailPrice": 25.0,
+    "stockStatus": "disponible",
+    "id": "e18cf147-ef01-4b81-b711-6c90242a839b"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI SE",
+    "screenType": "OLED",
+    "wholesalePrice": 20.0,
+    "retailPrice": 25.0,
+    "stockStatus": "disponible",
+    "id": "84af5561-f820-4a3b-8ba3-b3a5503c000f"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI",
+    "screenType": "OLED",
+    "wholesalePrice": 20.0,
+    "retailPrice": 25.0,
+    "stockStatus": "disponible",
+    "id": "451b7acc-1e39-4923-977e-dd90774999a9"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI SE",
+    "screenType": "INCELL",
+    "wholesalePrice": 17.0,
+    "retailPrice": 21.25,
+    "stockStatus": "agotado",
+    "id": "b53d25cc-0451-40ac-bbf9-06ca77b7ebd5"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI 9T",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "2c5a4507-86f9-47bb-962c-025db456acdc"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI 9T",
+    "screenType": "OLED",
+    "wholesalePrice": 40.0,
+    "retailPrice": 50.0,
+    "stockStatus": "disponible",
+    "id": "7c99778b-c847-4d52-a636-8ed54895819d"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI 9T PRO INWCELL",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "4c1927a3-c53f-42cc-b491-ff62a0947284"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI 9T PRO",
+    "screenType": "OLED",
+    "wholesalePrice": 40.0,
+    "retailPrice": 50.0,
+    "stockStatus": "disponible",
+    "id": "6c85668a-98b9-4b9b-8cc3-3672e7693b1a"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI A1",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "agotado",
+    "id": "1788ddd4-852b-4c69-a551-09eab7c3cb71"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI A2",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "8ef36a84-5ddf-42e6-ad47-206aea5c7c9b"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MIE A2 LITE REDMI PRO",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "b9c6bbbc-69ad-499e-8792-1f0398287146"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI A3 XIAOMI MI A3",
+    "screenType": "INCELL",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "agotado",
+    "id": "1ed58a9a-06ab-496c-9289-7d4d7b606e27"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI NOTE LITE D3/4 XIAOMI MI NOTE XIAOMI MI NOTE PRO XIAOMI MI POCO C40 XIAOMI MI POCO C65 13C 13C 5G",
+    "screenType": "OLED",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "076591b7-d00e-4b99-8540-f3daa029d93a"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI POCO C71 REDMI A5 REDMI A7",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "e79602fa-fc38-432a-9b17-750d066258db"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI POCO C75 14C",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "86518392-c7e6-4137-abb0-5337829bc4b7"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI POCO F5 PRO 5G",
+    "screenType": "OLED",
+    "wholesalePrice": 65.0,
+    "retailPrice": 81.25,
+    "stockStatus": "disponible",
+    "id": "de7e6c7a-0994-406a-8106-636c2b1dbfc0"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI POCO M3",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "88b38444-e0c2-4d52-b098-4d19f69e2ede"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI POCO M3 PRDO REDMI NOTE 5G",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "be519f02-274e-4bbc-b83d-347a183843ae"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI POCO M4 PRO 4G",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "138ed719-71d1-4698-a67e-6ffa4a2260a2"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI POCO M4 PRO 5G NOTE 5G",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "86a3839b-d964-4aba-8bb8-d6d8916cf853"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI POCO M5 REDMI NOTE 11E",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "agotado",
+    "id": "66f953fd-bae0-4841-a8d8-2a2d6a0018c6"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI POCO M5S",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "65e1e1a7-1114-4923-816b-ca87cca7a3e7"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI POCO M6 REDMI 4 XIAOMI MI POCO M6 PRO 4G",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "5a589c03-1465-4231-be60-8c4e18e325e5"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI POCO M6 PRO 4G",
+    "screenType": "OLED",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "disponible",
+    "id": "64507ecf-2740-4a12-9182-6e096066cecf"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI POCO M7 PRO 5G",
+    "screenType": "OLED",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "disponible",
+    "id": "108658c8-eb17-449c-926f-d4efc9ca9629"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI POCO X3 X3 PRO",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "dd5f51ad-f6eb-482a-bc5b-5b9fb8322518"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI POCO X3 GT",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "02e687d3-e994-4d12-b3c6-4f12c81ec1ae"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI POCO XW4 GT",
+    "screenType": "3/4",
+    "wholesalePrice": 17.0,
+    "retailPrice": 21.25,
+    "stockStatus": "disponible",
+    "id": "3f5c5365-69ba-4699-9b88-e2615203030b"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI POCO X4 PRO 5G",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "ddb2aab7-b4b9-4ace-8b95-e2cc69563a2e"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI POCO X4 PRO 5G",
+    "screenType": "OLED",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "disponible",
+    "id": "89075742-8020-4c25-9f0d-e3cab8f966ef"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI POCO X5 5G",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "cf1f7f41-8c11-4e69-8f2e-95879bde33ec"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MEI POCO X5 5G",
+    "screenType": "OLED",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "disponible",
+    "id": "b4810312-373d-42d6-881a-3e3effdf580e"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI POCO X5 PRO 5G XIAOMI MI POCO X5 PRO 5G",
+    "screenType": "INCELL",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "disponible",
+    "id": "58fa642e-6f97-47e3-8e45-e561067504a3"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI POCO X6 5G D3/4 XIAOMI MI POCO X6 5G XIAOMI MI POCO X6 PRO 5G R3/4 XIAOMI MI POCO X6 PRO 5G XIAOMI MI POCO X7 4G",
+    "screenType": "INCELL",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "agotado",
+    "id": "46ddb155-8c96-470d-8968-a545aaeba513"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "MI POCO X7 PRO 4G",
+    "screenType": "OLED",
+    "wholesalePrice": 40.0,
+    "retailPrice": 50.0,
+    "stockStatus": "agotado",
+    "id": "2503cc5b-49bd-4b5f-80a8-3daa6a6991de"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "2d3c40be-0b87-4579-9ebc-37a0cca0d248"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI 4G",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "31b0de35-3177-4814-9d3b-1c1fbcb96eae"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI 5G",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "b0ccd223-a625-47f3-9cc0-6213ab8bf3e7"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDDMI 10A",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "0933d29a-b8cd-46a0-8b89-3fedc2b1bf6f"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI 10C",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "711d01c7-818d-4c3c-b125-4c8861714ed6"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI 12C",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "a8df24a7-a242-405a-9c06-583bb72064e2"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI M6",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "88535eea-fa34-4b03-89c3-479b206dfedf"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI 13C C65",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "7d4a1b7a-25b6-4c3e-96ee-b09773567d82"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI 14C C75",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "c9f50749-86d8-4471-97d7-a9763d3b1828"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI 15C",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "aac5a983-1506-4ac8-a7ef-c14ae3696a6c"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI REDMI 6A",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "b7224411-3fba-490d-bf9c-f07c4cb40168"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI 7WA",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "7b1dbcde-cca7-4ce1-ae5c-41a63d0794ec"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI REDMI 8A",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "b84cc560-cc5e-4223-9158-17abba5f1c5b"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI 9A 9C 9AT 9i C3 C31",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "c4541d4f-f0f0-4bc4-945a-97c781d73f71"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI A1 XIAOMI REDMI A1 PLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "6b08dcca-4daa-4e0c-b887-b955efd8948b"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI A2 A2 PLUS D3/4 XIAOMI REDMI A3 REDMI A3X XIAOMI REDMI A5 C71 A7 XIAOMI REDMI A7 PRO XIAOMI REDMI GO REDMI 5A",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "1f92f2a7-a4e7-440b-bdba-559f7d752d38"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI K40 GAMING F3 GT",
+    "screenType": "INCELL",
+    "wholesalePrice": 15.0,
+    "retailPrice": 18.75,
+    "stockStatus": "disponible",
+    "id": "79a3385d-b315-45f4-ae04-5f8149fedc1f"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI K40 GAMING F3 GT",
+    "screenType": "OLED",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "disponible",
+    "id": "62f7f818-26e1-4a51-af7d-2711c92a30d1"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI K40 PRO MI 11i/F3/F4/K40S",
+    "screenType": "INCELL",
+    "wholesalePrice": 13.0,
+    "retailPrice": 16.25,
+    "stockStatus": "disponible",
+    "id": "094aa6c1-4677-4acd-b613-dfada9399e6f"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI K40 PRO MI 11i/F3/F4/K40S",
+    "screenType": "OLED",
+    "wholesalePrice": 38.0,
+    "retailPrice": 47.5,
+    "stockStatus": "disponible",
+    "id": "71feb8b0-dc7d-432f-a0b9-2fe747606e7b"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI K50 GADMING F4 GT",
+    "screenType": "INCELL",
+    "wholesalePrice": 17.0,
+    "retailPrice": 21.25,
+    "stockStatus": "agotado",
+    "id": "570d5dc0-8ce5-41d9-b547-4caf7593074e"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI K50 GAMING F4 GT",
+    "screenType": "OLED",
+    "wholesalePrice": 43.0,
+    "retailPrice": 53.75,
+    "stockStatus": "agotado",
+    "id": "a3aae639-4e26-4593-abea-197346a4949b"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE 4G",
+    "screenType": "INCELL",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "e009478a-58f6-4a2f-86f3-ed821b63e590"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE 4G",
+    "screenType": "OLED",
+    "wholesalePrice": 30.0,
+    "retailPrice": 37.5,
+    "stockStatus": "disponible",
+    "id": "b5fd472a-ab5c-4859-b3db-d25e6fb7adad"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE PRO 4G",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "e464bbab-d329-4785-99b5-9d59f761712e"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE PRO 4G 4 XIAOMI REDMI NOTE 10S 4G",
+    "screenType": "INCELL",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "e3bac61f-0a82-4755-bee1-8706dbcc4a00"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE 10S 4G",
+    "screenType": "OLED",
+    "wholesalePrice": 30.0,
+    "retailPrice": 37.5,
+    "stockStatus": "disponible",
+    "id": "ca4dc62f-355b-48e0-b030-faafb2a244f3"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE PRWO 4G",
+    "screenType": "OLED",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "disponible",
+    "id": "631edf22-6c87-49e4-a7dd-998e147e8800"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE 11S 4G",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "98e0d5c0-7900-4bb5-905c-962ee5990158"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE 11S 4G",
+    "screenType": "OLED",
+    "wholesalePrice": 33.0,
+    "retailPrice": 41.25,
+    "stockStatus": "disponible",
+    "id": "77a4570f-a5ef-481b-af9f-aa10f8fcbef8"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REEDMI NOTE 4G",
+    "screenType": "OLED",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "disponible",
+    "id": "675c08f4-f83e-4d30-9a62-47cbb6bf9804"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "RCEDMI NOTE PRO 4G XIAOMI REDMI NOTE PRO 4G",
+    "screenType": "INCELL",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "disponible",
+    "id": "2c156d62-3063-4750-899a-968def8801a7"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE PRO 5G D3/4 XIAOMI REDMI NOTE PRO 5G XIAOMI REDMI NOTE PRO PLUS 5G R3/4 XIAOMI REDMI NOTE 12S 4G XIAOMI REDMI NOTE 12S 4G",
+    "screenType": "INCELL",
+    "wholesalePrice": 33.0,
+    "retailPrice": 41.25,
+    "stockStatus": "agotado",
+    "id": "65dedd7e-f4ea-4ceb-bc24-2b2493a4ccaa"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE 5G POCO F5",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "agotado",
+    "id": "7c987f8e-c17e-4274-bf1a-a40aa83ccead"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE 5G",
+    "screenType": "OLED",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "disponible",
+    "id": "a11a268e-f6d4-478b-a172-8e54b2a1e0b3"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTED PRO 4G",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "367f9668-e459-43b8-9c6b-f035e784b4d6"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE PRO 4G",
+    "screenType": "OLED",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "disponible",
+    "id": "764a473c-7d44-4be8-a063-cdcf49745cda"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE PRO 5G",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "c47d4463-b1f7-43ff-abf4-5578a5ffd1c8"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE PRO 5G",
+    "screenType": "OLED",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "disponible",
+    "id": "a2f2e11b-48a8-4d22-841a-f2eb3cb967f4"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE PRO PLUS 5G",
+    "screenType": "OLED",
+    "wholesalePrice": 35.0,
+    "retailPrice": 43.75,
+    "stockStatus": "agotado",
+    "id": "19ee8b90-da21-4122-b982-c94e624d2d9e"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE 5G",
+    "screenType": "INCELL",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "cfaf53f4-f53a-459b-aa5b-3a75d1505a22"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE PRWO 5G",
+    "screenType": "INCELL",
+    "wholesalePrice": 17.0,
+    "retailPrice": 21.25,
+    "stockStatus": "disponible",
+    "id": "babe5bd4-9b2f-4a5a-a8fe-644402909b53"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMEI NOTE PRO 4G",
+    "screenType": "OLED",
+    "wholesalePrice": 55.0,
+    "retailPrice": 68.75,
+    "stockStatus": "disponible",
+    "id": "05f9bebe-4c32-423e-b6af-5664544bd0de"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "CREDMI NOTE PRO 5G XIAOMI REDMI NOTE PRO PLUS 5G",
+    "screenType": "OLED",
+    "wholesalePrice": 50.0,
+    "retailPrice": 62.5,
+    "stockStatus": "disponible",
+    "id": "50b115b2-9299-4013-a74d-9945d9cdf9e8"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE D3/4 XIAOMI REDMI NOTE 4X XIAOMI REDMI NOTE XIAOMI REDMI NOTE PRO XIAOMI REDMI NOTE PRO",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "65031d10-4db4-406a-857c-88a085b60492"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE PRO PLUS",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "c9a396c8-b370-4545-a1a4-e77f4aa82af0"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "3a5dfdd4-fe7b-4ab1-ac20-ab8fa12a05a6"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE PRO",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "20f6ebc2-3153-41b1-bb47-0b9630d2e0b6"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMDI NOTE 8T",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "09195d84-8817-4bcb-b430-0766b6e3bceb"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE 9S",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "102e195b-2784-4a73-81e5-03e68997257a"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI NOTE 9T",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "agotado",
+    "id": "102e2696-19ac-49ae-bbad-de4a37a502e5"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "REDMI S2",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "c3ea4998-d59b-4f98-879d-3570057adc1a"
+  },
+  {
+    "brand": "ZTE",
+    "model": "A3",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "bd24288a-2e41-4207-a2b9-a5fd3294adb3"
+  },
+  {
+    "brand": "ZTE",
+    "model": "A3 LITE BLADE L8 A31 LITE",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "ad12160c-de95-48a5-aa88-abe664bceecc"
+  },
+  {
+    "brand": "ZTE",
+    "model": "A31",
+    "screenType": "3/4",
+    "wholesalePrice": 11.0,
+    "retailPrice": 13.75,
+    "stockStatus": "disponible",
+    "id": "2fce841a-f6f6-4c4a-900a-27fdecdabb1a"
+  },
+  {
+    "brand": "ZTE",
+    "model": "A31 LITE",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "7a18d877-66fd-45e0-aecb-990899ecaaf6"
+  },
+  {
+    "brand": "ZTE",
+    "model": "A34",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "8908c739-7791-4fae-9da8-32682b38e028"
+  },
+  {
+    "brand": "ZTE",
+    "model": "A35 LIFEPHONE HERO",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "3264c71f-0d06-4edf-a01d-ac5142088098"
+  },
+  {
+    "brand": "ZTE",
+    "model": "A35E",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "7ff0ad1b-89d7-4d9f-b645-87b55a5a85d5"
+  },
+  {
+    "brand": "ZTE",
+    "model": "A5 A7",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "71e338c4-9310-440a-b59b-3d1463d7ee7b"
+  },
+  {
+    "brand": "ZTE",
+    "model": "A54 ZTE A55 LIFEPHONE HERO",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "a0ebeb5c-7623-4ab2-8270-00f012c57096"
+  },
+  {
+    "brand": "ZTE",
+    "model": "A7 ZTE A71 A51 ZTE A72 4G ZTE A72 5G ZTE A73 4G",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "7299d773-3fd2-44d1-85a5-e2ac4114df10"
+  },
+  {
+    "brand": "ZTE",
+    "model": "A7S",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "e79d1fa8-e19e-4cfe-a726-88f914fa54f5"
+  },
+  {
+    "brand": "ZTE",
+    "model": "A7S V20 VITA",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "3ce9cbaf-2240-4f5a-8f9e-ecb2e5888213"
+  },
+  {
+    "brand": "ZTE",
+    "model": "NUBIA FOCUS 5G",
+    "screenType": "3/4",
+    "wholesalePrice": 13.0,
+    "retailPrice": 16.25,
+    "stockStatus": "disponible",
+    "id": "60e9dcce-7f8a-4b73-8eec-8b81115394a1"
+  },
+  {
+    "brand": "ZTE",
+    "model": "NUBIA FOCUS PRO 5G",
+    "screenType": "3/4",
+    "wholesalePrice": 16.0,
+    "retailPrice": 20.0,
+    "stockStatus": "disponible",
+    "id": "f0ba0201-b1cb-4ba3-ae17-038a8d523bb2"
+  },
+  {
+    "brand": "ZTE",
+    "model": "NUBIAD MUSIC",
+    "screenType": "3/4",
+    "wholesalePrice": 13.0,
+    "retailPrice": 16.25,
+    "stockStatus": "disponible",
+    "id": "66df513b-1b9a-4e9f-b96a-1d4ea7bad25b"
+  },
+  {
+    "brand": "ZTE",
+    "model": "NUBIA NEO 5G",
+    "screenType": "3/4",
+    "wholesalePrice": 16.0,
+    "retailPrice": 20.0,
+    "stockStatus": "disponible",
+    "id": "a29e8519-b3d1-4106-81ff-c4945a2110c5"
+  },
+  {
+    "brand": "ZTE",
+    "model": "V 5G",
+    "screenType": "3/4",
+    "wholesalePrice": 19.0,
+    "retailPrice": 23.75,
+    "stockStatus": "disponible",
+    "id": "93f6e5f3-75c6-4c84-8780-a95e6f0ace15"
+  },
+  {
+    "brand": "ZTE",
+    "model": "V2050",
+    "screenType": "3/4",
+    "wholesalePrice": 13.0,
+    "retailPrice": 16.25,
+    "stockStatus": "disponible",
+    "id": "9e2690c7-2c26-4a46-8dc5-8318849e24de"
+  },
+  {
+    "brand": "ZTE",
+    "model": "V10 VITA",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "142b4abe-8ee1-403b-bcfc-4ea2e2ba36fd"
+  },
+  {
+    "brand": "ZTE",
+    "model": "V20 VITA A7S",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "be445dc7-7019-4001-b614-6fc8c7c5411b"
+  },
+  {
+    "brand": "ZTE",
+    "model": "V30 VITA V20 SMART",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "959c966d-e687-4c29-b73a-ba19cec67c73"
+  },
+  {
+    "brand": "ZTE",
+    "model": "V40 VITA",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "91b9fc92-793c-4647-90e1-062c6a0075b6"
+  },
+  {
+    "brand": "ZTE",
+    "model": "V50 DESING",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "4c74631e-7862-40af-b7aa-d8c2544ac9f1"
+  },
+  {
+    "brand": "ZTE",
+    "model": "V60",
+    "screenType": "3/4",
+    "wholesalePrice": 15.0,
+    "retailPrice": 18.75,
+    "stockStatus": "agotado",
+    "id": "a5e9b1fb-9585-48dd-83cf-64a8e99cfa08"
+  },
+  {
+    "brand": "ZTE",
+    "model": "V60 DESINGW",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "8ca3bea7-1fd1-4799-9d6d-18e72fb34daa"
+  },
+  {
+    "brand": "ZTE",
+    "model": "V60 SMART",
+    "screenType": "3/4",
+    "wholesalePrice": 12.0,
+    "retailPrice": 15.0,
+    "stockStatus": "disponible",
+    "id": "e9b277dd-718d-4c00-94e3-e27b8bbc158c"
+  },
+  {
+    "brand": "ZTE",
+    "model": "Z959",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "6a78f1d1-0f1f-4074-a954-6bc8e988f2b6"
+  },
+  {
+    "brand": "ZTE",
+    "model": "Z971",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "c2c67a85-61f6-4146-8896-aae54b2d3e24"
+  },
+  {
+    "brand": "ZTE",
+    "model": "Z983",
+    "screenType": "3/4",
+    "wholesalePrice": 10.0,
+    "retailPrice": 12.5,
+    "stockStatus": "disponible",
+    "id": "82b82b8d-a5b7-4e0e-9b91-dc0478eac6e0"
+  },
+  {
+    "brand": "Alcatel",
+    "model": "5044R",
+    "screenType": "3/4",
+    "wholesalePrice": 4.0,
+    "retailPrice": 5.0,
+    "stockStatus": "disponible",
+    "id": "a1f7cf5c-fe16-4951-a76e-752e90e2990c"
+  },
+  {
+    "brand": "BLU",
+    "model": "C6 TACTIL HYUNDAI E553 TACTIL HYUNDAI L553",
+    "screenType": "3/4",
+    "wholesalePrice": 4.0,
+    "retailPrice": 5.0,
+    "stockStatus": "disponible",
+    "id": "7640b096-fda9-4123-9b3b-8fe5a2207925"
+  },
+  {
+    "brand": "Krip",
+    "model": "K55",
+    "screenType": "3/4",
+    "wholesalePrice": 4.0,
+    "retailPrice": 5.0,
+    "stockStatus": "disponible",
+    "id": "1bfc6df7-8816-4cf8-88d0-b0a0ac913ae8"
+  },
+  {
+    "brand": "Krip",
+    "model": "K57",
+    "screenType": "3/4",
+    "wholesalePrice": 4.0,
+    "retailPrice": 5.0,
+    "stockStatus": "disponible",
+    "id": "c5c348ef-5688-4e55-a191-0fe030bbacef"
+  },
+  {
+    "brand": "Krip",
+    "model": "K5M K5D TACTIL KRDIP K6",
+    "screenType": "3/4",
+    "wholesalePrice": 4.0,
+    "retailPrice": 5.0,
+    "stockStatus": "disponible",
+    "id": "d6c20644-258a-4d22-8286-bb507e47a2ca"
+  },
+  {
+    "brand": "Krip",
+    "model": "K6B",
+    "screenType": "3/4",
+    "wholesalePrice": 4.0,
+    "retailPrice": 5.0,
+    "stockStatus": "disponible",
+    "id": "51a2b7dc-c95b-4939-b409-6451e355d6af"
+  },
+  {
+    "brand": "Krip",
+    "model": "K7",
+    "screenType": "3/4",
+    "wholesalePrice": 4.0,
+    "retailPrice": 5.0,
+    "stockStatus": "disponible",
+    "id": "e907b3c6-069e-49d2-b279-2fa236751fa8"
+  },
+  {
+    "brand": "Samsung",
+    "model": "G313 G316 G318",
+    "screenType": "3/4",
+    "wholesalePrice": 3.0,
+    "retailPrice": 3.75,
+    "stockStatus": "disponible",
+    "id": "fcb84731-ec91-4c12-a7cd-b41ec36e9f6f"
+  },
+  {
+    "brand": "Samsung",
+    "model": "G130",
+    "screenType": "3/4",
+    "wholesalePrice": 3.0,
+    "retailPrice": 3.75,
+    "stockStatus": "disponible",
+    "id": "2efa5284-ae2d-4ec6-a45e-281faab43e58"
+  },
+  {
+    "brand": "Samsung",
+    "model": "G355",
+    "screenType": "3/4",
+    "wholesalePrice": 3.0,
+    "retailPrice": 3.75,
+    "stockStatus": "disponible",
+    "id": "90b9c31a-297b-41e7-8402-ccc7f36e8a59"
+  },
+  {
+    "brand": "Samsung",
+    "model": "G360",
+    "screenType": "3/4",
+    "wholesalePrice": 3.0,
+    "retailPrice": 3.75,
+    "stockStatus": "disponible",
+    "id": "123fb234-9a83-46df-9bab-ef79e7e42286"
+  },
+  {
+    "brand": "Samsung",
+    "model": "G530 G531",
+    "screenType": "3/4",
+    "wholesalePrice": 3.0,
+    "retailPrice": 3.75,
+    "stockStatus": "disponible",
+    "id": "38ba52ac-d18c-46b2-9376-4e1b5a26d1b4"
+  },
+  {
+    "brand": "Samsung",
+    "model": "G532",
+    "screenType": "3/4",
+    "wholesalePrice": 3.0,
+    "retailPrice": 3.75,
+    "stockStatus": "disponible",
+    "id": "634e6cb0-4c61-464a-9eaa-1ec5e7b9120c"
+  },
+  {
+    "brand": "Samsung",
+    "model": "G550",
+    "screenType": "3/4",
+    "wholesalePrice": 3.0,
+    "retailPrice": 3.75,
+    "stockStatus": "disponible",
+    "id": "69195b60-e21f-49c6-88bf-3a284d8d902d"
+  },
+  {
+    "brand": "Samsung",
+    "model": "I9060 I9082",
+    "screenType": "3/4",
+    "wholesalePrice": 3.0,
+    "retailPrice": 3.75,
+    "stockStatus": "disponible",
+    "id": "cb67bbce-5bf4-4672-bc59-7c1d8fa567d4"
+  },
+  {
+    "brand": "Samsung",
+    "model": "J105 J106",
+    "screenType": "3/4",
+    "wholesalePrice": 3.0,
+    "retailPrice": 3.75,
+    "stockStatus": "disponible",
+    "id": "5a86c6af-e1ef-46e7-8fd8-1890b8f14df3"
+  },
+  {
+    "brand": "Samsung",
+    "model": "S7560 S7562 S7580 S7582 TACTIL TABLET 3G TACTIL TABLET 86V 3G TACTIL TEABLET 86V WIFI",
+    "screenType": "3/4",
+    "wholesalePrice": 4.0,
+    "retailPrice": 5.0,
+    "stockStatus": "disponible",
+    "id": "03eed763-9b71-4596-b3a4-4b851e5fe2ac"
+  },
+  {
+    "brand": "Alcatel",
+    "model": "9013A TACTIL TABLET AMAZON FIRE HD DTACTIL TABLET AMAZON FIRE HD TACTIL TABLET AMAZON FIRE HD RTACTIL TABLET AMAZON FIRE HD",
+    "screenType": "3/4",
+    "wholesalePrice": 9.0,
+    "retailPrice": 11.25,
+    "stockStatus": "disponible",
+    "id": "a2b1b9f7-e26b-4581-a476-988673e10a3a"
+  },
+  {
+    "brand": "BLU",
+    "model": "M8L TACTIL TABLET MS2198 TACTIL TABLET OLAX K8 PINES TACTIL TABLET OLAX K8 PRO PINES TACTIL TABLET Q8 TACTIL TABLET SKDY PAD PRO TACTIL TABLET SKY PAD PRO CON HUELLA TACTIL TABLET SKY PAD MAX PINES TACTIL TABLET SKY PAD MAX PINES TACTIL TABLET VORTEX T10 PRO TACTIL TABLET VORTEX T10M PRO PLUS T10M TACTIL TABLET XLD1030 TACTIL TABLET YEZZ EPIC TACTIL TABLET YEZZ EPIC MAX",
+    "screenType": "3/4",
+    "wholesalePrice": 5.0,
+    "retailPrice": 6.25,
+    "stockStatus": "disponible",
+    "id": "4e9cc266-a4a0-46cb-b66d-11f6ea9ed868"
+  },
+  {
+    "brand": "ZTE",
+    "model": "A3 LITE L8 A31 LITE",
+    "screenType": "3/4",
+    "wholesalePrice": 4.0,
+    "retailPrice": 5.0,
+    "stockStatus": "disponible",
+    "id": "ac8c29b6-16c5-4c2a-94d7-47f9a6cb8baa"
+  },
+  {
+    "brand": "ZTE",
+    "model": "A320",
+    "screenType": "3/4",
+    "wholesalePrice": 4.0,
+    "retailPrice": 5.0,
+    "stockStatus": "disponible",
+    "id": "aeb09856-6b47-4326-b7db-e016464901c4"
+  },
+  {
+    "brand": "ZTE",
+    "model": "L130",
+    "screenType": "3/4",
+    "wholesalePrice": 4.0,
+    "retailPrice": 5.0,
+    "stockStatus": "disponible",
+    "id": "c8ec9688-aa40-4142-88f0-d635cb09cadf"
+  },
+  {
+    "brand": "ZTE",
+    "model": "Z812",
+    "screenType": "3/4",
+    "wholesalePrice": 4.0,
+    "retailPrice": 5.0,
+    "stockStatus": "disponible",
+    "id": "e6e7ecc6-14a2-4f53-a548-3c8afd1db7f7"
+  },
+  {
+    "brand": "ZTE",
+    "model": "Z835 Z851",
+    "screenType": "3/4",
+    "wholesalePrice": 4.0,
+    "retailPrice": 5.0,
+    "stockStatus": "disponible",
+    "id": "814db6c3-149f-4c33-aebc-25a3e9718119"
+  }
+]

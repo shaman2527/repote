@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { NavBar } from '@/components/NavBar'
+import { AIAssistant } from '@/components/AIAssistant'
 import { generateModels } from '@/lib/seed-models'
 import * as db from '@/lib/db'
 import Dashboard from '@/pages/Dashboard'
@@ -16,6 +17,12 @@ function InitData() {
     const init = async () => {
       const models = generateModels()
       await db.seedModels(models)
+      try {
+        const { default: screenData } = await import('@/data/screen_catalog.json')
+        if (Array.isArray(screenData)) {
+          await db.seedScreens(screenData)
+        }
+      } catch {}
     }
     init()
   }, [])
@@ -27,6 +34,7 @@ export default function App() {
     <BrowserRouter>
       <InitData />
       <NavBar />
+      <AIAssistant />
       <main>
         <Routes>
           <Route path="/" element={<Dashboard />} />
