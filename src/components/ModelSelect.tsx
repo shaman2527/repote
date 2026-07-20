@@ -3,7 +3,6 @@ import { Select } from '@/components/ui/select'
 import { Input } from '@/components/ui/input'
 import * as db from '@/lib/db'
 import type { PhoneModel } from '@/types'
-import { useDebounce } from '@/hooks/useDebounce'
 
 interface ModelSelectProps {
   onSelect: (brand: string, model: string) => void

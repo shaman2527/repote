@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { NavBar } from '@/components/NavBar'
 import { AIAssistant } from '@/components/AIAssistant'
+import { ErrorBoundary } from '@/components/ErrorBoundary'
 import { generateModels } from '@/lib/seed-models'
 import * as db from '@/lib/db'
 import Dashboard from '@/pages/Dashboard'
@@ -31,6 +32,7 @@ function InitData() {
 
 export default function App() {
   return (
+    <ErrorBoundary>
     <BrowserRouter>
       <InitData />
       <NavBar />
@@ -47,5 +49,6 @@ export default function App() {
         </Routes>
       </main>
     </BrowserRouter>
+    </ErrorBoundary>
   )
 }

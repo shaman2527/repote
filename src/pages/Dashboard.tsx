@@ -13,9 +13,9 @@ import {
   CheckCircle2,
   Package,
   DollarSign,
-  ArrowUpRight,
   Smartphone,
   Wrench,
+  BarChart3,
 } from 'lucide-react'
 import {
   BarChart,

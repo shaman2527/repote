@@ -1,5 +1,5 @@
 import { openDB, type IDBPDatabase } from 'idb'
-import type { Repair, PhoneModel, ScreenPart, ScreenCompatibility } from '@/types'
+import type { Repair, PhoneModel, ScreenPart } from '@/types'
 
 const DB_NAME = 'repote-db'
 const DB_VERSION = 1
