@@ -2,7 +2,7 @@
   "name": "repote-personal-software-frp",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://shaman2527.github.io/repote-personal-software-frp",
+  "homepage": "https://shaman2527.github.io/repote",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -84,6 +84,11 @@ export async function deleteRepair(id: string) {
   return db.delete('repairs', id)
 }
 
+export async function clearAllRepairs() {
+  const db = await getDB()
+  await db.clear('repairs')
+}
+
 export async function getRepairsByStatus(status: string): Promise<Repair[]> {
   const db = await getDB()
   return db.getAllFromIndex('repairs', 'status', status)

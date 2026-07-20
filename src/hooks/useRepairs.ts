@@ -30,6 +30,11 @@ export function useRepairs() {
     await load()
   }
 
+  const clearAll = async () => {
+    await db.clearAllRepairs()
+    await load()
+  }
+
   const getStats = useCallback((): DailyStats => {
     const now = new Date()
     const today = now.toISOString().slice(0, 10)
@@ -72,5 +77,5 @@ export function useRepairs() {
     }
   }, [repairs])
 
-  return { repairs, loading, add, update, remove, getStats, refresh: load }
+  return { repairs, loading, add, update, remove, clearAll, getStats, refresh: load }
 }
