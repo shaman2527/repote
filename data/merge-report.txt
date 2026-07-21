@@ -1,0 +1,1213 @@
+============================================================
+MERGE REPORT - phonesdata.com vs seed-models.ts
+============================================================
+Total in phonesdata: 2592
+Total in seed: 1028
+Total missing found: 1174
+
+
+--- Samsung: 46 nuevos ---
+  Galaxy A Quantum                         | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy A07                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy A17                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy A26                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy A27                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy A36                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy A37                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy A56                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy A57                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy A91                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy C55                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy F07                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy F16                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy F17                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy F36                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy F56                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy F70e                              | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy M01                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy M07                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy M11                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy M16                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy M17e                              | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy M22                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy M23                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy M36                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy M42 5G                            | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy M56                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy M62                               | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy Quantum 2                         | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy Wide5                             | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy Xcover 5                          | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy Xcover FieldPro                   | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy Xcover Pro 2                      | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy Xcover6 Pro                       | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy XCover7 Pro                       | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy Z Fold Special                    | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy Z Fold Wide                       | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy Z Fold2 5G                        | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy Z Fold3 5G                        | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy Z Fold4                           | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy Z Fold5                           | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy Z Fold6                           | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy Z Fold7                           | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy Z Fold8 Ultra                     | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  Galaxy Z TriFold                         | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+  W22 5G                                   | Chipset: Exynos/Snapdragon         | FRP: Testpoint
+
+--- Xiaomi: 39 nuevos ---
+  11 Lite 5G NE                            | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  11i HyperCharge                          | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  12 Lite                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  12 Pro (Dimensity)                       | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  12 Ultra                                 | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  12S Pro                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  12S Ultra                                | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  13T Pro                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  14 Civi                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  14T Pro                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  17 Max                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  17T Pro                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Black Shark 2 Pro                        | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Black Shark 3                            | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Black Shark 4                            | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Black Shark 5                            | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Black Shark GS3                          | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Black Shark Pad 7                        | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Black Shark Pad SE                       | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Civi                                     | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Civi 1S                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Civi 2                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Civi 3                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Civi 4 Pro                               | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Civi Pro                                 | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Mi 9 Lite                                | Chipset: Snapdragon                | FRP: BROM
+  Mi 9 Pro 5G                              | Chipset: Snapdragon                | FRP: BROM
+  Mi 9T Pro                                | Chipset: Snapdragon                | FRP: BROM
+  Mi CC9 Pro                               | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Mi Mix Alpha                             | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Mi Mix Fold                              | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Mi Note 10 Lite                          | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Mix 4                                    | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Mix Flip                                 | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Mix Fold 2                               | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Mix Fold 3                               | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Mix Fold 4                               | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Pad 8                                    | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Pad Mini                                 | Chipset: Snapdragon/MediaTek       | FRP: BROM
+
+--- Huawei: 82 nuevos ---
+  Enjoy 10                                 | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Enjoy 20 5G                              | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Enjoy 20 Plus 5G                         | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Enjoy 20 Pro                             | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Enjoy 20 SE                              | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Enjoy 20e                                | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Enjoy 50                                 | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Enjoy 60                                 | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Enjoy 70X                                | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Enjoy 70z                                | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Enjoy 8                                  | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Enjoy 90                                 | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Enjoy Z 5G                               | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Maimang 10 SE 5G                         | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Mate 40 RS Porsche Design                | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Mate 40E 4G                              | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Mate 40E Pro                             | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Mate 80 Pro Max Wind                     | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Mate 80 RS Ultimate                      | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Mate X2                                  | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Mate X3                                  | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Mate X5                                  | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Mate X6                                  | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Mate X7                                  | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Mate Xs 2                                | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Mate XT Ultimate                         | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Mate XTs Ultimate                        | Chipset: Kirin/Snapdragon          | FRP: BROM
+  MatePad 11.5 (2025)                      | Chipset: Kirin/Snapdragon          | FRP: BROM
+  MatePad 11.5 (2026)                      | Chipset: Kirin/Snapdragon          | FRP: BROM
+  MatePad 11.5 S (2025)                    | Chipset: Kirin/Snapdragon          | FRP: BROM
+  MatePad 12 X (2025)                      | Chipset: Kirin/Snapdragon          | FRP: BROM
+  MatePad Air (2025)                       | Chipset: Kirin/Snapdragon          | FRP: BROM
+  MatePad Mini                             | Chipset: Kirin/Snapdragon          | FRP: BROM
+  MatePad Pro Max                          | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 10 Pro                              | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 10 SE                               | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 10 Youth                            | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 10z                                 | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 11                                  | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 12 Lite                             | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 12 Pro                              | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 12 SE                               | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 12 Ultra                            | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 12i                                 | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 12s                                 | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 13                                  | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 14 Lite                             | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 14i                                 | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 15 Max                              | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 15 Pro                              | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 15 Ultra                            | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 16 Pro                              | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 16 Ultra                            | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 5i Pro                              | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 5T                                  | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 5z                                  | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 6                                   | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 7 5G                                | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 7 Pro 5G                            | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 7 SE                                | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova 7i                                  | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova Flip                                | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova Y60                                 | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova Y61                                 | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova Y70 Plus                            | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova Y71                                 | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova Y72                                 | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova Y74                                 | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova Y90                                 | Chipset: Kirin/Snapdragon          | FRP: BROM
+  nova Y91                                 | Chipset: Kirin/Snapdragon          | FRP: BROM
+  P30 lite New Edition                     | Chipset: Kirin/Snapdragon          | FRP: BROM
+  P40 4G                                   | Chipset: Kirin/Snapdragon          | FRP: BROM
+  P40 lite                                 | Chipset: Kirin/Snapdragon          | FRP: BROM
+  P50 Pocket                               | Chipset: Kirin/Snapdragon          | FRP: BROM
+  P50E                                     | Chipset: Kirin/Snapdragon          | FRP: BROM
+  P60 Art                                  | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Pocket 2                                 | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Pocket S                                 | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Pura 80 Pro Max                          | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Pura 90                                  | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Pura X Max                               | Chipset: Kirin/Snapdragon          | FRP: BROM
+  Y6s (2019)                               | Chipset: Kirin/Snapdragon          | FRP: BROM
+
+--- Tecno: 27 nuevos ---
+  Camon 40                                 | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Camon 50 4G                              | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Camon 50 Pro                             | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Camon 50 Ultra                           | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Camon Slim                               | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Megapad Pro                              | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Megapad SE                               | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Phantom 9                                | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Phantom V Flip2                          | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Phantom V Fold2                          | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Phantom X2                               | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Pop 2 F                                  | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Pop 2 Plus                               | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Pop 3 Plus                               | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Pop 4                                    | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Pop 5 LTE                                | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Pop 5 Pro                                | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Pop 5c                                   | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Pop 5X                                   | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Pop 8                                    | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Pop 9                                    | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Pop X                                    | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Pouvoir 3                                | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Pouvoir 4                                | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Spark 3 Pro                              | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Spark 30                                 | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Spark Power 2                            | Chipset: Unisoc/MediaTek           | FRP: SPD
+
+--- Infinix: 25 nuevos ---
+  GT 10 Pro                                | Chipset: Unisoc/MediaTek           | FRP: SPD
+  GT 20 Pro                                | Chipset: Unisoc/MediaTek           | FRP: SPD
+  GT 30                                    | Chipset: Unisoc/MediaTek           | FRP: SPD
+  GT 50 Pro                                | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Hot 50 4G                                | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Hot 50 Pro 4G                            | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Hot 60                                   | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Hot 70                                   | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Note 50 4G                               | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Note 50 Pro 4G                           | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Note 50 Pro+                             | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Note 50s                                 | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Note 50x                                 | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Note 60                                  | Chipset: Unisoc/MediaTek           | FRP: SPD
+  S5 lite                                  | Chipset: Unisoc/MediaTek           | FRP: SPD
+  S5 Pro                                   | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Smart 10                                 | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Smart 20                                 | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Smart 4                                  | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Smart 9                                  | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Smart HD 2021                            | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Xpad 20 Pro                              | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Zero 40                                  | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Zero Flip                                | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Zero Ultra                               | Chipset: Unisoc/MediaTek           | FRP: SPD
+
+--- Motorola: 108 nuevos ---
+  Defy (2021)                              | Chipset: Snapdragon                | FRP: Testpoint
+  Defy 2                                   | Chipset: Snapdragon                | FRP: Testpoint
+  Edge (2021)                              | Chipset: Snapdragon                | FRP: Testpoint
+  Edge (2022)                              | Chipset: Snapdragon                | FRP: Testpoint
+  Edge (2023)                              | Chipset: Snapdragon                | FRP: Testpoint
+  Edge (2024)                              | Chipset: Snapdragon                | FRP: Testpoint
+  Edge (2025)                              | Chipset: Snapdragon                | FRP: Testpoint
+  Edge 20 Fusion                           | Chipset: Snapdragon                | FRP: Testpoint
+  Edge 20 Lite                             | Chipset: Snapdragon                | FRP: Testpoint
+  Edge 20 Pro                              | Chipset: Snapdragon                | FRP: Testpoint
+  Edge 2021                                | Chipset: Snapdragon                | FRP: Testpoint
+  Edge 30 Fusion                           | Chipset: Snapdragon                | FRP: Testpoint
+  Edge 30 Neo                              | Chipset: Snapdragon                | FRP: Testpoint
+  Edge 30 Pro                              | Chipset: Snapdragon                | FRP: Testpoint
+  Edge 30 Ultra                            | Chipset: Snapdragon                | FRP: Testpoint
+  Edge 40 Neo                              | Chipset: Snapdragon                | FRP: Testpoint
+  Edge 40 Pro                              | Chipset: Snapdragon                | FRP: Testpoint
+  Edge 50 Fusion                           | Chipset: Snapdragon                | FRP: Testpoint
+  Edge 50 Neo                              | Chipset: Snapdragon                | FRP: Testpoint
+  Edge 50 Ultra                            | Chipset: Snapdragon                | FRP: Testpoint
+  Edge 60                                  | Chipset: Snapdragon                | FRP: Testpoint
+  Edge 70 Fusion                           | Chipset: Snapdragon                | FRP: Testpoint
+  Edge 70 Max                              | Chipset: Snapdragon                | FRP: Testpoint
+  Edge 70 Pro                              | Chipset: Snapdragon                | FRP: Testpoint
+  Edge 70 Ultra                            | Chipset: Snapdragon                | FRP: Testpoint
+  Edge Lite Luxury Edition                 | Chipset: Snapdragon                | FRP: Testpoint
+  Edge S                                   | Chipset: Snapdragon                | FRP: Testpoint
+  Edge X30                                 | Chipset: Snapdragon                | FRP: Testpoint
+  Frontier                                 | Chipset: Snapdragon                | FRP: Testpoint
+  G Pure                                   | Chipset: Snapdragon                | FRP: Testpoint
+  Moto E (2020)                            | Chipset: Snapdragon                | FRP: Testpoint
+  Moto E15                                 | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Moto E20                                 | Chipset: Unisoc/MediaTek           | FRP: SPD
+  Moto G (2022)                            | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G (2023)                            | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G (2024)                            | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G (2025)                            | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G (2026)                            | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G 5G                                | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Fast                              | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Max                               | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Play (2021)                       | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Play (2022)                       | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Play (2023)                       | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Play (2024)                       | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Play (2026)                       | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Power (2021)                      | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Power (2022)                      | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Power (2024)                      | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Power (2025)                      | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Power (2026)                      | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Power 5G                          | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Pro                               | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Stylus (2021)                     | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Stylus (2022)                     | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Stylus (2026)                     | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Stylus 4G (2023)                  | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Stylus 5G (2022)                  | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Stylus 5G (2023)                  | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Stylus 5G (2024)                  | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G Stylus 5G (2025)                  | Chipset: Snapdragon                | FRP: Testpoint
+  Moto G04                                 | Chipset: MediaTek                  | FRP: BROM
+  Moto G05                                 | Chipset: MediaTek                  | FRP: BROM
+  Moto G06                                 | Chipset: MediaTek                  | FRP: BROM
+  Moto G13                                 | Chipset: MediaTek                  | FRP: BROM
+  Moto G14                                 | Chipset: MediaTek                  | FRP: BROM
+  Moto G15                                 | Chipset: MediaTek                  | FRP: BROM
+  Moto G17                                 | Chipset: MediaTek                  | FRP: BROM
+  Moto G23                                 | Chipset: MediaTek                  | FRP: BROM
+  Moto G24                                 | Chipset: MediaTek                  | FRP: BROM
+  Moto G34                                 | Chipset: MediaTek                  | FRP: BROM
+  Moto G35                                 | Chipset: MediaTek                  | FRP: BROM
+  Moto G36                                 | Chipset: MediaTek                  | FRP: BROM
+  Moto G37                                 | Chipset: MediaTek                  | FRP: BROM
+  Moto Pad (2026)                          | Chipset: Snapdragon                | FRP: Testpoint
+  Moto Pad 60 Neo                          | Chipset: Snapdragon                | FRP: Testpoint
+  Moto Pad 70 Pro                          | Chipset: Snapdragon                | FRP: Testpoint
+  Moto Razr 2022                           | Chipset: Snapdragon                | FRP: Testpoint
+  Moto S30 Pro                             | Chipset: Snapdragon                | FRP: Testpoint
+  Moto S50                                 | Chipset: Snapdragon                | FRP: Testpoint
+  Moto X30 Pro                             | Chipset: Snapdragon                | FRP: Testpoint
+  Moto X40                                 | Chipset: Snapdragon                | FRP: Testpoint
+  Moto X50 Ultra                           | Chipset: Snapdragon                | FRP: Testpoint
+  One 5G Ace                               | Chipset: Snapdragon                | FRP: Testpoint
+  one 5G UW ace                            | Chipset: Snapdragon                | FRP: Testpoint
+  One Action                               | Chipset: Snapdragon                | FRP: Testpoint
+  One Fusion                               | Chipset: Snapdragon                | FRP: Testpoint
+  One Hyper                                | Chipset: Snapdragon                | FRP: Testpoint
+  One Macro                                | Chipset: Snapdragon                | FRP: Testpoint
+  One Vision Plus                          | Chipset: Snapdragon                | FRP: Testpoint
+  One Zoom                                 | Chipset: Snapdragon                | FRP: Testpoint
+  Razr 2019                                | Chipset: Snapdragon                | FRP: Testpoint
+  Razr 2020 5G                             | Chipset: Snapdragon                | FRP: Testpoint
+  Razr 2023                                | Chipset: Snapdragon                | FRP: Testpoint
+  razr 2024                                | Chipset: Snapdragon                | FRP: Testpoint
+  Razr 2025                                | Chipset: Snapdragon                | FRP: Testpoint
+  Razr 2026                                | Chipset: Snapdragon                | FRP: Testpoint
+  Razr 40                                  | Chipset: Snapdragon                | FRP: Testpoint
+  Razr 50                                  | Chipset: Snapdragon                | FRP: Testpoint
+  Razr 60                                  | Chipset: Snapdragon                | FRP: Testpoint
+  Razr 70                                  | Chipset: Snapdragon                | FRP: Testpoint
+  Razr Fold                                | Chipset: Snapdragon                | FRP: Testpoint
+  Razr Ultra 2025                          | Chipset: Snapdragon                | FRP: Testpoint
+  Razr Ultra 2026                          | Chipset: Snapdragon                | FRP: Testpoint
+  Razr+ 2025                               | Chipset: Snapdragon                | FRP: Testpoint
+  S50 Neo                                  | Chipset: Snapdragon                | FRP: Testpoint
+  Signature                                | Chipset: Snapdragon                | FRP: Testpoint
+  ThinkPhone 25                            | Chipset: Snapdragon                | FRP: Testpoint
+
+--- LG: 10 nuevos ---
+  Folder 2                                 | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  G8X ThinQ                                | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  K30 (2019)                               | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  K92 5G                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Q92 5G                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  V50S ThinQ 5G                            | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  W10 Alpha                                | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  W31+                                     | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  W41 Pro                                  | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  W41+                                     | Chipset: MediaTek/Snapdragon       | FRP: BROM
+
+--- Nokia: 33 nuevos ---
+  2 V Tella                                | Chipset: Snapdragon                | FRP: Testpoint
+  200 4G                                   | Chipset: Snapdragon                | FRP: Testpoint
+  215 4G (2026)                            | Chipset: Snapdragon                | FRP: Testpoint
+  235 4G (2026)                            | Chipset: Snapdragon                | FRP: Testpoint
+  2720 Flip                                | Chipset: Snapdragon                | FRP: Testpoint
+  2760 Flip                                | Chipset: Snapdragon                | FRP: Testpoint
+  2780 Flip                                | Chipset: Snapdragon                | FRP: Testpoint
+  6300 4G                                  | Chipset: Snapdragon                | FRP: Testpoint
+  8 V 5G UW                                | Chipset: Snapdragon                | FRP: Testpoint
+  800 Tough                                | Chipset: Snapdragon                | FRP: Testpoint
+  8000 4G                                  | Chipset: Snapdragon                | FRP: Testpoint
+  C01 Plus                                 | Chipset: Snapdragon                | FRP: Testpoint
+  C1 2nd Edition                           | Chipset: Snapdragon                | FRP: Testpoint
+  C1 Plus                                  | Chipset: Snapdragon                | FRP: Testpoint
+  C100                                     | Chipset: Snapdragon                | FRP: Testpoint
+  C110                                     | Chipset: Snapdragon                | FRP: Testpoint
+  C12 Plus                                 | Chipset: Snapdragon                | FRP: Testpoint
+  C2 2nd Edition                           | Chipset: Snapdragon                | FRP: Testpoint
+  C2 Tava                                  | Chipset: Snapdragon                | FRP: Testpoint
+  C2 Tennen                                | Chipset: Snapdragon                | FRP: Testpoint
+  C20 Plus                                 | Chipset: Snapdragon                | FRP: Testpoint
+  C200                                     | Chipset: Snapdragon                | FRP: Testpoint
+  C21 Plus                                 | Chipset: Snapdragon                | FRP: Testpoint
+  C210                                     | Chipset: Snapdragon                | FRP: Testpoint
+  C300                                     | Chipset: Snapdragon                | FRP: Testpoint
+  C5 Endi                                  | Chipset: Snapdragon                | FRP: Testpoint
+  G100                                     | Chipset: Snapdragon                | FRP: Testpoint
+  G11 Plus                                 | Chipset: Snapdragon                | FRP: Testpoint
+  G300                                     | Chipset: Snapdragon                | FRP: Testpoint
+  G400                                     | Chipset: Snapdragon                | FRP: Testpoint
+  X100                                     | Chipset: Snapdragon                | FRP: Testpoint
+  XR21                                     | Chipset: Snapdragon                | FRP: Testpoint
+  XR30                                     | Chipset: Snapdragon                | FRP: Testpoint
+
+--- OnePlus: 14 nuevos ---
+  11 Pro                                   | Chipset: Snapdragon                | FRP: Testpoint
+  Ace 5 Pro                                | Chipset: Snapdragon                | FRP: Testpoint
+  Ace 5 Racing                             | Chipset: Snapdragon                | FRP: Testpoint
+  Ace 5 Ultra                              | Chipset: Snapdragon                | FRP: Testpoint
+  Ace 6 Ultra                              | Chipset: Snapdragon                | FRP: Testpoint
+  Ace 6T                                   | Chipset: Snapdragon                | FRP: Testpoint
+  Ace 7                                    | Chipset: Snapdragon                | FRP: Testpoint
+  Ace Pro                                  | Chipset: Snapdragon                | FRP: Testpoint
+  Ace Racing                               | Chipset: Snapdragon                | FRP: Testpoint
+  Pad 3 Pro                                | Chipset: Snapdragon                | FRP: Testpoint
+  Pad 4                                    | Chipset: Snapdragon                | FRP: Testpoint
+  Pad Go 2                                 | Chipset: Snapdragon                | FRP: Testpoint
+  Turbo 6                                  | Chipset: Snapdragon                | FRP: Testpoint
+  V Fold                                   | Chipset: Snapdragon                | FRP: Testpoint
+
+--- Oppo: 144 nuevos ---
+  A1 5G                                    | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A1 Pro                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A11s                                     | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A12e                                     | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A12s                                     | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A16e                                     | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A16K                                     | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A17k                                     | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A2 Pro                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A3 (2024)                                | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A3 (China)                               | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A3 4G                                    | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A3 Pro                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A33 (2020)                               | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A3x (China)                              | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A3x 4G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A5 (2020)                                | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A5 (China)                               | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A5 4G                                    | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A5 Energy                                | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A5 Pro                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A53 5G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A54 5G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A55 5G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A55s 5G                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A56 5G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A56s                                     | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A57 2022                                 | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A57 4G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A57e                                     | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A57s                                     | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A58 4G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A58x                                     | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A59 (2023)                               | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A5x 4G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A6 4G                                    | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A6 GT                                    | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A6 Max                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A6 Pro                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A6s 4G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A6s Pro                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A6t 4G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A6t Pro 4G                               | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A6x (India)                              | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A6x 4G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A72 5G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A73 5G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A74 5G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A77 4G (2022)                            | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A77 5G (2022)                            | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A77s                                     | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A78 4G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A78 5G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A9 (2020)                                | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A92s                                     | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A93 5G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A93s 5G                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A94 5G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A95 5G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A96 5G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  A97 5G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Ace2                                     | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  F17 Pro                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  F19 Pro                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  F19s                                     | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  F21 Pro                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  F25 Pro                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  F27 Pro                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  F29 Pro                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  F31 Pro                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  F33 Pro                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Find N2                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Find N3                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Find N6                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Find X2                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Find X4 Pro                              | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Find X6                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Find X7                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Find X8 Pro                              | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Find X8 Ultra                            | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Find X8s                                 | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Find X9 Pro                              | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Find X9 Ultra                            | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Find X9+                                 | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Find X9s                                 | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  K10 5G                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  K10 Energy                               | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  K10 Pro                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  K10x                                     | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  K11x                                     | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  K12 Plus                                 | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  K12x                                     | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  K12x (China)                             | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  K13 Turbo                                | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  K13x                                     | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  K14 Turbo                                | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  K14x                                     | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  K15 Pro                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  K9 Pro                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Pad 5 Matte Display                      | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Pad 5 Pro                                | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Pad 6                                    | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Pad Mini                                 | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno 15c                                 | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno A                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno10                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno11                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno12                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno13 (China)                           | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno13 F                                 | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno13 Pro                               | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno14                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno15 (China)                           | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno15 F                                 | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno15 Pro (China)                       | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno15 Pro Max                           | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno15 Pro Mini                          | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno16                                   | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno2                                    | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno3 Pro                                | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno3 Vitality                           | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno4                                    | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno5 4G                                 | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno5 5G                                 | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno5 F                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno5 K                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno5 Lite                               | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno5 Pro 5G                             | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno5 Pro+ 5G                            | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno5 Z                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno6 4G                                 | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno6 5G                                 | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno6 Lite                               | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno6 Pro 5G                             | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno6 Pro+ 5G                            | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno6 Z                                  | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno7                                    | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno8 (China)                            | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno8 4G                                 | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno8 5G                                 | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno8 Lite                               | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno8 Pro                                | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno8 Z 5G                               | Chipset: Snapdragon/MediaTek       | FRP: BROM
+  Reno9                                    | Chipset: Snapdragon/MediaTek       | FRP: BROM
+
+--- Vivo: 291 nuevos ---
+  iQOO 10                                  | Chipset: MediaTek                  | FRP: BROM
+  iQOO 11 Pro                              | Chipset: MediaTek                  | FRP: BROM
+  iQOO 11S                                 | Chipset: MediaTek                  | FRP: BROM
+  iQOO 12                                  | Chipset: MediaTek                  | FRP: BROM
+  iQOO 13                                  | Chipset: MediaTek                  | FRP: BROM
+  iQOO 15 Ultra                            | Chipset: MediaTek                  | FRP: BROM
+  iQOO 15R                                 | Chipset: MediaTek                  | FRP: BROM
+  iQOO 15T                                 | Chipset: MediaTek                  | FRP: BROM
+  iQOO 3 5G                                | Chipset: MediaTek                  | FRP: BROM
+  iQOO 5 5G                                | Chipset: MediaTek                  | FRP: BROM
+  iQOO 5 Pro 5G                            | Chipset: MediaTek                  | FRP: BROM
+  iQOO 7                                   | Chipset: MediaTek                  | FRP: BROM
+  iQOO 8                                   | Chipset: MediaTek                  | FRP: BROM
+  iQOO 9 China                             | Chipset: MediaTek                  | FRP: BROM
+  iQOO 9 Global                            | Chipset: MediaTek                  | FRP: BROM
+  iQOO 9 Pro                               | Chipset: MediaTek                  | FRP: BROM
+  iQOO 9 SE                                | Chipset: MediaTek                  | FRP: BROM
+  iQOO 9T                                  | Chipset: MediaTek                  | FRP: BROM
+  iQOO Neo 10                              | Chipset: MediaTek                  | FRP: BROM
+  iQOO Neo 6 (Global)                      | Chipset: MediaTek                  | FRP: BROM
+  iQOO Neo 7 (China)                       | Chipset: MediaTek                  | FRP: BROM
+  iQOO Neo 7 (Global)                      | Chipset: MediaTek                  | FRP: BROM
+  iQOO Neo 7 Pro                           | Chipset: MediaTek                  | FRP: BROM
+  iQOO Neo 7 SE                            | Chipset: MediaTek                  | FRP: BROM
+  iQOO Neo 855                             | Chipset: MediaTek                  | FRP: BROM
+  iQOO Neo10 (China)                       | Chipset: MediaTek                  | FRP: BROM
+  iQOO Neo10 Pro (China)                   | Chipset: MediaTek                  | FRP: BROM
+  iQOO Neo10 Pro+ (China)                  | Chipset: MediaTek                  | FRP: BROM
+  iQOO Neo3 5G                             | Chipset: MediaTek                  | FRP: BROM
+  iQOO Neo5                                | Chipset: MediaTek                  | FRP: BROM
+  iQOO Neo6 (China)                        | Chipset: MediaTek                  | FRP: BROM
+  iQOO Neo6 SE                             | Chipset: MediaTek                  | FRP: BROM
+  iQOO Neo7 Racing                         | Chipset: MediaTek                  | FRP: BROM
+  iQOO Neo8                                | Chipset: MediaTek                  | FRP: BROM
+  iQOO Neo9 Pro                            | Chipset: MediaTek                  | FRP: BROM
+  iQOO Neo9S Pro                           | Chipset: MediaTek                  | FRP: BROM
+  IQOO Pad5c                               | Chipset: MediaTek                  | FRP: BROM
+  iQOO Pad6 Pro                            | Chipset: MediaTek                  | FRP: BROM
+  iQOO Pro                                 | Chipset: MediaTek                  | FRP: BROM
+  iQOO U1                                  | Chipset: MediaTek                  | FRP: BROM
+  iQOO U3x Standard                        | Chipset: MediaTek                  | FRP: BROM
+  iQOO U5                                  | Chipset: MediaTek                  | FRP: BROM
+  iQOO U6                                  | Chipset: MediaTek                  | FRP: BROM
+  iQOO Z10                                 | Chipset: MediaTek                  | FRP: BROM
+  iQOO Z11                                 | Chipset: MediaTek                  | FRP: BROM
+  iQOO Z1x                                 | Chipset: MediaTek                  | FRP: BROM
+  iQOO Z3                                  | Chipset: MediaTek                  | FRP: BROM
+  iQOO Z5 (2022)                           | Chipset: MediaTek                  | FRP: BROM
+  iQOO Z5x                                 | Chipset: MediaTek                  | FRP: BROM
+  iQOO Z6                                  | Chipset: MediaTek                  | FRP: BROM
+  iQOO Z7                                  | Chipset: MediaTek                  | FRP: BROM
+  iQOO Z8                                  | Chipset: MediaTek                  | FRP: BROM
+  iQOO Z9 (China)                          | Chipset: MediaTek                  | FRP: BROM
+  iQOO Z9 (India)                          | Chipset: MediaTek                  | FRP: BROM
+  iQOO Z9 Lite                             | Chipset: MediaTek                  | FRP: BROM
+  iQOO Z9 Turbo Endurance                  | Chipset: MediaTek                  | FRP: BROM
+  iQOO Z9 Turbo+                           | Chipset: MediaTek                  | FRP: BROM
+  iQOO Z9s                                 | Chipset: MediaTek                  | FRP: BROM
+  iQOO Z9x                                 | Chipset: MediaTek                  | FRP: BROM
+  NEX 3 5G                                 | Chipset: MediaTek                  | FRP: BROM
+  NEX 3S 5G                                | Chipset: MediaTek                  | FRP: BROM
+  Pad5e                                    | Chipset: MediaTek                  | FRP: BROM
+  S1 Prime                                 | Chipset: MediaTek                  | FRP: BROM
+  S10 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  S10e                                     | Chipset: MediaTek                  | FRP: BROM
+  S12 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  S15 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  S15e                                     | Chipset: MediaTek                  | FRP: BROM
+  S16 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  S16e                                     | Chipset: MediaTek                  | FRP: BROM
+  S17 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  S17e                                     | Chipset: MediaTek                  | FRP: BROM
+  S17t                                     | Chipset: MediaTek                  | FRP: BROM
+  S18 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  S18e                                     | Chipset: MediaTek                  | FRP: BROM
+  S19 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  S20 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  S21 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  S50 Pro mini                             | Chipset: MediaTek                  | FRP: BROM
+  S6 5G                                    | Chipset: MediaTek                  | FRP: BROM
+  S60 Vitality                             | Chipset: MediaTek                  | FRP: BROM
+  S7 5G                                    | Chipset: MediaTek                  | FRP: BROM
+  S7e 5G                                   | Chipset: MediaTek                  | FRP: BROM
+  S7t 5G                                   | Chipset: MediaTek                  | FRP: BROM
+  T1 (China)                               | Chipset: MediaTek                  | FRP: BROM
+  T1 (India)                               | Chipset: MediaTek                  | FRP: BROM
+  T1 (Malaysia)                            | Chipset: MediaTek                  | FRP: BROM
+  T1 44W                                   | Chipset: MediaTek                  | FRP: BROM
+  T1 Pro                                   | Chipset: MediaTek                  | FRP: BROM
+  T1x (India)                              | Chipset: MediaTek                  | FRP: BROM
+  T1x 4G                                   | Chipset: MediaTek                  | FRP: BROM
+  T2 (China)                               | Chipset: MediaTek                  | FRP: BROM
+  T2 (India)                               | Chipset: MediaTek                  | FRP: BROM
+  T2 Pro                                   | Chipset: MediaTek                  | FRP: BROM
+  T2x (India)                              | Chipset: MediaTek                  | FRP: BROM
+  T3 Lite                                  | Chipset: MediaTek                  | FRP: BROM
+  T3 Pro                                   | Chipset: MediaTek                  | FRP: BROM
+  T3 Ultra                                 | Chipset: MediaTek                  | FRP: BROM
+  T4 Lite                                  | Chipset: MediaTek                  | FRP: BROM
+  T4 Pro                                   | Chipset: MediaTek                  | FRP: BROM
+  T5 Lite                                  | Chipset: MediaTek                  | FRP: BROM
+  T5 Pro                                   | Chipset: MediaTek                  | FRP: BROM
+  V100                                     | Chipset: MediaTek                  | FRP: BROM
+  V17 (India)                              | Chipset: MediaTek                  | FRP: BROM
+  V17 Neo                                  | Chipset: MediaTek                  | FRP: BROM
+  V17 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  V19 Neo                                  | Chipset: MediaTek                  | FRP: BROM
+  V20 2021                                 | Chipset: MediaTek                  | FRP: BROM
+  V20 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  V20 SE                                   | Chipset: MediaTek                  | FRP: BROM
+  V21 5G                                   | Chipset: MediaTek                  | FRP: BROM
+  V21e                                     | Chipset: MediaTek                  | FRP: BROM
+  V21e 5G                                  | Chipset: MediaTek                  | FRP: BROM
+  V21s                                     | Chipset: MediaTek                  | FRP: BROM
+  V23 5G                                   | Chipset: MediaTek                  | FRP: BROM
+  V23 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  V23e                                     | Chipset: MediaTek                  | FRP: BROM
+  V23e 5G                                  | Chipset: MediaTek                  | FRP: BROM
+  V25 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  V25e                                     | Chipset: MediaTek                  | FRP: BROM
+  V27 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  V27e                                     | Chipset: MediaTek                  | FRP: BROM
+  V29 Lite                                 | Chipset: MediaTek                  | FRP: BROM
+  V29 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  V29e                                     | Chipset: MediaTek                  | FRP: BROM
+  V29e (India)                             | Chipset: MediaTek                  | FRP: BROM
+  V30 Lite (ME)                            | Chipset: MediaTek                  | FRP: BROM
+  V30 Lite 4G                              | Chipset: MediaTek                  | FRP: BROM
+  V30 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  V30 SE                                   | Chipset: MediaTek                  | FRP: BROM
+  V30e                                     | Chipset: MediaTek                  | FRP: BROM
+  V40 Lite                                 | Chipset: MediaTek                  | FRP: BROM
+  V40 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  V40 SE                                   | Chipset: MediaTek                  | FRP: BROM
+  V40e                                     | Chipset: MediaTek                  | FRP: BROM
+  V50 Lite                                 | Chipset: MediaTek                  | FRP: BROM
+  V50e                                     | Chipset: MediaTek                  | FRP: BROM
+  V60 Lite                                 | Chipset: MediaTek                  | FRP: BROM
+  V60e                                     | Chipset: MediaTek                  | FRP: BROM
+  V70 Elite                                | Chipset: MediaTek                  | FRP: BROM
+  V70 FE                                   | Chipset: MediaTek                  | FRP: BROM
+  V70 Lite                                 | Chipset: MediaTek                  | FRP: BROM
+  Vivo Y78 (t1)                            | Chipset: MediaTek                  | FRP: BROM
+  X Flip                                   | Chipset: MediaTek                  | FRP: BROM
+  X Fold+                                  | Chipset: MediaTek                  | FRP: BROM
+  X Fold2                                  | Chipset: MediaTek                  | FRP: BROM
+  X Fold3                                  | Chipset: MediaTek                  | FRP: BROM
+  X Fold5                                  | Chipset: MediaTek                  | FRP: BROM
+  X Fold6                                  | Chipset: MediaTek                  | FRP: BROM
+  X Note                                   | Chipset: MediaTek                  | FRP: BROM
+  X100                                     | Chipset: MediaTek                  | FRP: BROM
+  X100 Pro                                 | Chipset: MediaTek                  | FRP: BROM
+  X100 Ultra                               | Chipset: MediaTek                  | FRP: BROM
+  X100s                                    | Chipset: MediaTek                  | FRP: BROM
+  X200                                     | Chipset: MediaTek                  | FRP: BROM
+  X200 FE                                  | Chipset: MediaTek                  | FRP: BROM
+  X200 Pro                                 | Chipset: MediaTek                  | FRP: BROM
+  X200 Ultra                               | Chipset: MediaTek                  | FRP: BROM
+  X200s                                    | Chipset: MediaTek                  | FRP: BROM
+  X200T                                    | Chipset: MediaTek                  | FRP: BROM
+  X30 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  X300                                     | Chipset: MediaTek                  | FRP: BROM
+  X300 FE                                  | Chipset: MediaTek                  | FRP: BROM
+  X300 Pro                                 | Chipset: MediaTek                  | FRP: BROM
+  X300 Ultra                               | Chipset: MediaTek                  | FRP: BROM
+  X50 Lite                                 | Chipset: MediaTek                  | FRP: BROM
+  X50 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  X500 Pro Max                             | Chipset: MediaTek                  | FRP: BROM
+  X50e 5G                                  | Chipset: MediaTek                  | FRP: BROM
+  X51 5G                                   | Chipset: MediaTek                  | FRP: BROM
+  X60 5G                                   | Chipset: MediaTek                  | FRP: BROM
+  X60 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  X60t                                     | Chipset: MediaTek                  | FRP: BROM
+  X60t Pro+                                | Chipset: MediaTek                  | FRP: BROM
+  X70 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  X70t                                     | Chipset: MediaTek                  | FRP: BROM
+  X80 Lite                                 | Chipset: MediaTek                  | FRP: BROM
+  X80 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  X90 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  X90s                                     | Chipset: MediaTek                  | FRP: BROM
+  Y02A                                     | Chipset: MediaTek                  | FRP: BROM
+  Y02t                                     | Chipset: MediaTek                  | FRP: BROM
+  Y03t                                     | Chipset: MediaTek                  | FRP: BROM
+  Y10 (t1)                                 | Chipset: MediaTek                  | FRP: BROM
+  Y11 (2019)                               | Chipset: MediaTek                  | FRP: BROM
+  Y11 (2023)                               | Chipset: MediaTek                  | FRP: BROM
+  Y12a                                     | Chipset: MediaTek                  | FRP: BROM
+  Y12i                                     | Chipset: MediaTek                  | FRP: BROM
+  Y15a                                     | Chipset: MediaTek                  | FRP: BROM
+  Y18 (India)                              | Chipset: MediaTek                  | FRP: BROM
+  Y18e                                     | Chipset: MediaTek                  | FRP: BROM
+  Y18i                                     | Chipset: MediaTek                  | FRP: BROM
+  Y18t                                     | Chipset: MediaTek                  | FRP: BROM
+  Y19s                                     | Chipset: MediaTek                  | FRP: BROM
+  Y19s GT                                  | Chipset: MediaTek                  | FRP: BROM
+  Y20 2021                                 | Chipset: MediaTek                  | FRP: BROM
+  Y200                                     | Chipset: MediaTek                  | FRP: BROM
+  Y200 (Asia)                              | Chipset: MediaTek                  | FRP: BROM
+  Y200 (China)                             | Chipset: MediaTek                  | FRP: BROM
+  Y200 4G                                  | Chipset: MediaTek                  | FRP: BROM
+  Y200 GT                                  | Chipset: MediaTek                  | FRP: BROM
+  Y200+                                    | Chipset: MediaTek                  | FRP: BROM
+  Y200e                                    | Chipset: MediaTek                  | FRP: BROM
+  Y200i                                    | Chipset: MediaTek                  | FRP: BROM
+  Y200t                                    | Chipset: MediaTek                  | FRP: BROM
+  Y20A                                     | Chipset: MediaTek                  | FRP: BROM
+  Y20T                                     | Chipset: MediaTek                  | FRP: BROM
+  Y21a                                     | Chipset: MediaTek                  | FRP: BROM
+  Y21d                                     | Chipset: MediaTek                  | FRP: BROM
+  Y21G                                     | Chipset: MediaTek                  | FRP: BROM
+  Y22 (2022)                               | Chipset: MediaTek                  | FRP: BROM
+  Y23 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  Y27 (2023)                               | Chipset: MediaTek                  | FRP: BROM
+  Y27 5G                                   | Chipset: MediaTek                  | FRP: BROM
+  Y27s                                     | Chipset: MediaTek                  | FRP: BROM
+  Y28 (2024)                               | Chipset: MediaTek                  | FRP: BROM
+  Y28 4G                                   | Chipset: MediaTek                  | FRP: BROM
+  Y28s                                     | Chipset: MediaTek                  | FRP: BROM
+  Y29 4G                                   | Chipset: MediaTek                  | FRP: BROM
+  Y29s                                     | Chipset: MediaTek                  | FRP: BROM
+  Y3 Standard                              | Chipset: MediaTek                  | FRP: BROM
+  Y30 (China)                              | Chipset: MediaTek                  | FRP: BROM
+  Y30 5G                                   | Chipset: MediaTek                  | FRP: BROM
+  Y30 Standard                             | Chipset: MediaTek                  | FRP: BROM
+  Y300                                     | Chipset: MediaTek                  | FRP: BROM
+  Y300 (China)                             | Chipset: MediaTek                  | FRP: BROM
+  Y300 Plus                                | Chipset: MediaTek                  | FRP: BROM
+  Y300 Pro                                 | Chipset: MediaTek                  | FRP: BROM
+  Y300+                                    | Chipset: MediaTek                  | FRP: BROM
+  Y300i                                    | Chipset: MediaTek                  | FRP: BROM
+  Y300t                                    | Chipset: MediaTek                  | FRP: BROM
+  Y30G                                     | Chipset: MediaTek                  | FRP: BROM
+  Y31 2021                                 | Chipset: MediaTek                  | FRP: BROM
+  Y31 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  Y31d                                     | Chipset: MediaTek                  | FRP: BROM
+  Y31s 5G                                  | Chipset: MediaTek                  | FRP: BROM
+  Y32t                                     | Chipset: MediaTek                  | FRP: BROM
+  Y33e                                     | Chipset: MediaTek                  | FRP: BROM
+  Y35 4G                                   | Chipset: MediaTek                  | FRP: BROM
+  Y35 5G                                   | Chipset: MediaTek                  | FRP: BROM
+  Y35+                                     | Chipset: MediaTek                  | FRP: BROM
+  Y35m+                                    | Chipset: MediaTek                  | FRP: BROM
+  Y36 (India)                              | Chipset: MediaTek                  | FRP: BROM
+  Y36 4G                                   | Chipset: MediaTek                  | FRP: BROM
+  Y36 5G                                   | Chipset: MediaTek                  | FRP: BROM
+  Y36i                                     | Chipset: MediaTek                  | FRP: BROM
+  Y37 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  Y3s (2021)                               | Chipset: MediaTek                  | FRP: BROM
+  Y400                                     | Chipset: MediaTek                  | FRP: BROM
+  Y400 4G                                  | Chipset: MediaTek                  | FRP: BROM
+  Y500                                     | Chipset: MediaTek                  | FRP: BROM
+  Y500i                                    | Chipset: MediaTek                  | FRP: BROM
+  Y500s                                    | Chipset: MediaTek                  | FRP: BROM
+  Y50T                                     | Chipset: MediaTek                  | FRP: BROM
+  Y51 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  Y51a                                     | Chipset: MediaTek                  | FRP: BROM
+  Y51s                                     | Chipset: MediaTek                  | FRP: BROM
+  Y52 5G                                   | Chipset: MediaTek                  | FRP: BROM
+  Y52s                                     | Chipset: MediaTek                  | FRP: BROM
+  Y52s t1                                  | Chipset: MediaTek                  | FRP: BROM
+  Y52t                                     | Chipset: MediaTek                  | FRP: BROM
+  Y53t 5G                                  | Chipset: MediaTek                  | FRP: BROM
+  Y54s                                     | Chipset: MediaTek                  | FRP: BROM
+  Y55 5G                                   | Chipset: MediaTek                  | FRP: BROM
+  Y55s (2023)                              | Chipset: MediaTek                  | FRP: BROM
+  Y55s 5G                                  | Chipset: MediaTek                  | FRP: BROM
+  Y600 Turbo                               | Chipset: MediaTek                  | FRP: BROM
+  Y70s                                     | Chipset: MediaTek                  | FRP: BROM
+  Y70t                                     | Chipset: MediaTek                  | FRP: BROM
+  Y71t                                     | Chipset: MediaTek                  | FRP: BROM
+  Y72 5G                                   | Chipset: MediaTek                  | FRP: BROM
+  Y72t                                     | Chipset: MediaTek                  | FRP: BROM
+  Y73s                                     | Chipset: MediaTek                  | FRP: BROM
+  Y73t                                     | Chipset: MediaTek                  | FRP: BROM
+  Y74s                                     | Chipset: MediaTek                  | FRP: BROM
+  Y75 4G                                   | Chipset: MediaTek                  | FRP: BROM
+  Y75 5G                                   | Chipset: MediaTek                  | FRP: BROM
+  Y75s                                     | Chipset: MediaTek                  | FRP: BROM
+  Y75s 5G                                  | Chipset: MediaTek                  | FRP: BROM
+  Y76 5G                                   | Chipset: MediaTek                  | FRP: BROM
+  Y76s                                     | Chipset: MediaTek                  | FRP: BROM
+  Y77 (China)                              | Chipset: MediaTek                  | FRP: BROM
+  Y77 (Global)                             | Chipset: MediaTek                  | FRP: BROM
+  Y77e                                     | Chipset: MediaTek                  | FRP: BROM
+  Y77e (t1)                                | Chipset: MediaTek                  | FRP: BROM
+  Y77t                                     | Chipset: MediaTek                  | FRP: BROM
+  Y78 (China)                              | Chipset: MediaTek                  | FRP: BROM
+  Y78+                                     | Chipset: MediaTek                  | FRP: BROM
+  Y78t                                     | Chipset: MediaTek                  | FRP: BROM
+  Z5x (2020)                               | Chipset: MediaTek                  | FRP: BROM
+  Z6 5G                                    | Chipset: MediaTek                  | FRP: BROM
+
+--- Realme: 123 nuevos ---
+  10 4G                                    | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  10 Pro                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  11 (China)                               | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  11 4G                                    | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  11 5G                                    | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  11 Pro                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  12 4G                                    | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  12 Lite                                  | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  12 Pro                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  12x (China)                              | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  12x (India)                              | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  13 4G                                    | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  13 Pro                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  14 Pro                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  14x (India)                              | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  15 (India)                               | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  15 Lite                                  | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  15 Pro                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  16 Pro                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  6i (India)                               | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  7 (Global)                               | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  7 5G                                     | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  7i (Global)                              | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  8 5G                                     | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  8 Pro                                    | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  8s 5G                                    | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  9 4G                                     | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  9 5G                                     | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  9 5G Speed                               | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  9 Pro                                    | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  9i 5G                                    | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  C100 4G                                  | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  C100i                                    | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  C100x                                    | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  C11 (2021)                               | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  C2 2020                                  | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  C20A                                     | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  C25Y                                     | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  C3 (3 cameras)                           | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  C30s                                     | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  C33 2023                                 | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  C51s                                     | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  C53 (India)                              | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  C61 (India)                              | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  C63 5G                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  C65 4G                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  C65 5G                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  C67 4G                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  C75x                                     | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  C85 4G                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  C85 Pro                                  | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  GT 5G                                    | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  GT 7 Pro                                 | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  GT Flash                                 | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  GT Neo 3                                 | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  GT Neo 5 240W                            | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  GT Neo 5 SE                              | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  GT Neo Flash                             | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  GT Neo2                                  | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  GT Neo6                                  | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  GT2 Explorer Master                      | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  GT2 Pro                                  | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  GT5 Pro                                  | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  GT6 (China)                              | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  GT7 (China)                              | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  GT7 Pro Racing                           | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Narzo 20                                 | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Narzo 60                                 | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Narzo 70                                 | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Narzo 80 Lite                            | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Narzo 80 Pro                             | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Narzo 80x                                | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Narzo 90                                 | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Narzo N53                                | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  narzo N55                                | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Narzo N61                                | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Narzo N63                                | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Narzo N65                                | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Narzo Power                              | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Neo7                                     | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Neo7 SE                                  | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Neo7x                                    | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Neo8                                     | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Note 50                                  | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Note 60                                  | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Note 70                                  | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Note 80                                  | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  P1 Pro                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  P1 Speed                                 | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  P2 Pro                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  P3 Lite                                  | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  P3 Pro                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  P3 Ultra                                 | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  P4 Lite                                  | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  P4 Power                                 | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  P4 Pro                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  P4x 4G                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Pad 3                                    | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Q2 Pro                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Q3 5G                                    | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Q3 Pro 5G                                | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Q3 Pro Carnival                          | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Q3i 5G                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  Q5 Pro                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  realme 10 5G                             | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  realme 10s                               | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  realme GT Neo 5                          | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  realme V23i                              | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  V11s 5G                                  | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  V13 5G                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  V15 5G                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  V5 5G                                    | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  V50s                                     | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  V60 pro                                  | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  X2 Pro                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  X3 SuperZoom                             | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  X50 5G                                   | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  X50 Pro 5G                               | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  X50 Pro Player                           | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  X50m 5G                                  | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  X7 (India)                               | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  X7 Max 5G                                | Chipset: MediaTek/Snapdragon       | FRP: BROM
+  X7 Pro Ultra                             | Chipset: MediaTek/Snapdragon       | FRP: BROM
+
+--- Alcatel: 11 nuevos ---
+  1L (2021)                                | Chipset: Unisoc                    | FRP: SPD
+  1L Pro (2021)                            | Chipset: Unisoc                    | FRP: SPD
+  1SE Lite                                 | Chipset: Unisoc                    | FRP: SPD
+  3L (2020)                                | Chipset: Unisoc                    | FRP: SPD
+  3L (2021)                                | Chipset: Unisoc                    | FRP: SPD
+  3T10 2020                                | Chipset: Unisoc                    | FRP: SPD
+  3v (2019)                                | Chipset: Unisoc                    | FRP: SPD
+  Go Flip 3                                | Chipset: Unisoc                    | FRP: SPD
+  Go Flip 4                                | Chipset: Unisoc                    | FRP: SPD
+  Go Flip V                                | Chipset: Unisoc                    | FRP: SPD
+  V3 Ultra                                 | Chipset: Unisoc                    | FRP: SPD
+
+--- ZTE: 84 nuevos ---
+  Angel Care X13                           | Chipset: Unisoc                    | FRP: SPD
+  Avid 589                                 | Chipset: Unisoc                    | FRP: SPD
+  Axon 10s Pro 5G                          | Chipset: Unisoc                    | FRP: SPD
+  Axon 11 4G                               | Chipset: Unisoc                    | FRP: SPD
+  Axon 11 5G                               | Chipset: Unisoc                    | FRP: SPD
+  Axon 11 SE 5G                            | Chipset: Unisoc                    | FRP: SPD
+  Axon 20 4G                               | Chipset: Unisoc                    | FRP: SPD
+  Axon 20 5G                               | Chipset: Unisoc                    | FRP: SPD
+  Axon 30 5G                               | Chipset: Unisoc                    | FRP: SPD
+  Axon 30 Pro 5G                           | Chipset: Unisoc                    | FRP: SPD
+  Axon 30 Ultra 5G                         | Chipset: Unisoc                    | FRP: SPD
+  Axon 30S                                 | Chipset: Unisoc                    | FRP: SPD
+  Axon 31 5G                               | Chipset: Unisoc                    | FRP: SPD
+  Axon 31 Pro 5G                           | Chipset: Unisoc                    | FRP: SPD
+  Axon 31 Ultra 5G                         | Chipset: Unisoc                    | FRP: SPD
+  Axon 40                                  | Chipset: Unisoc                    | FRP: SPD
+  Axon 41 5G                               | Chipset: Unisoc                    | FRP: SPD
+  Axon 41 Ultra 5G                         | Chipset: Unisoc                    | FRP: SPD
+  AXON 50 5G                               | Chipset: Unisoc                    | FRP: SPD
+  Axon 50 Lite                             | Chipset: Unisoc                    | FRP: SPD
+  Axon 50 Ultra                            | Chipset: Unisoc                    | FRP: SPD
+  Axon 60                                  | Chipset: Unisoc                    | FRP: SPD
+  Blade 10 Prime                           | Chipset: Unisoc                    | FRP: SPD
+  Blade 11 Prime                           | Chipset: Unisoc                    | FRP: SPD
+  Blade 20 5G                              | Chipset: Unisoc                    | FRP: SPD
+  Blade 20 Pro 5G                          | Chipset: Unisoc                    | FRP: SPD
+  Blade L9                                 | Chipset: Unisoc                    | FRP: SPD
+  Blade Max View                           | Chipset: Unisoc                    | FRP: SPD
+  Blade V2020 5G                           | Chipset: Unisoc                    | FRP: SPD
+  Blade V30                                | Chipset: Unisoc                    | FRP: SPD
+  Blade V40                                | Chipset: Unisoc                    | FRP: SPD
+  Blade V41 Smart                          | Chipset: Unisoc                    | FRP: SPD
+  Blade V41 Vita                           | Chipset: Unisoc                    | FRP: SPD
+  Blade V50                                | Chipset: Unisoc                    | FRP: SPD
+  Blade V60 Design                         | Chipset: Unisoc                    | FRP: SPD
+  Blade V70 Design                         | Chipset: Unisoc                    | FRP: SPD
+  Blade V70 Max                            | Chipset: Unisoc                    | FRP: SPD
+  Blade V80 Design                         | Chipset: Unisoc                    | FRP: SPD
+  Blade V80 Max                            | Chipset: Unisoc                    | FRP: SPD
+  Blade V80 Pro                            | Chipset: Unisoc                    | FRP: SPD
+  Blade X1 5G                              | Chipset: Unisoc                    | FRP: SPD
+  Blade X1001                              | Chipset: Unisoc                    | FRP: SPD
+  Libero 5G III                            | Chipset: Unisoc                    | FRP: SPD
+  Link II                                  | Chipset: Unisoc                    | FRP: SPD
+  nubia Air Pro                            | Chipset: Unisoc                    | FRP: SPD
+  nubia Flip2                              | Chipset: Unisoc                    | FRP: SPD
+  nubia Flip3                              | Chipset: Unisoc                    | FRP: SPD
+  Nubia Fold                               | Chipset: Unisoc                    | FRP: SPD
+  nubia Play                               | Chipset: Unisoc                    | FRP: SPD
+  nubia Red Magic 10 Pro                   | Chipset: Unisoc                    | FRP: SPD
+  nubia Red Magic 3s                       | Chipset: Unisoc                    | FRP: SPD
+  nubia Red Magic 5G                       | Chipset: Unisoc                    | FRP: SPD
+  nubia Red Magic 5S                       | Chipset: Unisoc                    | FRP: SPD
+  nubia Red Magic 6                        | Chipset: Unisoc                    | FRP: SPD
+  nubia Red Magic 7                        | Chipset: Unisoc                    | FRP: SPD
+  nubia Red Magic 8 Pro                    | Chipset: Unisoc                    | FRP: SPD
+  nubia Red Magic 8S Pro                   | Chipset: Unisoc                    | FRP: SPD
+  nubia Red Magic 9 Pro                    | Chipset: Unisoc                    | FRP: SPD
+  nubia Red Magic 9S Pro                   | Chipset: Unisoc                    | FRP: SPD
+  nubia Red Magic Nova                     | Chipset: Unisoc                    | FRP: SPD
+  nubia RedMagic 10 Air                    | Chipset: Unisoc                    | FRP: SPD
+  nubia RedMagic 11 Air                    | Chipset: Unisoc                    | FRP: SPD
+  nubia RedMagic 11 Pro                    | Chipset: Unisoc                    | FRP: SPD
+  nubia RedMagic 11S Pro                   | Chipset: Unisoc                    | FRP: SPD
+  nubia Z20                                | Chipset: Unisoc                    | FRP: SPD
+  nubia Z30 Pro                            | Chipset: Unisoc                    | FRP: SPD
+  nubia Z40 Pro                            | Chipset: Unisoc                    | FRP: SPD
+  nubia Z40S Pro                           | Chipset: Unisoc                    | FRP: SPD
+  nubia Z50 Ultra                          | Chipset: Unisoc                    | FRP: SPD
+  nubia Z50S Pro                           | Chipset: Unisoc                    | FRP: SPD
+  nubia Z60 Ultra Leading                  | Chipset: Unisoc                    | FRP: SPD
+  nubia Z60S Pro                           | Chipset: Unisoc                    | FRP: SPD
+  nubia Z70 Ultra                          | Chipset: Unisoc                    | FRP: SPD
+  nubia Z70S Ultra                         | Chipset: Unisoc                    | FRP: SPD
+  nubia Z80 Ultra                          | Chipset: Unisoc                    | FRP: SPD
+  RedMagic Astra 2                         | Chipset: Unisoc                    | FRP: SPD
+  S30 Pro                                  | Chipset: Unisoc                    | FRP: SPD
+  S30 SE                                   | Chipset: Unisoc                    | FRP: SPD
+  V40 Pro                                  | Chipset: Unisoc                    | FRP: SPD
+  Voyage 20 Pro                            | Chipset: Unisoc                    | FRP: SPD
+  Voyage 30                                | Chipset: Unisoc                    | FRP: SPD
+  Voyage 3D                                | Chipset: Unisoc                    | FRP: SPD
+  Voyage 40 5G                             | Chipset: Unisoc                    | FRP: SPD
+  Voyage 40 Pro+                           | Chipset: Unisoc                    | FRP: SPD
+
+--- Blackview: 109 nuevos ---
+  A200 Pro                                 | Chipset: MediaTek                  | FRP: BROM
+  A52 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  A53 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  A55 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  A60 Plus                                 | Chipset: MediaTek                  | FRP: BROM
+  A60 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  A70 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  A70E                                     | Chipset: MediaTek                  | FRP: BROM
+  A8 Max                                   | Chipset: MediaTek                  | FRP: BROM
+  A80 Pro                                  | Chipset: MediaTek                  | FRP: BROM
+  A80s                                     | Chipset: MediaTek                  | FRP: BROM
+  A9 Pro                                   | Chipset: MediaTek                  | FRP: BROM
+  Acme                                     | Chipset: MediaTek                  | FRP: BROM
+  Active 12 Pro                            | Chipset: MediaTek                  | FRP: BROM
+  Alife P1 Pro                             | Chipset: MediaTek                  | FRP: BROM
+  Alife S1                                 | Chipset: MediaTek                  | FRP: BROM
+  Arrow V9                                 | Chipset: MediaTek                  | FRP: BROM
+  BL5000                                   | Chipset: MediaTek                  | FRP: BROM
+  BL6000 Pro                               | Chipset: MediaTek                  | FRP: BROM
+  BL7000                                   | Chipset: MediaTek                  | FRP: BROM
+  BL8000                                   | Chipset: MediaTek                  | FRP: BROM
+  BL8800                                   | Chipset: MediaTek                  | FRP: BROM
+  BL9000 Pro                               | Chipset: MediaTek                  | FRP: BROM
+  Breeze                                   | Chipset: MediaTek                  | FRP: BROM
+  BV2000                                   | Chipset: MediaTek                  | FRP: BROM
+  BV4000                                   | Chipset: MediaTek                  | FRP: BROM
+  BV4800 Pro                               | Chipset: MediaTek                  | FRP: BROM
+  BV4900 Pro                               | Chipset: MediaTek                  | FRP: BROM
+  BV4900S                                  | Chipset: MediaTek                  | FRP: BROM
+  BV5000                                   | Chipset: MediaTek                  | FRP: BROM
+  BV5200                                   | Chipset: MediaTek                  | FRP: BROM
+  BV5300                                   | Chipset: MediaTek                  | FRP: BROM
+  BV5500                                   | Chipset: MediaTek                  | FRP: BROM
+  BV5800                                   | Chipset: MediaTek                  | FRP: BROM
+  BV5900                                   | Chipset: MediaTek                  | FRP: BROM
+  BV6000                                   | Chipset: MediaTek                  | FRP: BROM
+  BV6100                                   | Chipset: MediaTek                  | FRP: BROM
+  BV6200                                   | Chipset: MediaTek                  | FRP: BROM
+  BV6300                                   | Chipset: MediaTek                  | FRP: BROM
+  BV6800 Pro                               | Chipset: MediaTek                  | FRP: BROM
+  BV6900                                   | Chipset: MediaTek                  | FRP: BROM
+  BV7000 Pro                               | Chipset: MediaTek                  | FRP: BROM
+  BV7100                                   | Chipset: MediaTek                  | FRP: BROM
+  BV7200                                   | Chipset: MediaTek                  | FRP: BROM
+  BV7300                                   | Chipset: MediaTek                  | FRP: BROM
+  BV8000 Pro                               | Chipset: MediaTek                  | FRP: BROM
+  BV8100                                   | Chipset: MediaTek                  | FRP: BROM
+  BV8200                                   | Chipset: MediaTek                  | FRP: BROM
+  BV8800                                   | Chipset: MediaTek                  | FRP: BROM
+  BV8900                                   | Chipset: MediaTek                  | FRP: BROM
+  BV9000                                   | Chipset: MediaTek                  | FRP: BROM
+  BV9100                                   | Chipset: MediaTek                  | FRP: BROM
+  BV9200                                   | Chipset: MediaTek                  | FRP: BROM
+  BV9300                                   | Chipset: MediaTek                  | FRP: BROM
+  BV9500                                   | Chipset: MediaTek                  | FRP: BROM
+  BV9600 (2019)                            | Chipset: MediaTek                  | FRP: BROM
+  BV9700 Pro                               | Chipset: MediaTek                  | FRP: BROM
+  BV9800                                   | Chipset: MediaTek                  | FRP: BROM
+  BV9900E                                  | Chipset: MediaTek                  | FRP: BROM
+  Color 6                                  | Chipset: MediaTek                  | FRP: BROM
+  Color 8                                  | Chipset: MediaTek                  | FRP: BROM
+  Crown                                    | Chipset: MediaTek                  | FRP: BROM
+  DM550                                    | Chipset: MediaTek                  | FRP: BROM
+  Fort 1                                   | Chipset: MediaTek                  | FRP: BROM
+  Fort 200                                 | Chipset: MediaTek                  | FRP: BROM
+  Fort 5                                   | Chipset: MediaTek                  | FRP: BROM
+  Hero 10                                  | Chipset: MediaTek                  | FRP: BROM
+  Link 2                                   | Chipset: MediaTek                  | FRP: BROM
+  Max 1                                    | Chipset: MediaTek                  | FRP: BROM
+  Mega 12                                  | Chipset: MediaTek                  | FRP: BROM
+  Mega 5                                   | Chipset: MediaTek                  | FRP: BROM
+  N6000 SE                                 | Chipset: MediaTek                  | FRP: BROM
+  Omega Pro                                | Chipset: MediaTek                  | FRP: BROM
+  Oscal C20                                | Chipset: MediaTek                  | FRP: BROM
+  Oscal C30 2023                           | Chipset: MediaTek                  | FRP: BROM
+  Oscal C30 Pro                            | Chipset: MediaTek                  | FRP: BROM
+  Oscal C60                                | Chipset: MediaTek                  | FRP: BROM
+  Oscal C70                                | Chipset: MediaTek                  | FRP: BROM
+  Oscal C80                                | Chipset: MediaTek                  | FRP: BROM
+  Oscal Flat 1C                            | Chipset: MediaTek                  | FRP: BROM
+  Oscal Modern 8                           | Chipset: MediaTek                  | FRP: BROM
+  Oscal S60                                | Chipset: MediaTek                  | FRP: BROM
+  Oscal S70                                | Chipset: MediaTek                  | FRP: BROM
+  Oscal S80                                | Chipset: MediaTek                  | FRP: BROM
+  Oscal Tiger 10                           | Chipset: MediaTek                  | FRP: BROM
+  Oscal Tiger 12                           | Chipset: MediaTek                  | FRP: BROM
+  P10000 Pro                               | Chipset: MediaTek                  | FRP: BROM
+  P2 lite                                  | Chipset: MediaTek                  | FRP: BROM
+  R6 Lite                                  | Chipset: MediaTek                  | FRP: BROM
+  Rock 1                                   | Chipset: MediaTek                  | FRP: BROM
+  Rock 2 Pro                               | Chipset: MediaTek                  | FRP: BROM
+  Rock 3                                   | Chipset: MediaTek                  | FRP: BROM
+  Rock 5                                   | Chipset: MediaTek                  | FRP: BROM
+  Shark 6                                  | Chipset: MediaTek                  | FRP: BROM
+  Shark 8                                  | Chipset: MediaTek                  | FRP: BROM
+  Shark 9                                  | Chipset: MediaTek                  | FRP: BROM
+  Ultra (2015)                             | Chipset: MediaTek                  | FRP: BROM
+  Ultra Plus                               | Chipset: MediaTek                  | FRP: BROM
+  Wave 10                                  | Chipset: MediaTek                  | FRP: BROM
+  Wave 6C                                  | Chipset: MediaTek                  | FRP: BROM
+  Wave 7C                                  | Chipset: MediaTek                  | FRP: BROM
+  Wave 8                                   | Chipset: MediaTek                  | FRP: BROM
+  Wave 9C                                  | Chipset: MediaTek                  | FRP: BROM
+  Xplore 1                                 | Chipset: MediaTek                  | FRP: BROM
+  Xplore 2                                 | Chipset: MediaTek                  | FRP: BROM
+  Xplore X1                                | Chipset: MediaTek                  | FRP: BROM
+  Zeno 1                                   | Chipset: MediaTek                  | FRP: BROM
+  Zeno 5                                   | Chipset: MediaTek                  | FRP: BROM
+  Zeta                                     | Chipset: MediaTek                  | FRP: BROM
+
+--- TCL: 28 nuevos ---
+  20 XE                                    | Chipset: MediaTek                  | FRP: BROM
+  30 5G                                    | Chipset: MediaTek                  | FRP: BROM
+  30 LE                                    | Chipset: MediaTek                  | FRP: BROM
+  30 V 5G                                  | Chipset: MediaTek                  | FRP: BROM
+  30 XE 5G                                 | Chipset: MediaTek                  | FRP: BROM
+  30 XL                                    | Chipset: MediaTek                  | FRP: BROM
+  305i                                     | Chipset: MediaTek                  | FRP: BROM
+  40 NxtPaper                              | Chipset: MediaTek                  | FRP: BROM
+  40 X                                     | Chipset: MediaTek                  | FRP: BROM
+  40 XE                                    | Chipset: MediaTek                  | FRP: BROM
+  40 XL                                    | Chipset: MediaTek                  | FRP: BROM
+  406S                                     | Chipset: MediaTek                  | FRP: BROM
+  40R 5G                                   | Chipset: MediaTek                  | FRP: BROM
+  50 5G                                    | Chipset: MediaTek                  | FRP: BROM
+  50 LE                                    | Chipset: MediaTek                  | FRP: BROM
+  50 NxtPaper                              | Chipset: MediaTek                  | FRP: BROM
+  50 Pro NxtPaper                          | Chipset: MediaTek                  | FRP: BROM
+  50 SE                                    | Chipset: MediaTek                  | FRP: BROM
+  50 XE                                    | Chipset: MediaTek                  | FRP: BROM
+  50 XL                                    | Chipset: MediaTek                  | FRP: BROM
+  60 NxtPaper 4G                           | Chipset: MediaTek                  | FRP: BROM
+  60 SE                                    | Chipset: MediaTek                  | FRP: BROM
+  Ion X                                    | Chipset: MediaTek                  | FRP: BROM
+  K70 SE                                   | Chipset: MediaTek                  | FRP: BROM
+  NxtPaper 11 Gen 2                        | Chipset: MediaTek                  | FRP: BROM
+  NxtPaper 60 Ultra                        | Chipset: MediaTek                  | FRP: BROM
+  NxtPaper 70 Pro                          | Chipset: MediaTek                  | FRP: BROM
+  Stylus                                   | Chipset: MediaTek                  | FRP: BROM

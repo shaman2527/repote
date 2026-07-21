@@ -4,27 +4,23 @@ import { Card, CardContent } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
 import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
-import { Search, BookOpen, Cpu, Smartphone } from 'lucide-react'
+import { Search, BookOpen, Cpu } from 'lucide-react'
 import { usePhoneImages } from '@/hooks/usePhoneImages'
 import { detectSeries } from '@/lib/screen-compatibility'
 import type { PhoneModel } from '@/types'
 
+const ALL_BRANDS = [
+  'Samsung', 'Xiaomi', 'POCO', 'Apple', 'Huawei', 'Oppo', 'Vivo',
+  'Realme', 'OnePlus', 'Motorola', 'Tecno', 'Infinix', 'LG', 'Google',
+  'Nokia', 'Blackview', 'ZTE', 'TCL', 'Alcatel', 'BLU', 'Umidigi', 'Krip',
+] as const
+
 const BRAND_OPTIONS = [
   { value: '', label: 'Todas' },
-  { value: 'Samsung', label: 'Samsung' },
-  { value: 'Apple', label: 'Apple' },
-  { value: 'Xiaomi', label: 'Xiaomi' },
-  { value: 'POCO', label: 'POCO' },
-  { value: 'Huawei', label: 'Huawei' },
-  { value: 'Tecno', label: 'Tecno' },
-  { value: 'Infinix', label: 'Infinix' },
-  { value: 'Motorola', label: 'Motorola' },
-  { value: 'Google', label: 'Google' },
-  { value: 'LG', label: 'LG' },
-  { value: 'ZTE', label: 'ZTE' },
-  { value: 'Nokia', label: 'Nokia' },
-  { value: 'Alcatel', label: 'Alcatel' },
+  ...ALL_BRANDS.map(b => ({ value: b, label: b })),
 ]
+
+
 
 const FRP_VARIANTS: Record<string, 'default' | 'warning' | 'success' | 'destructive' | 'outline'> = {
   SPD: 'destructive',
@@ -40,17 +36,24 @@ export default function ModelCatalog() {
   const { getImage } = usePhoneImages()
   const [search, setSearch] = useState('')
   const [brandFilter, setBrandFilter] = useState('')
+  const [seriesFilter, setSeriesFilter] = useState('')
 
   useEffect(() => { db.getAllModels().then(setModels) }, [])
 
   const filtered = models.filter(m => {
     if (brandFilter && m.brand !== brandFilter) return false
+    if (seriesFilter) {
+      const s = detectSeries(m.brand, m.model)
+      if (!s || s.name !== seriesFilter) return false
+    }
     if (search) {
       const q = search.toLowerCase()
       return m.model.toLowerCase().includes(q) || m.brand.toLowerCase().includes(q)
     }
     return true
   })
+
+  const availableSeries = ['', ...new Set(filtered.map(m => detectSeries(m.brand, m.model)?.name).filter(Boolean))] as string[]
 
   return (
     <div className="min-h-screen pb-28 md:pb-0 md:ml-64">
@@ -70,7 +73,7 @@ export default function ModelCatalog() {
               className="pl-9 bg-secondary/30 border-0 rounded-xl h-10"
             />
           </div>
-          <Select value={brandFilter} onValueChange={setBrandFilter}>
+          <Select value={brandFilter} onValueChange={(v) => { setBrandFilter(v); setSeriesFilter('') }}>
             <SelectTrigger className="w-32 bg-secondary/30 border-0 rounded-xl">
               <SelectValue placeholder="Todas" />
             </SelectTrigger>
@@ -82,14 +85,35 @@ export default function ModelCatalog() {
               </SelectGroup>
             </SelectContent>
           </Select>
+          <Select value={seriesFilter} onValueChange={setSeriesFilter}>
+            <SelectTrigger className="w-36 bg-secondary/30 border-0 rounded-xl">
+              <SelectValue placeholder="Serie" />
+            </SelectTrigger>
+            <SelectContent className="bg-popover border-border">
+              <SelectGroup>
+                <SelectItem value="">Todas</SelectItem>
+                {availableSeries.filter(Boolean).map((s) => (
+                  <SelectItem key={s} value={s}>{s}</SelectItem>
+                ))}
+              </SelectGroup>
+            </SelectContent>
+          </Select>
         </div>
 
         <div className="space-y-2">
-          {filtered.length === 0 && (
+          {models.length === 0 && (
             <Card className="border-0 glass">
               <CardContent className="p-12 text-center">
                 <BookOpen className="size-8 text-muted-foreground mx-auto mb-3" />
                 <p className="text-sm text-muted-foreground">Cargando modelos...</p>
+              </CardContent>
+            </Card>
+          )}
+          {models.length > 0 && filtered.length === 0 && (
+            <Card className="border-0 glass">
+              <CardContent className="p-12 text-center">
+                <Cpu className="size-8 text-muted-foreground mx-auto mb-3" />
+                <p className="text-sm text-muted-foreground">Sin resultados. Intenta con otra búsqueda.</p>
               </CardContent>
             </Card>
           )}

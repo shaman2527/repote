@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { useRepairs } from '@/hooks/useRepairs'
 import { StatusBadge } from '@/components/StatusBadge'
 import { Card, CardContent } from '@/components/ui/card'
@@ -29,7 +29,6 @@ const STATUS_FILTERS = [
 ]
 
 export default function ListRepairs() {
-  const navigate = useNavigate()
   const { repairs, update, remove, clearAll } = useRepairs()
   const [search, setSearch] = useState('')
   const [statusFilter, setStatusFilter] = useState('')

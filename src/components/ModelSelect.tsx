@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge'
 import * as db from '@/lib/db'
 import { getCompatibleScreens, detectSeries } from '@/lib/screen-compatibility'
 import { usePhoneImages } from '@/hooks/usePhoneImages'
-import { Smartphone, Check, Search, MonitorSmartphone, DollarSign, Package, ImageIcon } from 'lucide-react'
+import { Smartphone, Check, Search, MonitorSmartphone, Package } from 'lucide-react'
 import type { PhoneModel, ScreenPart } from '@/types'
 
 const BRANDS = [
@@ -25,11 +25,13 @@ export function ModelSelect({ onSelect, defaultBrand, defaultModel, showScreens 
   const [brand, setBrand] = useState(defaultBrand || '')
   const [models, setModels] = useState<PhoneModel[]>([])
   const [search, setSearch] = useState(defaultModel || '')
+  const [debouncedSearch, setDebouncedSearch] = useState(defaultModel || '')
   const [selectedModel, setSelectedModel] = useState(defaultModel || '')
   const [showResults, setShowResults] = useState(false)
   const [compatibleScreens, setCompatibleScreens] = useState<ScreenPart[]>([])
   const { getImage } = usePhoneImages()
   const searchRef = useRef<HTMLDivElement>(null)
+  const debounceRef = useRef<ReturnType<typeof setTimeout>>()
 
   useEffect(() => {
     if (brand) {
@@ -49,7 +51,12 @@ export function ModelSelect({ onSelect, defaultBrand, defaultModel, showScreens 
     return () => document.removeEventListener('mousedown', handleClick)
   }, [])
 
-  // Cargar pantallas compatibles al seleccionar modelo
+  useEffect(() => {
+    if (debounceRef.current) clearTimeout(debounceRef.current)
+    debounceRef.current = setTimeout(() => setDebouncedSearch(search), 150)
+    return () => { if (debounceRef.current) clearTimeout(debounceRef.current) }
+  }, [search])
+
   useEffect(() => {
     if (brand && selectedModel) {
       const screens = getCompatibleScreens(brand, selectedModel)
@@ -60,7 +67,7 @@ export function ModelSelect({ onSelect, defaultBrand, defaultModel, showScreens 
   }, [brand, selectedModel])
 
   const filteredModels = models.filter(m =>
-    m.model.toLowerCase().includes(search.toLowerCase())
+    m.model.toLowerCase().includes(debouncedSearch.toLowerCase())
   )
 
   const handleBrandChange = (value: string) => {
