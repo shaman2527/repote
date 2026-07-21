@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge'
 import * as db from '@/lib/db'
 import { getCompatibleScreens, detectSeries } from '@/lib/screen-compatibility'
 import { usePhoneImages } from '@/hooks/usePhoneImages'
-import { Smartphone, Check, Search, MonitorSmartphone, Package } from 'lucide-react'
+import { Check, Search, MonitorSmartphone, Package } from 'lucide-react'
 import type { PhoneModel, ScreenPart } from '@/types'
 
 const BRANDS = [
