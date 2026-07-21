@@ -29,7 +29,7 @@ export function ModelSelect({ onSelect, defaultBrand, defaultModel, showScreens 
   const [selectedModel, setSelectedModel] = useState(defaultModel || '')
   const [showResults, setShowResults] = useState(false)
   const [compatibleScreens, setCompatibleScreens] = useState<ScreenPart[]>([])
-  const { getImage } = usePhoneImages()
+  const { getImageOrPlaceholder } = usePhoneImages()
   const searchRef = useRef<HTMLDivElement>(null)
   const debounceRef = useRef<ReturnType<typeof setTimeout>>()
 
@@ -148,13 +148,8 @@ export function ModelSelect({ onSelect, defaultBrand, defaultModel, showScreens 
                     }`}
                     onClick={() => handleModelSelect(m.model)}
                   >
-                    <div className="size-10 rounded-lg bg-secondary/50 flex items-center justify-center shrink-0 overflow-hidden">
-                      {(() => {
-                        const img = getImage(brand, m.model)
-                        return img
-                          ? <img src={img} alt={m.model} className="size-full object-cover" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
-                          : <Smartphone className="size-5 text-muted-foreground" />
-                      })()}
+                    <div className="size-10 rounded-lg shrink-0 overflow-hidden">
+                      <img src={getImageOrPlaceholder(brand, m.model)} alt={m.model} className="size-full object-cover" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
                     </div>
                     <span className="font-medium flex-1 truncate">{m.model}</span>
                     {s && (
@@ -180,13 +175,8 @@ export function ModelSelect({ onSelect, defaultBrand, defaultModel, showScreens 
       {selectedModel && !showResults && (
         <div className="space-y-3">
           <div className="flex items-center gap-3 px-3 py-2.5 rounded-lg bg-secondary/50 text-sm text-foreground">
-            <div className="size-12 rounded-lg bg-secondary/50 flex items-center justify-center shrink-0 overflow-hidden">
-              {(() => {
-                const img = getImage(brand, selectedModel)
-                return img
-                  ? <img src={img} alt={selectedModel} className="size-full object-cover" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
-                  : <Smartphone className="size-6 text-muted-foreground" />
-              })()}
+            <div className="size-12 rounded-lg shrink-0 overflow-hidden">
+              <img src={getImageOrPlaceholder(brand, selectedModel)} alt={selectedModel} className="size-full object-cover" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
             </div>
             <div className="flex-1 min-w-0">
               <p className="font-medium truncate">{brand} {selectedModel}</p>

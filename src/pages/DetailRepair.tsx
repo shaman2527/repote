@@ -74,8 +74,8 @@ export default function DetailRepair() {
     }
   }, [id])
 
-  const { getImage } = usePhoneImages()
-  const modelImage = getImage(repair?.brand || '', repair?.modelName || '')
+  const { getImageOrPlaceholder } = usePhoneImages()
+  const modelImage = getImageOrPlaceholder(repair?.brand || '', repair?.modelName || '')
 
   if (loading) return <div className="p-8 text-center">Cargando...</div>
   if (!repair) return <div className="p-8 text-center">Equipo no encontrado</div>
