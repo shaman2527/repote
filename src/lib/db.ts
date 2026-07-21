@@ -44,31 +44,32 @@ export async function getDB() {
   return dbInstance
 }
 
-/**
- * Seed data: carga modelos iniciales si la tabla está vacía
- */
+const SEED_VERSION = '2'
+
 export async function seedModels(models: PhoneModel[]) {
   const db = await getDB()
+  const storedVersion = localStorage.getItem('repote-seed-version')
+  if (storedVersion === SEED_VERSION) return
   const tx = db.transaction('models', 'readwrite')
-  const existing = await tx.store.count()
-  if (existing === 0) {
-    for (const model of models) {
-      await tx.store.add(model)
-    }
+  await tx.store.clear()
+  for (const model of models) {
+    await tx.store.add(model)
   }
   await tx.done
+  localStorage.setItem('repote-seed-version', SEED_VERSION)
 }
 
 export async function seedScreens(screens: ScreenPart[]) {
   const db = await getDB()
+  const storedVersion = localStorage.getItem('repote-screens-version')
+  if (storedVersion === SEED_VERSION) return
   const tx = db.transaction('screens', 'readwrite')
-  const existing = await tx.store.count()
-  if (existing === 0) {
-    for (const screen of screens) {
-      await tx.store.add(screen)
-    }
+  await tx.store.clear()
+  for (const screen of screens) {
+    await tx.store.add(screen)
   }
   await tx.done
+  localStorage.setItem('repote-screens-version', SEED_VERSION)
 }
 
 // ──────────────────────────────────────────

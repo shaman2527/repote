@@ -134,35 +134,50 @@ export function ModelSelect({ onSelect, defaultBrand, defaultModel, showScreens 
           )}
 
           {showResults && filteredModels.length > 0 && (
-            <div className="mt-1 max-h-64 overflow-y-auto rounded-xl border border-border bg-card shadow-lg divide-y divide-border/50">
+            <div className="mt-1 max-h-72 overflow-y-auto rounded-xl border border-border bg-card shadow-lg divide-y divide-border/50">
               {filteredModels.slice(0, 60).map((m) => {
                 const s = detectSeries(m.brand, m.model)
+                const isSelected = selectedModel === m.model
                 return (
                   <button
                     key={m.id}
                     type="button"
-                    className={`w-full flex items-center gap-3 px-3 py-2 text-sm transition-colors text-left ${
-                      selectedModel === m.model
+                    className={`w-full flex items-center gap-3 px-3 py-2.5 text-sm transition-colors text-left ${
+                      isSelected
                         ? 'bg-primary/10 text-primary'
                         : 'hover:bg-secondary text-foreground'
                     }`}
                     onClick={() => handleModelSelect(m.model)}
                   >
-                    <div className="size-10 rounded-lg shrink-0 overflow-hidden">
+                    <div className="size-12 rounded-xl shrink-0 overflow-hidden bg-secondary/30">
                       <img src={getImageOrPlaceholder(brand, m.model)} alt={m.model} className="size-full object-cover" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
                     </div>
-                    <span className="font-medium flex-1 truncate">{m.model}</span>
-                    {s && (
-                      <Badge className={`text-[9px] px-1.5 py-0 ${s.bgClass} ${s.textClass} border-0`}>
-                        {s.name}
-                      </Badge>
-                    )}
-                    {m.frpMethod && (
-                      <span className="text-xs text-muted-foreground shrink-0">{m.frpMethod}</span>
-                    )}
-                    {selectedModel === m.model && (
-                      <Check className="size-4 text-primary shrink-0" />
-                    )}
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-2">
+                        <span className="font-semibold truncate">{m.model}</span>
+                        {isSelected && <Check className="size-3.5 text-primary shrink-0" />}
+                      </div>
+                      <div className="flex items-center gap-1.5 mt-0.5 flex-wrap">
+                        {m.chipset && (
+                          <span className="text-[10px] text-muted-foreground bg-secondary/40 px-1.5 py-0.5 rounded truncate max-w-32">
+                            {m.chipset}
+                          </span>
+                        )}
+                        {m.year && (
+                          <span className="text-[10px] text-muted-foreground">{m.year}</span>
+                        )}
+                        {s && (
+                          <Badge className={`text-[9px] px-1.5 py-0 ${s.bgClass} ${s.textClass} border-0`}>
+                            {s.name}
+                          </Badge>
+                        )}
+                        {m.frpMethod && (
+                          <Badge variant="outline" className="text-[9px] px-1.5 py-0 border-0 bg-secondary/30">
+                            {m.frpMethod}
+                          </Badge>
+                        )}
+                      </div>
+                    </div>
                   </button>
                 )
               })}
