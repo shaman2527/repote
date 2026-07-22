@@ -11,6 +11,8 @@ import { Separator } from '@/components/ui/separator'
 import { ModelSelect } from '@/components/ModelSelect'
 import { CameraCapture } from '@/components/CameraCapture'
 import { useRepairs } from '@/hooks/useRepairs'
+import { usePhoneImages } from '@/hooks/usePhoneImages'
+import { detectSeries } from '@/lib/screen-compatibility'
 import {
   Smartphone,
   Wrench,
@@ -68,11 +70,14 @@ export default function AddRepair() {
   const [notes, setNotes] = useState('')
   const [photo, setPhoto] = useState<string | null>(null)
   const [saving, setSaving] = useState(false)
+  const { getImageOrPlaceholder } = usePhoneImages()
 
   const handleModelSelect = (b: string, m: string) => {
     setBrand(b)
     setModel(m)
   }
+
+  const series = brand && model ? detectSeries(brand, model) : null
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -134,6 +139,26 @@ export default function AddRepair() {
             </CardHeader>
             <CardContent className="space-y-4">
               <ModelSelect onSelect={handleModelSelect} />
+              {brand && model && (
+                <div className="rounded-2xl overflow-hidden border border-border/40 bg-card/50">
+                  <div className="aspect-video bg-gradient-to-br from-secondary/80 to-secondary/40 relative flex items-center justify-center">
+                    <img
+                      src={getImageOrPlaceholder(brand, model)}
+                      alt={`${brand} ${model}`}
+                      className="size-full object-contain p-6"
+                    />
+                    {series && (
+                      <div className="absolute top-2 left-2 bg-gradient-to-r from-primary/80 to-primary/40 text-white text-[10px] font-bold px-2.5 py-0.5 rounded-full shadow-lg backdrop-blur">
+                        {series.name}
+                      </div>
+                    )}
+                  </div>
+                  <div className="p-3">
+                    <p className="text-xs text-muted-foreground font-semibold uppercase tracking-wider">{brand}</p>
+                    <p className="text-sm font-bold leading-tight mt-0.5">{model}</p>
+                  </div>
+                </div>
+              )}
               <div>
                 <Label>IMEI (opcional)</Label>
                 <Input value={imei} onChange={e => setImei(e.target.value)} placeholder="000000000000000" maxLength={15} className="font-mono" />

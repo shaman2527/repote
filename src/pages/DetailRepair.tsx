@@ -141,21 +141,40 @@ export default function DetailRepair() {
           </Button>
         </div>
 
-        {/* Photo */}
+        {/* Photos */}
         {(repair.photo || modelImage) && (
-          <Card className="border-0 glass overflow-hidden">
-            <div className="relative">
-              {repair.photo
-                ? <img src={repair.photo} alt="Foto del equipo" className="w-full max-h-64 object-cover" />
-                : modelImage
-                  ? <img src={modelImage} alt={repair.modelName} className="w-full max-h-64 object-contain bg-secondary/30 p-4" />
-                  : null
-              }
-              <div className="absolute top-2 right-2 size-7 rounded-lg bg-black/40 backdrop-blur flex items-center justify-center">
-                <Image className="size-3.5 text-white" />
-              </div>
-            </div>
-          </Card>
+          <div className={`grid ${repair.photo ? 'grid-cols-1 sm:grid-cols-2' : 'grid-cols-1'} gap-3`}>
+            {repair.photo && (
+              <Card className="border-0 glass overflow-hidden">
+                <div className="relative">
+                  <img src={repair.photo} alt="Foto del equipo" className="w-full max-h-56 object-cover" />
+                  <div className="absolute top-2 right-2 size-7 rounded-lg bg-black/40 backdrop-blur flex items-center justify-center">
+                    <Image className="size-3.5 text-white" />
+                  </div>
+                  <div className="absolute bottom-2 left-2 text-[10px] font-medium bg-black/40 backdrop-blur text-white px-2 py-0.5 rounded-full">
+                    Foto real
+                  </div>
+                </div>
+              </Card>
+            )}
+            {modelImage && (
+              <Card className="border-0 glass overflow-hidden">
+                <div className="relative">
+                  <img
+                    src={modelImage}
+                    alt={repair.modelName}
+                    className="w-full max-h-56 object-contain bg-gradient-to-br from-secondary/60 to-secondary/20 p-4"
+                  />
+                  <div className="absolute top-2 right-2 size-7 rounded-lg bg-black/40 backdrop-blur flex items-center justify-center">
+                    <Smartphone className="size-3.5 text-white" />
+                  </div>
+                  <div className="absolute bottom-2 left-2 text-[10px] font-medium bg-black/40 backdrop-blur text-white px-2 py-0.5 rounded-full">
+                    {repair.brand} {repair.modelName}
+                  </div>
+                </div>
+              </Card>
+            )}
+          </div>
         )}
 
         {/* Details */}

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useRepairs } from '@/hooks/useRepairs'
+import { usePhoneImages } from '@/hooks/usePhoneImages'
 import { StatusBadge } from '@/components/StatusBadge'
 import { Card, CardContent } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
@@ -30,6 +31,7 @@ const STATUS_FILTERS = [
 
 export default function ListRepairs() {
   const { repairs, update, remove, clearAll } = useRepairs()
+  const { getImageOrPlaceholder } = usePhoneImages()
   const [search, setSearch] = useState('')
   const [statusFilter, setStatusFilter] = useState('')
   const [deleteConfirm, setDeleteConfirm] = useState<string | null>(null)
@@ -143,8 +145,13 @@ export default function ListRepairs() {
                     <CardContent className="p-4">
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-3 min-w-0 flex-1">
-                          <div className="size-10 rounded-xl bg-secondary/50 flex items-center justify-center shrink-0">
-                            <Smartphone className="size-5 text-muted-foreground" />
+                          <div className="size-11 rounded-xl shrink-0 overflow-hidden bg-secondary/30">
+                            <img
+                              src={getImageOrPlaceholder(repair.brand, repair.modelName)}
+                              alt={repair.modelName}
+                              className="size-full object-cover"
+                              onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }}
+                            />
                           </div>
                           <div className="min-w-0">
                             <div className="flex items-center gap-2">
